@@ -49,30 +49,7 @@ To extract keyphrases from a folder of documents:
 bash run.sh
 ```
 
-### Docker Support
-For quick deployment, you can use Docker:
 
-1. Build the Docker image:
-```bash
-docker build -t mderank-indonesia .
-```
-
-2. Run the container:
-```bash
-docker run --rm -v ./example:/app/example mderank-indonesia \
-  --dataset_dir example \
-  --batch_size 1 \
-  --doc_embed_mode max \
-  --log_dir log_path \
-  --model_name_or_path indolem/indobert-base-uncased \
-  --model_type bert \
-  --dataset_name example \
-  --type_execution eval \
-  --k_value 15 \
-  --layer_num -1 \
-  --lang id \
-  --no_cuda
-```
 
 ## Configuration
 
