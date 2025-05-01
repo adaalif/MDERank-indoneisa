@@ -1,64 +1,113 @@
-# mderanklib
+# MDERank Indonesia
 
-Library for MDERank model to AKE
+Library for MDERank model for Automatic Keyphrase Extraction in Indonesian language.
 
-It has been adapted and improved to work also in Spanish language. 
+This is an adaptation of the original MDERank model, specifically optimized for Indonesian language processing. It uses Indonesian-specific NLP tools and BERT models to achieve better keyphrase extraction results for Indonesian text.
 
 Original Paper: MDERank: A Masked Document Embedding Rank Approach for Unsupervised Keyphrase Extraction
 Original Repo: https://github.com/LinhanZ/mderank
 
+## Features
 
+- Optimized for Indonesian language processing
+- Uses Indonesian-specific NLP tools:
+  - nlp-id for POS tagging and tokenization
+  - Sastrawi for stemming and stopword removal
+- Supports Indonesian BERT models:
+  - indolem/indobert-base-uncased
+  - indobenchmark/indobert-base-p1
+- Enhanced POS tagging and phrase extraction for Indonesian
+- Custom stopword handling for Indonesian
+- Improved noun phrase detection for Indonesian grammar
 
-## Install
+## Installation
 
 This project has been developed under Python 3.9.6
 
-Use requirements.txt and requirements-torch.txt to install the required libraries. You can use torch with and without gpu
-
-Download also the required spacy models of Spanish/English
-
-```
-python -m spacy download en_core_web_sm
-python -m spacy download es_core_news_sm
-
+1. Install required libraries:
+```bash
+pip install -r requirements.txt
+pip install -r requirements-pytorch.txt
 ```
 
 
+## Usage
 
-## Run 
-
-If you want to evaluate a dataset as in the State of the Art, put the dataset in a data folder (data/datasetname/docsutf8 and data/datasetname/keys).
-Configure parameters and arguments of evaluate.sh and run it. 
-
-```
- bash eval.sh 
-```
-If you want to execute it over texts on a folder, configure and execute run.sh file
-```
- bash run.sh 
+### Evaluation Mode
+To evaluate on a dataset:
+```bash
+bash eval_indonesian.sh
 ```
 
-## Docker run 
-For a fast run use the dockerfile and this two commands. In these commands, mderank will read a folder named example with all the documents that are inside and it will create a file .key for each file with the keywords detected
+The script expects data in the following structure:
+- `data/datasetname/docsutf8/` - Contains input documents
+- `data/datasetname/keys/` - Contains reference keyphrases
 
-```
-docker build -t mderanklib .
-
-``` 
-
-```
-docker run --rm -v ./example:/app/example mderanklib --dataset_dir example --batch_size 1  --doc_embed_mode max --log_dir log_path --model_name_or_path PlanTL-GOB-ES/roberta-base-bne --model_type roberta --dataset_name example --type_execution eval --k_value 15 --layer_num -1 --lang es --no_cuda
+### Execution Mode
+To extract keyphrases from a folder of documents:
+```bash
+bash run.sh
 ```
 
+### Docker Support
+For quick deployment, you can use Docker:
 
+1. Build the Docker image:
+```bash
+docker build -t mderank-indonesia .
+```
 
+2. Run the container:
+```bash
+docker run --rm -v ./example:/app/example mderank-indonesia \
+  --dataset_dir example \
+  --batch_size 1 \
+  --doc_embed_mode max \
+  --log_dir log_path \
+  --model_name_or_path indolem/indobert-base-uncased \
+  --model_type bert \
+  --dataset_name example \
+  --type_execution eval \
+  --k_value 15 \
+  --layer_num -1 \
+  --lang id \
+  --no_cuda
+```
 
-## Acknowledgments 
-Para su desarrollo este código ha recibido financiación del proyecto INESData (Infraestructura para la INvestigación de ESpacios de DAtos distribuidos en UPM), un proyecto financiado en el contexto de la convocatoria UNICO I+D CLOUD del Ministerio para la Transformación Digital y de la Función Pública en el marco del PRTR financiado por Unión Europea (NextGenerationEU).
+## Configuration
 
-Este código se ha mejorado y adaptado en el marco del proyecto TeresIA, proyecto de investigación financiado con fondos de la Unión Europea Next GenerationEU / PRTR a través del Ministerio de Asuntos Económicos y Transformación Digital (hoy Ministerio para la Transformación Digital y de la Función Pública). 
+Key parameters in the Indonesian version:
+- `--model_name_or_path`: Choose between Indonesian BERT models
+  - `indolem/indobert-base-uncased`
+  - `indobenchmark/indobert-base-p1`
+- `--lang id`: Specifies Indonesian language processing
+- `--k_value`: Number of keyphrases to extract (default: 15)
+- `--doc_embed_mode`: Embedding mode (mean/max/cls)
+- `--batch_size`: Batch size for processing (default: 1)
+- `--layer_num`: Layer number for embeddings (default: -1 for last layer)
 
-## Paper Citation
+## Data Format
+
+Input documents should be in UTF-8 format. The system supports:
+- Plain text files
+- JSON files with 'text' and 'keyphrases' fields
+- Multiple document formats in a directory
+
+## Performance
+
+The Indonesian version has been optimized for:
+- Better handling of Indonesian compound words
+- Improved detection of Indonesian noun phrases
+- More accurate stopword filtering for Indonesian
+- Better handling of Indonesian prefixes and suffixes
+
+## Acknowledgments
+
+This implementation was developed as part of research in Indonesian language processing and keyphrase extraction.
+
+## Citation
+
+If you use this implementation, please cite:
 
 ```bibtext
 @inproceedings{Calleja2024,
@@ -75,10 +124,4 @@ Este código se ha mejorado y adaptado en el marco del proyecto TeresIA, proyect
   urn       = {urn:nbn:de:0074-3846-7},
   url       = {https://ceur-ws.org/Vol-3846/}
 }
-```
-
-
-
-
-
-
+``` 
