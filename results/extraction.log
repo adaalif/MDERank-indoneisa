@@ -1,0 +1,81 @@
+2025-05-01 17:14:03,604 - INFO - Initializing model indolem/indobert-base-uncased on cpu
+2025-05-01 17:14:04,819 - INFO - No model removed
+2025-05-01 17:14:04,819 - INFO - Downloading model ..
+2025-05-01 17:14:05,958 - INFO - Loading dataset from data/SemEval2017_Indonesian
+2025-05-01 17:14:05,958 - INFO - Loaded document ID001 with length 1667
+2025-05-01 17:14:05,958 - INFO - Loaded keyphrases for ID001: ['Kecerdasan emosional', 'kenakalan remaja']
+2025-05-01 17:14:05,958 - INFO - Loaded 1 documents
+2025-05-01 17:14:05,960 - INFO - 
+Processing document ID001
+2025-05-01 17:14:05,960 - INFO - Text length: 1667
+2025-05-01 17:14:05,960 - INFO - First 100 characters: masa remaja merupakan masa yang rentan dengan perilaku menyimpang yang memiliki rasa ingin
+tahu yan
+2025-05-01 17:14:05,961 - INFO - Cleaned text length: 1649
+2025-05-01 17:14:05,961 - INFO - First 100 characters after cleaning: masa remaja merupakan masa yang rentan dengan perilaku menyimpang yang memiliki rasa ingin tahu yang
+2025-05-01 17:14:17,323 - INFO - Extracted keyphrases: ['statistik kendall', 'kasus-kasus kenakalan', 'porpotional random', 'kabupaten semarang', 'masa remaja', 'pengambilan sampel', 'sebagian besar', 'kecerdasan emosional', 'smkislam sudirman', 'kenakalan remaja']
+2025-05-01 17:14:17,323 - INFO - Reference keyphrases: ['Kecerdasan emosional', 'kenakalan remaja']
+2025-05-01 17:14:17,323 - INFO - Document ID001: F1=0.3333, P=0.2000, R=1.0000
+2025-05-01 17:14:17,324 - INFO - 
+Final Results:
+2025-05-01 17:14:17,324 - INFO - Average Precision: 0.2000
+2025-05-01 17:14:17,324 - INFO - Average Recall: 1.0000
+2025-05-01 17:14:17,324 - INFO - Average F1: 0.3333
+2025-05-01 17:14:17,325 - INFO - Results saved to results\results.json
+2025-05-01 17:15:31,422 - INFO - Initializing model indolem/indobert-base-uncased on cpu
+2025-05-01 17:15:32,670 - INFO - No model removed
+2025-05-01 17:15:32,670 - INFO - Downloading model ..
+2025-05-01 17:15:33,864 - INFO - Loading dataset from data/SemEval2017_Indonesian
+2025-05-01 17:15:33,864 - INFO - Loaded document ID001 with length 1668
+2025-05-01 17:15:33,865 - INFO - Loaded keyphrases for ID001: ['Kecerdasan emosional', 'kenakalan remaja']
+2025-05-01 17:15:33,865 - INFO - Loaded 1 documents
+2025-05-01 17:15:33,866 - INFO - 
+Processing document ID001
+2025-05-01 17:15:33,866 - INFO - Text length: 1668
+2025-05-01 17:15:33,866 - INFO - First 100 characters: masa remaja merupakan masa yang rentan dengan perilaku menyimpang yang memiliki rasa ingin
+tahu yan
+2025-05-01 17:15:33,867 - INFO - Cleaned text length: 1650
+2025-05-01 17:15:33,867 - INFO - First 100 characters after cleaning: masa remaja merupakan masa yang rentan dengan perilaku menyimpang yang memiliki rasa ingin tahu yang
+2025-05-01 17:15:44,555 - INFO - Extracted keyphrases: ['statistik kendall', 'porpotional random', 'kasus-kasus kenakalan', 'nilai p-value', 'analisis data', 'pengambilan sampel', 'kabupaten semarang', 'kenakalan remaja', 'sebagian besar', 'kecerdasan emosional']
+2025-05-01 17:15:44,556 - INFO - Reference keyphrases: ['Kecerdasan emosional', 'kenakalan remaja']
+2025-05-01 17:15:44,556 - INFO - Document ID001: F1=0.3333, P=0.2000, R=1.0000
+2025-05-01 17:15:44,556 - INFO - 
+Final Results:
+2025-05-01 17:15:44,556 - INFO - Average Precision: 0.2000
+2025-05-01 17:15:44,556 - INFO - Average Recall: 1.0000
+2025-05-01 17:15:44,556 - INFO - Average F1: 0.3333
+2025-05-01 17:15:44,557 - INFO - Results saved to results\results.json
+2025-05-01 17:18:15,402 - INFO - Initializing model indolem/indobert-base-uncased on cpu
+2025-05-01 17:18:18,056 - INFO - No model removed
+2025-05-01 17:18:18,056 - INFO - Downloading model ..
+2025-05-01 17:18:19,347 - INFO - Loading dataset from data/SemEval2017_Indonesian
+2025-05-01 17:18:19,347 - INFO - Loaded document ID001 with length 1668
+2025-05-01 17:18:19,347 - INFO - Loaded document ID002 with length 1241
+2025-05-01 17:18:19,347 - INFO - Loaded keyphrases for ID001: ['Kecerdasan emosional', 'kenakalan remaja']
+2025-05-01 17:18:19,348 - INFO - Loaded keyphrases for ID002: ['Kecerdasan Buatan', 'AI', 'Sistem Informasi', 'Aplikasi', 'Etika', 'Dampak Sosial']
+2025-05-01 17:18:19,348 - INFO - Loaded 2 documents
+2025-05-01 17:18:19,349 - INFO - 
+Processing document ID001
+2025-05-01 17:18:19,349 - INFO - Text length: 1668
+2025-05-01 17:18:19,349 - INFO - First 100 characters: masa remaja merupakan masa yang rentan dengan perilaku menyimpang yang memiliki rasa ingin
+tahu yan
+2025-05-01 17:18:19,349 - INFO - Cleaned text length: 1650
+2025-05-01 17:18:19,349 - INFO - First 100 characters after cleaning: masa remaja merupakan masa yang rentan dengan perilaku menyimpang yang memiliki rasa ingin tahu yang
+2025-05-01 17:18:29,674 - INFO - Extracted keyphrases: ['statistik kendall', 'porpotional random', 'kasus-kasus kenakalan', 'nilai p-value', 'analisis data', 'pengambilan sampel', 'kabupaten semarang', 'kenakalan remaja', 'sebagian besar', 'kecerdasan emosional']
+2025-05-01 17:18:29,674 - INFO - Reference keyphrases: ['Kecerdasan emosional', 'kenakalan remaja']
+2025-05-01 17:18:29,674 - INFO - Document ID001: F1=0.3333, P=0.2000, R=1.0000
+2025-05-01 17:18:29,674 - INFO - 
+Processing document ID002
+2025-05-01 17:18:29,674 - INFO - Text length: 1241
+2025-05-01 17:18:29,674 - INFO - First 100 characters: artikel ini membahas dampak penerapan kecerdasan buatan (ai) dalam sistem informasi pada
+tenaga ker
+2025-05-01 17:18:29,674 - INFO - Cleaned text length: 1228
+2025-05-01 17:18:29,674 - INFO - First 100 characters after cleaning: artikel ini membahas dampak penerapan kecerdasan buatan (ai) dalam sistem informasi pada tenaga kerj
+2025-05-01 17:18:36,181 - INFO - Extracted keyphrases: ['kecerdasan buatan', 'dampak penerapan', 'tantangan signifikan', 'kekuatan penggerak', 'pengembangan regulasi', 'sistem informasi', 'tenaga kerja', 'isu privasi', 'diagnosis medis', 'aspek positif']
+2025-05-01 17:18:36,181 - INFO - Reference keyphrases: ['Kecerdasan Buatan', 'AI', 'Sistem Informasi', 'Aplikasi', 'Etika', 'Dampak Sosial']
+2025-05-01 17:18:36,181 - INFO - Document ID002: F1=0.2500, P=0.2000, R=0.3333
+2025-05-01 17:18:36,181 - INFO - 
+Final Results:
+2025-05-01 17:18:36,181 - INFO - Average Precision: 0.2000
+2025-05-01 17:18:36,182 - INFO - Average Recall: 0.6667
+2025-05-01 17:18:36,182 - INFO - Average F1: 0.2917
+2025-05-01 17:18:36,182 - INFO - Results saved to results\results.json

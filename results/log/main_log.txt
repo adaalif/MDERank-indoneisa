@@ -1,0 +1,136 @@
+2025-05-01 17:18:15,402 - INFO - Using device: cpu
+2025-05-01 17:18:15,402 - INFO - Loading model and tokenizer...
+2025-05-01 17:18:19,347 - INFO - Model and tools initialized successfully
+2025-05-01 17:18:19,350 - INFO - Processing text of length: 1650
+2025-05-01 17:18:19,444 - WARNING - Mismatch between tokens (36) and POS tags (38)
+2025-05-01 17:18:19,468 - INFO - Total candidates found: 44
+2025-05-01 17:18:19,469 - INFO - Number of candidates: 24
+2025-05-01 17:18:19,469 - INFO - First few candidates: [['masa remaja', 0], ['perilaku orang', 0], ['kenakalan remaja', 0], ['remaja salah', 0], ['kecerdasan emosional', 0]]
+2025-05-01 17:18:29,668 - INFO - 
+=== All Candidate Keyphrases with Similarity Scores (Sorted) ===
+2025-05-01 17:18:29,668 - INFO - Note: Lower scores indicate more important keyphrases
+2025-05-01 17:18:29,668 - INFO - Candidate: statistik kendall                        Score: 0.9983
+2025-05-01 17:18:29,668 - INFO - Candidate: porpotional random                       Score: 0.9983
+2025-05-01 17:18:29,668 - INFO - Candidate: kasus-kasus kenakalan                    Score: 0.9984
+2025-05-01 17:18:29,668 - INFO - Candidate: nilai p-value                            Score: 0.9985
+2025-05-01 17:18:29,668 - INFO - Candidate: analisis data                            Score: 0.9985
+2025-05-01 17:18:29,669 - INFO - Candidate: pengambilan sampel                       Score: 0.9985
+2025-05-01 17:18:29,669 - INFO - Candidate: kabupaten semarang                       Score: 0.9986
+2025-05-01 17:18:29,669 - INFO - Candidate: kenakalan remaja                         Score: 0.9986
+2025-05-01 17:18:29,669 - INFO - Candidate: sebagian besar                           Score: 0.9986
+2025-05-01 17:18:29,669 - INFO - Candidate: kecerdasan emosional                     Score: 0.9986
+2025-05-01 17:18:29,669 - INFO - Candidate: masa remaja                              Score: 0.9987
+2025-05-01 17:18:29,669 - INFO - Candidate: penelitian deskriptif                    Score: 0.9987
+2025-05-01 17:18:29,669 - INFO - Candidate: perilaku orang                           Score: 0.9987
+2025-05-01 17:18:29,669 - INFO - Candidate: hasil penelitian                         Score: 0.9988
+2025-05-01 17:18:29,669 - INFO - Candidate: pendekatan cross                         Score: 0.9988
+2025-05-01 17:18:29,669 - INFO - Candidate: pada siswa                               Score: 0.9988
+2025-05-01 17:18:29,669 - INFO - Candidate: ungaran barat                            Score: 0.9988
+2025-05-01 17:18:29,669 - INFO - Candidate: smk islam                                Score: 0.9988
+2025-05-01 17:18:29,670 - INFO - Candidate: hubungan kecerdasan                      Score: 0.9989
+2025-05-01 17:18:29,670 - INFO - Candidate: sudirman kecamatan                       Score: 0.9989
+2025-05-01 17:18:29,670 - INFO - Candidate: cara remaja                              Score: 0.9989
+2025-05-01 17:18:29,670 - INFO - Candidate: remaja salah                             Score: 0.9989
+2025-05-01 17:18:29,670 - INFO - Candidate: emosional dengan                         Score: 0.9989
+2025-05-01 17:18:29,670 - INFO - 
+=== Candidate Keyphrases with Similarity Scores ===
+2025-05-01 17:18:29,670 - INFO - Note: Lower scores indicate more important keyphrases
+2025-05-01 17:18:29,670 - INFO - Candidate: statistik kendall                        Score: 0.9983
+2025-05-01 17:18:29,670 - INFO - Candidate: porpotional random                       Score: 0.9983
+2025-05-01 17:18:29,670 - INFO - Candidate: kasus-kasus kenakalan                    Score: 0.9984
+2025-05-01 17:18:29,670 - INFO - Candidate: nilai p-value                            Score: 0.9985
+2025-05-01 17:18:29,670 - INFO - Candidate: analisis data                            Score: 0.9985
+2025-05-01 17:18:29,671 - INFO - Candidate: pengambilan sampel                       Score: 0.9985
+2025-05-01 17:18:29,671 - INFO - Candidate: kabupaten semarang                       Score: 0.9986
+2025-05-01 17:18:29,671 - INFO - Candidate: kenakalan remaja                         Score: 0.9986
+2025-05-01 17:18:29,671 - INFO - Candidate: sebagian besar                           Score: 0.9986
+2025-05-01 17:18:29,671 - INFO - Candidate: kecerdasan emosional                     Score: 0.9986
+2025-05-01 17:18:29,671 - INFO - Candidate: masa remaja                              Score: 0.9987
+2025-05-01 17:18:29,671 - INFO - Candidate: penelitian deskriptif                    Score: 0.9987
+2025-05-01 17:18:29,671 - INFO - Candidate: perilaku orang                           Score: 0.9987
+2025-05-01 17:18:29,671 - INFO - Candidate: hasil penelitian                         Score: 0.9988
+2025-05-01 17:18:29,671 - INFO - Candidate: pendekatan cross                         Score: 0.9988
+2025-05-01 17:18:29,671 - INFO - Candidate: pada siswa                               Score: 0.9988
+2025-05-01 17:18:29,671 - INFO - Candidate: ungaran barat                            Score: 0.9988
+2025-05-01 17:18:29,672 - INFO - Candidate: smk islam                                Score: 0.9988
+2025-05-01 17:18:29,672 - INFO - Candidate: hubungan kecerdasan                      Score: 0.9989
+2025-05-01 17:18:29,672 - INFO - Candidate: sudirman kecamatan                       Score: 0.9989
+2025-05-01 17:18:29,672 - INFO - Candidate: cara remaja                              Score: 0.9989
+2025-05-01 17:18:29,672 - INFO - Candidate: remaja salah                             Score: 0.9989
+2025-05-01 17:18:29,672 - INFO - Candidate: emosional dengan                         Score: 0.9989
+2025-05-01 17:18:29,672 - INFO - 
+=== Final Selected Keyphrases ===
+2025-05-01 17:18:29,672 - INFO - 1. statistik kendall                        Score: 0.9983
+2025-05-01 17:18:29,672 - INFO - 2. porpotional random                       Score: 0.9983
+2025-05-01 17:18:29,672 - INFO - 3. kasus-kasus kenakalan                    Score: 0.9984
+2025-05-01 17:18:29,672 - INFO - 4. nilai p-value                            Score: 0.9985
+2025-05-01 17:18:29,673 - INFO - 5. analisis data                            Score: 0.9985
+2025-05-01 17:18:29,673 - INFO - 6. pengambilan sampel                       Score: 0.9985
+2025-05-01 17:18:29,673 - INFO - 7. kabupaten semarang                       Score: 0.9986
+2025-05-01 17:18:29,673 - INFO - 8. kenakalan remaja                         Score: 0.9986
+2025-05-01 17:18:29,673 - INFO - 9. sebagian besar                           Score: 0.9986
+2025-05-01 17:18:29,673 - INFO - 10. kecerdasan emosional                     Score: 0.9986
+2025-05-01 17:18:29,674 - INFO - Processing text of length: 1228
+2025-05-01 17:18:29,743 - INFO - Total candidates found: 47
+2025-05-01 17:18:29,745 - INFO - Number of candidates: 21
+2025-05-01 17:18:29,745 - INFO - First few candidates: [['dampak penerapan', 0], ['kecerdasan buatan', 0], ['sistem informasi', 0], ['tenaga kerja', 0], ['cara sistem', 0]]
+2025-05-01 17:18:36,175 - INFO - 
+=== All Candidate Keyphrases with Similarity Scores (Sorted) ===
+2025-05-01 17:18:36,175 - INFO - Note: Lower scores indicate more important keyphrases
+2025-05-01 17:18:36,175 - INFO - Candidate: kecerdasan buatan                        Score: 0.9954
+2025-05-01 17:18:36,175 - INFO - Candidate: dampak penerapan                         Score: 0.9956
+2025-05-01 17:18:36,175 - INFO - Candidate: tantangan signifikan                     Score: 0.9956
+2025-05-01 17:18:36,176 - INFO - Candidate: kekuatan penggerak                       Score: 0.9960
+2025-05-01 17:18:36,176 - INFO - Candidate: pengembangan regulasi                    Score: 0.9961
+2025-05-01 17:18:36,176 - INFO - Candidate: sistem informasi                         Score: 0.9961
+2025-05-01 17:18:36,176 - INFO - Candidate: tenaga kerja                             Score: 0.9962
+2025-05-01 17:18:36,176 - INFO - Candidate: isu privasi                              Score: 0.9963
+2025-05-01 17:18:36,176 - INFO - Candidate: diagnosis medis                          Score: 0.9963
+2025-05-01 17:18:36,176 - INFO - Candidate: aspek positif                            Score: 0.9964
+2025-05-01 17:18:36,176 - INFO - Candidate: kehilangan pekerjaan                     Score: 0.9964
+2025-05-01 17:18:36,176 - INFO - Candidate: penerapan etika                          Score: 0.9965
+2025-05-01 17:18:36,176 - INFO - Candidate: layanan pelanggan                        Score: 0.9965
+2025-05-01 17:18:36,176 - INFO - Candidate: peluang baru                             Score: 0.9966
+2025-05-01 17:18:36,177 - INFO - Candidate: langkah-langkah penting                  Score: 0.9966
+2025-05-01 17:18:36,177 - INFO - Candidate: dampak negatif                           Score: 0.9966
+2025-05-01 17:18:36,177 - INFO - Candidate: pertimbangan etika                       Score: 0.9967
+2025-05-01 17:18:36,177 - INFO - Candidate: pelatihan tenaga                         Score: 0.9967
+2025-05-01 17:18:36,177 - INFO - Candidate: transformasi sistem                      Score: 0.9970
+2025-05-01 17:18:36,177 - INFO - Candidate: cara sistem                              Score: 0.9970
+2025-05-01 17:18:36,177 - INFO - Candidate: informasi modern                         Score: 0.9971
+2025-05-01 17:18:36,177 - INFO - 
+=== Candidate Keyphrases with Similarity Scores ===
+2025-05-01 17:18:36,177 - INFO - Note: Lower scores indicate more important keyphrases
+2025-05-01 17:18:36,177 - INFO - Candidate: kecerdasan buatan                        Score: 0.9954
+2025-05-01 17:18:36,177 - INFO - Candidate: dampak penerapan                         Score: 0.9956
+2025-05-01 17:18:36,178 - INFO - Candidate: tantangan signifikan                     Score: 0.9956
+2025-05-01 17:18:36,178 - INFO - Candidate: kekuatan penggerak                       Score: 0.9960
+2025-05-01 17:18:36,178 - INFO - Candidate: pengembangan regulasi                    Score: 0.9961
+2025-05-01 17:18:36,178 - INFO - Candidate: sistem informasi                         Score: 0.9961
+2025-05-01 17:18:36,178 - INFO - Candidate: tenaga kerja                             Score: 0.9962
+2025-05-01 17:18:36,178 - INFO - Candidate: isu privasi                              Score: 0.9963
+2025-05-01 17:18:36,178 - INFO - Candidate: diagnosis medis                          Score: 0.9963
+2025-05-01 17:18:36,178 - INFO - Candidate: aspek positif                            Score: 0.9964
+2025-05-01 17:18:36,178 - INFO - Candidate: kehilangan pekerjaan                     Score: 0.9964
+2025-05-01 17:18:36,178 - INFO - Candidate: penerapan etika                          Score: 0.9965
+2025-05-01 17:18:36,178 - INFO - Candidate: layanan pelanggan                        Score: 0.9965
+2025-05-01 17:18:36,179 - INFO - Candidate: peluang baru                             Score: 0.9966
+2025-05-01 17:18:36,179 - INFO - Candidate: langkah-langkah penting                  Score: 0.9966
+2025-05-01 17:18:36,179 - INFO - Candidate: dampak negatif                           Score: 0.9966
+2025-05-01 17:18:36,179 - INFO - Candidate: pertimbangan etika                       Score: 0.9967
+2025-05-01 17:18:36,179 - INFO - Candidate: pelatihan tenaga                         Score: 0.9967
+2025-05-01 17:18:36,179 - INFO - Candidate: transformasi sistem                      Score: 0.9970
+2025-05-01 17:18:36,179 - INFO - Candidate: cara sistem                              Score: 0.9970
+2025-05-01 17:18:36,179 - INFO - Candidate: informasi modern                         Score: 0.9971
+2025-05-01 17:18:36,179 - INFO - 
+=== Final Selected Keyphrases ===
+2025-05-01 17:18:36,179 - INFO - 1. kecerdasan buatan                        Score: 0.9954
+2025-05-01 17:18:36,179 - INFO - 2. dampak penerapan                         Score: 0.9956
+2025-05-01 17:18:36,180 - INFO - 3. tantangan signifikan                     Score: 0.9956
+2025-05-01 17:18:36,180 - INFO - 4. kekuatan penggerak                       Score: 0.9960
+2025-05-01 17:18:36,180 - INFO - 5. pengembangan regulasi                    Score: 0.9961
+2025-05-01 17:18:36,180 - INFO - 6. sistem informasi                         Score: 0.9961
+2025-05-01 17:18:36,180 - INFO - 7. tenaga kerja                             Score: 0.9962
+2025-05-01 17:18:36,180 - INFO - 8. isu privasi                              Score: 0.9963
+2025-05-01 17:18:36,180 - INFO - 9. diagnosis medis                          Score: 0.9963
+2025-05-01 17:18:36,180 - INFO - 10. aspek positif                            Score: 0.9964

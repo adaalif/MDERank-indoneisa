@@ -1,0 +1,1207 @@
+2025-05-01 17:18:19,350 - INFO - 
+
+=== Starting Keyphrase Extraction ===
+2025-05-01 17:18:19,350 - INFO - Input text length: 1650
+2025-05-01 17:18:19,350 - INFO - 
+
+=== New Text Processing ===
+2025-05-01 17:18:19,350 - INFO - Original text: masa remaja merupakan masa yang rentan dengan perilaku menyimpang yang memiliki rasa ingin tahu yang tinggi dan cenderung meniru perilaku orang dewasa yang ada disekitarnya yang akan mengakibatkan terjadinya kenakalan remaja.
+faktor yang mempengaruhi remaja salah satunya adalah kecerdasan emosional.
+penelitian ini bertujuan untuk mengetahui hubungan kecerdasan emosional dengan kenakalan remaja pada siswa di smk islam sudirman kecamatan ungaran barat kabupaten semarang.
+penelitian ini merupakan penelitian deskriptif korelasi dengan pendekatan cross sectional.
+pengambilan sampel dengan porpotional random sampling.
+besarnya sampel adalah 76 siswa di smk islam sudirman kecamatan ungaran barat kabupaten semarang.
+instrumen penelitiannya berupa kuesioner.
+analisis data menggunakan uji statistik kendall tau.
+kemudian hasil penelitian didapatkan bahwa sebagian besar kecerdasan emosional adalah rendah sebanyak 34 responden (44,7), dan didapatkan bahwa sebagian besar kenakalan remaja adalah sedang sebanyak 43 responden (56,6).
+hasil penelitian melalui uji statistik kendall tau didapatkan nilai p-value 0,000<=0,05 yang artinya ada hubungan kecerdasan emosional dengan kenakalan remaja pada siswa di smk islam sudirman kecamatan ungaran barat kabupaten semarang.
+saran dalam penelitian ini adalah remaja diharapkan lebih peka dengan kasus-kasus kenakalan yang marak terjadi.
+dengan demikian, para remaja bisa merefleksikan diri agar terhindar dari perilaku-perilaku tersebut.
+salah satu cara remaja untuk dapat terhindar adalah dengan mengembangkan kecerdasan emosionalnya, karena kecerdasan emosional merupakan kemampuan yang bisa dipelajari.
+
+2025-05-01 17:18:19,379 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,379 - INFO - masa                 -> ('masa', 'NN')
+2025-05-01 17:18:19,379 - INFO - remaja               -> ('remaja', 'NN')
+2025-05-01 17:18:19,379 - INFO - merupakan            -> ('merupakan', 'VB')
+2025-05-01 17:18:19,379 - INFO - masa                 -> ('masa', 'NN')
+2025-05-01 17:18:19,379 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:19,379 - INFO - rentan               -> ('rentan', 'JJ')
+2025-05-01 17:18:19,379 - INFO - dengan               -> ('dengan', 'IN')
+2025-05-01 17:18:19,380 - INFO - perilaku             -> ('perilaku', 'NN')
+2025-05-01 17:18:19,380 - INFO - menyimpang           -> ('menyimpang', 'VB')
+2025-05-01 17:18:19,380 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:19,380 - INFO - memiliki             -> ('memiliki', 'VB')
+2025-05-01 17:18:19,380 - INFO - rasa                 -> ('rasa', 'NN')
+2025-05-01 17:18:19,380 - INFO - ingin                -> ('ingin', 'ADV')
+2025-05-01 17:18:19,380 - INFO - tahu                 -> ('tahu', 'VB')
+2025-05-01 17:18:19,380 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:19,380 - INFO - tinggi               -> ('tinggi', 'JJ')
+2025-05-01 17:18:19,380 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:19,380 - INFO - cenderung            -> ('cenderung', 'JJ')
+2025-05-01 17:18:19,380 - INFO - meniru               -> ('meniru', 'VB')
+2025-05-01 17:18:19,380 - INFO - perilaku             -> ('perilaku', 'NN')
+2025-05-01 17:18:19,380 - INFO - orang                -> ('orang', 'NN')
+2025-05-01 17:18:19,380 - INFO - dewasa               -> ('dewasa', 'JJ')
+2025-05-01 17:18:19,380 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:19,380 - INFO - ada                  -> ('ada', 'VB')
+2025-05-01 17:18:19,380 - INFO - disekitar            -> ('disekitar', 'VB')
+2025-05-01 17:18:19,380 - INFO - nya                  -> ('nya', 'DT')
+2025-05-01 17:18:19,380 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:19,380 - INFO - akan                 -> ('akan', 'ADV')
+2025-05-01 17:18:19,380 - INFO - mengakibatkan        -> ('mengakibatkan', 'VB')
+2025-05-01 17:18:19,380 - INFO - terjadi              -> ('terjadi', 'VB')
+2025-05-01 17:18:19,380 - INFO - nya                  -> ('nya', 'DT')
+2025-05-01 17:18:19,380 - INFO - kenakalan            -> ('kenakalan', 'NN')
+2025-05-01 17:18:19,380 - INFO - remaja               -> ('remaja', 'NN')
+2025-05-01 17:18:19,380 - INFO - 
+Accepted phrase: masa remaja
+2025-05-01 17:18:19,380 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,381 - INFO - 
+Accepted phrase: masa
+2025-05-01 17:18:19,381 - INFO - POS sequence: NN
+2025-05-01 17:18:19,381 - INFO - 
+Accepted phrase: perilaku
+2025-05-01 17:18:19,381 - INFO - POS sequence: NN
+2025-05-01 17:18:19,381 - INFO - 
+Accepted phrase: rasa
+2025-05-01 17:18:19,381 - INFO - POS sequence: NN
+2025-05-01 17:18:19,381 - INFO - 
+Accepted phrase: perilaku orang
+2025-05-01 17:18:19,381 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,381 - INFO - 
+Accepted phrase: kenakalan remaja
+2025-05-01 17:18:19,381 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,381 - INFO - 
+Extracted 6 unique phrases:
+2025-05-01 17:18:19,381 - INFO - - masa remaja
+2025-05-01 17:18:19,381 - INFO - - masa
+2025-05-01 17:18:19,381 - INFO - - perilaku
+2025-05-01 17:18:19,381 - INFO - - rasa
+2025-05-01 17:18:19,381 - INFO - - perilaku orang
+2025-05-01 17:18:19,381 - INFO - - kenakalan remaja
+2025-05-01 17:18:19,387 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,387 - INFO - faktor               -> ('faktor', 'NN')
+2025-05-01 17:18:19,387 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:19,387 - INFO - mempengaruhi         -> ('mempengaruhi', 'VB')
+2025-05-01 17:18:19,387 - INFO - remaja               -> ('remaja', 'NN')
+2025-05-01 17:18:19,387 - INFO - salah                -> ('salah', 'JJ')
+2025-05-01 17:18:19,387 - INFO - satu                 -> ('satu', 'NUM')
+2025-05-01 17:18:19,387 - INFO - nya                  -> ('nya', 'DT')
+2025-05-01 17:18:19,387 - INFO - adalah               -> ('adalah', 'ADV')
+2025-05-01 17:18:19,387 - INFO - kecerdasan           -> ('kecerdasan', 'NN')
+2025-05-01 17:18:19,387 - INFO - emosional            -> ('emosional', 'JJ')
+2025-05-01 17:18:19,388 - INFO - 
+Accepted phrase: faktor
+2025-05-01 17:18:19,388 - INFO - POS sequence: NN
+2025-05-01 17:18:19,388 - INFO - 
+Accepted phrase: remaja salah
+2025-05-01 17:18:19,388 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:19,388 - INFO - 
+Accepted phrase: kecerdasan emosional
+2025-05-01 17:18:19,388 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:19,388 - INFO - 
+Extracted 3 unique phrases:
+2025-05-01 17:18:19,388 - INFO - - faktor
+2025-05-01 17:18:19,388 - INFO - - remaja salah
+2025-05-01 17:18:19,388 - INFO - - kecerdasan emosional
+2025-05-01 17:18:19,394 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,394 - INFO - penelitian           -> ('penelitian', 'NN')
+2025-05-01 17:18:19,394 - INFO - ini                  -> ('ini', 'DT')
+2025-05-01 17:18:19,394 - INFO - bertujuan            -> ('bertujuan', 'VB')
+2025-05-01 17:18:19,395 - INFO - untuk                -> ('untuk', 'SC')
+2025-05-01 17:18:19,395 - INFO - mengetahui           -> ('mengetahui', 'VB')
+2025-05-01 17:18:19,395 - INFO - hubungan             -> ('hubungan', 'NN')
+2025-05-01 17:18:19,395 - INFO - kecerdasan           -> ('kecerdasan', 'NN')
+2025-05-01 17:18:19,395 - INFO - emosional            -> ('emosional', 'JJ')
+2025-05-01 17:18:19,395 - INFO - dengan               -> ('dengan', 'IN')
+2025-05-01 17:18:19,395 - INFO - kenakalan            -> ('kenakalan', 'NN')
+2025-05-01 17:18:19,395 - INFO - remaja               -> ('remaja', 'NN')
+2025-05-01 17:18:19,395 - INFO - pada                 -> ('pada', 'IN')
+2025-05-01 17:18:19,395 - INFO - siswa                -> ('siswa', 'NN')
+2025-05-01 17:18:19,395 - INFO - di                   -> ('di', 'IN')
+2025-05-01 17:18:19,395 - INFO - smk                  -> ('smk', 'NN')
+2025-05-01 17:18:19,395 - INFO - islam                -> ('islam', 'NN')
+2025-05-01 17:18:19,395 - INFO - sudirman             -> ('sudirman', 'NN')
+2025-05-01 17:18:19,395 - INFO - kecamatan            -> ('kecamatan', 'NN')
+2025-05-01 17:18:19,395 - INFO - ungaran              -> ('ungaran', 'NN')
+2025-05-01 17:18:19,395 - INFO - barat                -> ('barat', 'NN')
+2025-05-01 17:18:19,395 - INFO - kabupaten            -> ('kabupaten', 'NN')
+2025-05-01 17:18:19,395 - INFO - semarang             -> ('semarang', 'ADV')
+2025-05-01 17:18:19,395 - INFO - 
+Accepted phrase: penelitian
+2025-05-01 17:18:19,395 - INFO - POS sequence: NN
+2025-05-01 17:18:19,395 - INFO - 
+Accepted phrase: hubungan kecerdasan
+2025-05-01 17:18:19,395 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,395 - INFO - 
+Accepted phrase: kenakalan remaja
+2025-05-01 17:18:19,395 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,395 - INFO - 
+Accepted phrase: siswa
+2025-05-01 17:18:19,395 - INFO - POS sequence: NN
+2025-05-01 17:18:19,396 - INFO - 
+Accepted phrase: smk islam
+2025-05-01 17:18:19,396 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,396 - INFO - 
+Accepted phrase: sudirman kecamatan
+2025-05-01 17:18:19,396 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,396 - INFO - 
+Accepted phrase: ungaran barat
+2025-05-01 17:18:19,396 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,396 - INFO - 
+Accepted phrase: kabupaten
+2025-05-01 17:18:19,396 - INFO - POS sequence: NN
+2025-05-01 17:18:19,396 - INFO - 
+Extracted 8 unique phrases:
+2025-05-01 17:18:19,396 - INFO - - penelitian
+2025-05-01 17:18:19,396 - INFO - - hubungan kecerdasan
+2025-05-01 17:18:19,396 - INFO - - kenakalan remaja
+2025-05-01 17:18:19,396 - INFO - - siswa
+2025-05-01 17:18:19,396 - INFO - - smk islam
+2025-05-01 17:18:19,396 - INFO - - sudirman kecamatan
+2025-05-01 17:18:19,396 - INFO - - ungaran barat
+2025-05-01 17:18:19,396 - INFO - - kabupaten
+2025-05-01 17:18:19,402 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,402 - INFO - penelitian           -> ('penelitian', 'NN')
+2025-05-01 17:18:19,402 - INFO - ini                  -> ('ini', 'DT')
+2025-05-01 17:18:19,402 - INFO - merupakan            -> ('merupakan', 'VB')
+2025-05-01 17:18:19,402 - INFO - penelitian           -> ('penelitian', 'NN')
+2025-05-01 17:18:19,402 - INFO - deskriptif           -> ('deskriptif', 'NN')
+2025-05-01 17:18:19,402 - INFO - korelasi             -> ('korelasi', 'NN')
+2025-05-01 17:18:19,402 - INFO - dengan               -> ('dengan', 'IN')
+2025-05-01 17:18:19,402 - INFO - pendekatan           -> ('pendekatan', 'NN')
+2025-05-01 17:18:19,402 - INFO - cross                -> ('cross', 'FW')
+2025-05-01 17:18:19,402 - INFO - sectional            -> ('sectional', 'NN')
+2025-05-01 17:18:19,402 - INFO - 
+Accepted phrase: penelitian
+2025-05-01 17:18:19,402 - INFO - POS sequence: NN
+2025-05-01 17:18:19,402 - INFO - 
+Accepted phrase: penelitian deskriptif
+2025-05-01 17:18:19,402 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,402 - INFO - 
+Accepted phrase: korelasi
+2025-05-01 17:18:19,402 - INFO - POS sequence: NN
+2025-05-01 17:18:19,402 - INFO - 
+Accepted phrase: pendekatan cross
+2025-05-01 17:18:19,402 - INFO - POS sequence: NN FW
+2025-05-01 17:18:19,402 - INFO - 
+Accepted phrase: sectional
+2025-05-01 17:18:19,403 - INFO - POS sequence: NN
+2025-05-01 17:18:19,403 - INFO - 
+Extracted 5 unique phrases:
+2025-05-01 17:18:19,403 - INFO - - penelitian
+2025-05-01 17:18:19,403 - INFO - - penelitian deskriptif
+2025-05-01 17:18:19,403 - INFO - - korelasi
+2025-05-01 17:18:19,403 - INFO - - pendekatan cross
+2025-05-01 17:18:19,403 - INFO - - sectional
+2025-05-01 17:18:19,408 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,408 - INFO - pengambilan          -> ('pengambilan', 'NN')
+2025-05-01 17:18:19,408 - INFO - sampel               -> ('sampel', 'NN')
+2025-05-01 17:18:19,408 - INFO - dengan               -> ('dengan', 'IN')
+2025-05-01 17:18:19,408 - INFO - porpotional          -> ('porpotional', 'NN')
+2025-05-01 17:18:19,409 - INFO - random               -> ('random', 'NN')
+2025-05-01 17:18:19,409 - INFO - sampling             -> ('sampling', 'ADV')
+2025-05-01 17:18:19,409 - INFO - 
+Accepted phrase: pengambilan sampel
+2025-05-01 17:18:19,409 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,409 - INFO - 
+Accepted phrase: porpotional random
+2025-05-01 17:18:19,409 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,409 - INFO - 
+Extracted 2 unique phrases:
+2025-05-01 17:18:19,409 - INFO - - pengambilan sampel
+2025-05-01 17:18:19,409 - INFO - - porpotional random
+2025-05-01 17:18:19,415 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,415 - INFO - besar                -> ('besar', 'JJ')
+2025-05-01 17:18:19,415 - INFO - nya                  -> ('nya', 'PR')
+2025-05-01 17:18:19,415 - INFO - sampel               -> ('sampel', 'NN')
+2025-05-01 17:18:19,415 - INFO - adalah               -> ('adalah', 'ADV')
+2025-05-01 17:18:19,415 - INFO - 76                   -> ('76', 'NUM')
+2025-05-01 17:18:19,415 - INFO - siswa                -> ('siswa', 'NN')
+2025-05-01 17:18:19,415 - INFO - di                   -> ('di', 'IN')
+2025-05-01 17:18:19,415 - INFO - smk                  -> ('smk', 'NN')
+2025-05-01 17:18:19,415 - INFO - islam                -> ('islam', 'NN')
+2025-05-01 17:18:19,415 - INFO - sudirman             -> ('sudirman', 'NN')
+2025-05-01 17:18:19,415 - INFO - kecamatan            -> ('kecamatan', 'NN')
+2025-05-01 17:18:19,415 - INFO - ungaran              -> ('ungaran', 'NN')
+2025-05-01 17:18:19,415 - INFO - barat                -> ('barat', 'NN')
+2025-05-01 17:18:19,415 - INFO - kabupaten            -> ('kabupaten', 'NN')
+2025-05-01 17:18:19,415 - INFO - semarang             -> ('semarang', 'ADV')
+2025-05-01 17:18:19,415 - INFO - 
+Accepted phrase: sampel
+2025-05-01 17:18:19,415 - INFO - POS sequence: NN
+2025-05-01 17:18:19,416 - INFO - 
+Accepted phrase: siswa
+2025-05-01 17:18:19,416 - INFO - POS sequence: NN
+2025-05-01 17:18:19,416 - INFO - 
+Accepted phrase: smk islam
+2025-05-01 17:18:19,416 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,416 - INFO - 
+Accepted phrase: sudirman kecamatan
+2025-05-01 17:18:19,416 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,416 - INFO - 
+Accepted phrase: ungaran barat
+2025-05-01 17:18:19,416 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,416 - INFO - 
+Accepted phrase: kabupaten
+2025-05-01 17:18:19,416 - INFO - POS sequence: NN
+2025-05-01 17:18:19,416 - INFO - 
+Extracted 6 unique phrases:
+2025-05-01 17:18:19,416 - INFO - - sampel
+2025-05-01 17:18:19,416 - INFO - - siswa
+2025-05-01 17:18:19,416 - INFO - - smk islam
+2025-05-01 17:18:19,416 - INFO - - sudirman kecamatan
+2025-05-01 17:18:19,416 - INFO - - ungaran barat
+2025-05-01 17:18:19,416 - INFO - - kabupaten
+2025-05-01 17:18:19,422 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,422 - INFO - instrumen            -> ('instrumen', 'NN')
+2025-05-01 17:18:19,422 - INFO - penelitian           -> ('penelitian', 'NN')
+2025-05-01 17:18:19,422 - INFO - nya                  -> ('nya', 'PR')
+2025-05-01 17:18:19,422 - INFO - berupa               -> ('berupa', 'VB')
+2025-05-01 17:18:19,422 - INFO - kuesioner            -> ('kuesioner', 'NN')
+2025-05-01 17:18:19,422 - INFO - 
+Accepted phrase: instrumen penelitian
+2025-05-01 17:18:19,422 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,422 - INFO - 
+Accepted phrase: kuesioner
+2025-05-01 17:18:19,422 - INFO - POS sequence: NN
+2025-05-01 17:18:19,422 - INFO - 
+Extracted 2 unique phrases:
+2025-05-01 17:18:19,422 - INFO - - instrumen penelitian
+2025-05-01 17:18:19,422 - INFO - - kuesioner
+2025-05-01 17:18:19,428 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,428 - INFO - analisis             -> ('analisis', 'NN')
+2025-05-01 17:18:19,428 - INFO - data                 -> ('data', 'NN')
+2025-05-01 17:18:19,428 - INFO - menggunakan          -> ('menggunakan', 'VB')
+2025-05-01 17:18:19,428 - INFO - uji                  -> ('uji', 'VB')
+2025-05-01 17:18:19,428 - INFO - statistik            -> ('statistik', 'NN')
+2025-05-01 17:18:19,428 - INFO - kendall              -> ('kendall', 'JJ')
+2025-05-01 17:18:19,428 - INFO - tau                  -> ('tau', 'NN')
+2025-05-01 17:18:19,428 - INFO - 
+Accepted phrase: analisis data
+2025-05-01 17:18:19,428 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,428 - INFO - 
+Accepted phrase: statistik kendall
+2025-05-01 17:18:19,428 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:19,428 - INFO - 
+Accepted phrase: tau
+2025-05-01 17:18:19,428 - INFO - POS sequence: NN
+2025-05-01 17:18:19,428 - INFO - 
+Extracted 3 unique phrases:
+2025-05-01 17:18:19,428 - INFO - - analisis data
+2025-05-01 17:18:19,428 - INFO - - statistik kendall
+2025-05-01 17:18:19,428 - INFO - - tau
+2025-05-01 17:18:19,435 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,435 - INFO - kemudian             -> ('kemudian', 'ADV')
+2025-05-01 17:18:19,435 - INFO - hasil                -> ('hasil', 'NN')
+2025-05-01 17:18:19,435 - INFO - penelitian           -> ('penelitian', 'NN')
+2025-05-01 17:18:19,435 - INFO - didapatkan           -> ('didapatkan', 'VB')
+2025-05-01 17:18:19,435 - INFO - bahwa                -> ('bahwa', 'SC')
+2025-05-01 17:18:19,435 - INFO - sebagian             -> ('sebagian', 'NN')
+2025-05-01 17:18:19,435 - INFO - besar                -> ('besar', 'JJ')
+2025-05-01 17:18:19,435 - INFO - kecerdasan           -> ('kecerdasan', 'NN')
+2025-05-01 17:18:19,435 - INFO - emosional            -> ('emosional', 'JJ')
+2025-05-01 17:18:19,435 - INFO - adalah               -> ('adalah', 'ADV')
+2025-05-01 17:18:19,435 - INFO - rendah               -> ('rendah', 'JJ')
+2025-05-01 17:18:19,435 - INFO - sebanyak             -> ('sebanyak', 'NN')
+2025-05-01 17:18:19,435 - INFO - 34                   -> ('34', 'NUM')
+2025-05-01 17:18:19,435 - INFO - responden            -> ('responden', 'NN')
+2025-05-01 17:18:19,436 - INFO - (                    -> ('(', 'SYM')
+2025-05-01 17:18:19,436 - INFO - 44,7                 -> ('44,7', 'NUM')
+2025-05-01 17:18:19,436 - INFO - )                    -> (')', 'SYM')
+2025-05-01 17:18:19,436 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:19,436 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:19,436 - INFO - didapatkan           -> ('didapatkan', 'VB')
+2025-05-01 17:18:19,436 - INFO - bahwa                -> ('bahwa', 'SC')
+2025-05-01 17:18:19,436 - INFO - sebagian             -> ('sebagian', 'NN')
+2025-05-01 17:18:19,436 - INFO - besar                -> ('besar', 'JJ')
+2025-05-01 17:18:19,436 - INFO - kenakalan            -> ('kenakalan', 'NN')
+2025-05-01 17:18:19,436 - INFO - remaja               -> ('remaja', 'NN')
+2025-05-01 17:18:19,436 - INFO - adalah               -> ('adalah', 'ADV')
+2025-05-01 17:18:19,436 - INFO - sedang               -> ('sedang', 'ADV')
+2025-05-01 17:18:19,436 - INFO - sebanyak             -> ('sebanyak', 'NN')
+2025-05-01 17:18:19,436 - INFO - 43                   -> ('43', 'NUM')
+2025-05-01 17:18:19,436 - INFO - responden            -> ('responden', 'NN')
+2025-05-01 17:18:19,436 - INFO - (                    -> ('(', 'SYM')
+2025-05-01 17:18:19,436 - INFO - 56,6                 -> ('56,6', 'NUM')
+2025-05-01 17:18:19,436 - INFO - )                    -> (')', 'SYM')
+2025-05-01 17:18:19,436 - INFO - 
+Accepted phrase: hasil penelitian
+2025-05-01 17:18:19,436 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,436 - INFO - 
+Accepted phrase: sebagian besar
+2025-05-01 17:18:19,436 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:19,436 - INFO - 
+Accepted phrase: kecerdasan emosional
+2025-05-01 17:18:19,436 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:19,436 - INFO - 
+Accepted phrase: sebanyak
+2025-05-01 17:18:19,436 - INFO - POS sequence: NN
+2025-05-01 17:18:19,436 - INFO - 
+Accepted phrase: responden
+2025-05-01 17:18:19,436 - INFO - POS sequence: NN
+2025-05-01 17:18:19,436 - INFO - 
+Accepted phrase: sebagian besar
+2025-05-01 17:18:19,437 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:19,437 - INFO - 
+Accepted phrase: kenakalan remaja
+2025-05-01 17:18:19,437 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,437 - INFO - 
+Accepted phrase: sebanyak
+2025-05-01 17:18:19,437 - INFO - POS sequence: NN
+2025-05-01 17:18:19,437 - INFO - 
+Accepted phrase: responden
+2025-05-01 17:18:19,437 - INFO - POS sequence: NN
+2025-05-01 17:18:19,437 - INFO - 
+Extracted 6 unique phrases:
+2025-05-01 17:18:19,437 - INFO - - hasil penelitian
+2025-05-01 17:18:19,437 - INFO - - sebagian besar
+2025-05-01 17:18:19,437 - INFO - - kecerdasan emosional
+2025-05-01 17:18:19,437 - INFO - - sebanyak
+2025-05-01 17:18:19,437 - INFO - - responden
+2025-05-01 17:18:19,437 - INFO - - kenakalan remaja
+2025-05-01 17:18:19,444 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,444 - INFO - hasil                -> ('hasil', 'NN')
+2025-05-01 17:18:19,444 - INFO - penelitian           -> ('penelitian', 'NN')
+2025-05-01 17:18:19,444 - INFO - melalui              -> ('melalui', 'IN')
+2025-05-01 17:18:19,444 - INFO - uji                  -> ('uji', 'VB')
+2025-05-01 17:18:19,444 - INFO - statistik            -> ('statistik', 'NN')
+2025-05-01 17:18:19,444 - INFO - kendall              -> ('kendall', 'JJ')
+2025-05-01 17:18:19,444 - INFO - tau                  -> ('tau', 'NN')
+2025-05-01 17:18:19,444 - INFO - didapatkan           -> ('didapatkan', 'VB')
+2025-05-01 17:18:19,444 - INFO - nilai                -> ('nilai', 'NN')
+2025-05-01 17:18:19,444 - INFO - p-value              -> ('p-value', 'NN')
+2025-05-01 17:18:19,445 - INFO - 0                    -> ('0', 'NUM')
+2025-05-01 17:18:19,445 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:19,445 - INFO - 000<=0              -> ('000', 'NUM')
+2025-05-01 17:18:19,445 - INFO - ,                    -> ('<', 'SYM')
+2025-05-01 17:18:19,445 - INFO - 05                   -> ('\uf061=0', 'NUM')
+2025-05-01 17:18:19,445 - INFO - yang                 -> (',', 'SYM')
+2025-05-01 17:18:19,445 - INFO - arti                 -> ('05', 'NUM')
+2025-05-01 17:18:19,445 - INFO - nya                  -> ('yang', 'PR')
+2025-05-01 17:18:19,445 - INFO - ada                  -> ('arti', 'NN')
+2025-05-01 17:18:19,445 - INFO - hubungan             -> ('nya', 'DT')
+2025-05-01 17:18:19,445 - INFO - kecerdasan           -> ('ada', 'VB')
+2025-05-01 17:18:19,445 - INFO - emosional            -> ('hubungan', 'NN')
+2025-05-01 17:18:19,445 - INFO - dengan               -> ('kecerdasan', 'NN')
+2025-05-01 17:18:19,445 - INFO - kenakalan            -> ('emosional', 'JJ')
+2025-05-01 17:18:19,445 - INFO - remaja               -> ('dengan', 'IN')
+2025-05-01 17:18:19,445 - INFO - pada                 -> ('kenakalan', 'NN')
+2025-05-01 17:18:19,445 - INFO - siswa                -> ('remaja', 'NN')
+2025-05-01 17:18:19,445 - INFO - di                   -> ('pada', 'IN')
+2025-05-01 17:18:19,445 - INFO - smk                  -> ('siswa', 'NN')
+2025-05-01 17:18:19,445 - INFO - islam                -> ('di', 'IN')
+2025-05-01 17:18:19,445 - INFO - sudirman             -> ('smk', 'NN')
+2025-05-01 17:18:19,445 - INFO - kecamatan            -> ('islam', 'NN')
+2025-05-01 17:18:19,445 - INFO - ungaran              -> ('sudirman', 'NN')
+2025-05-01 17:18:19,445 - INFO - barat                -> ('kecamatan', 'NN')
+2025-05-01 17:18:19,445 - INFO - kabupaten            -> ('ungaran', 'NN')
+2025-05-01 17:18:19,445 - INFO - semarang             -> ('barat', 'NN')
+2025-05-01 17:18:19,445 - INFO - 
+Accepted phrase: hasil penelitian
+2025-05-01 17:18:19,445 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,445 - INFO - 
+Accepted phrase: statistik kendall
+2025-05-01 17:18:19,445 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:19,446 - INFO - 
+Accepted phrase: tau
+2025-05-01 17:18:19,446 - INFO - POS sequence: NN
+2025-05-01 17:18:19,446 - INFO - 
+Accepted phrase: nilai p-value
+2025-05-01 17:18:19,446 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,446 - INFO - 
+Accepted phrase: ada
+2025-05-01 17:18:19,446 - INFO - POS sequence: NN
+2025-05-01 17:18:19,446 - INFO - 
+Accepted phrase: emosional dengan
+2025-05-01 17:18:19,446 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,446 - INFO - 
+Accepted phrase: pada siswa
+2025-05-01 17:18:19,446 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,446 - INFO - 
+Accepted phrase: smk
+2025-05-01 17:18:19,446 - INFO - POS sequence: NN
+2025-05-01 17:18:19,446 - INFO - 
+Accepted phrase: sudirman kecamatan
+2025-05-01 17:18:19,446 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,446 - INFO - 
+Accepted phrase: ungaran barat
+2025-05-01 17:18:19,446 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,446 - INFO - 
+Accepted phrase: kabupaten semarang
+2025-05-01 17:18:19,446 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,446 - INFO - 
+Extracted 11 unique phrases:
+2025-05-01 17:18:19,446 - INFO - - hasil penelitian
+2025-05-01 17:18:19,446 - INFO - - statistik kendall
+2025-05-01 17:18:19,446 - INFO - - tau
+2025-05-01 17:18:19,446 - INFO - - nilai p-value
+2025-05-01 17:18:19,446 - INFO - - ada
+2025-05-01 17:18:19,446 - INFO - - emosional dengan
+2025-05-01 17:18:19,446 - INFO - - pada siswa
+2025-05-01 17:18:19,446 - INFO - - smk
+2025-05-01 17:18:19,446 - INFO - - sudirman kecamatan
+2025-05-01 17:18:19,446 - INFO - - ungaran barat
+2025-05-01 17:18:19,446 - INFO - - kabupaten semarang
+2025-05-01 17:18:19,453 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,453 - INFO - saran                -> ('saran', 'NN')
+2025-05-01 17:18:19,453 - INFO - dalam                -> ('dalam', 'IN')
+2025-05-01 17:18:19,453 - INFO - penelitian           -> ('penelitian', 'NN')
+2025-05-01 17:18:19,453 - INFO - ini                  -> ('ini', 'DT')
+2025-05-01 17:18:19,453 - INFO - adalah               -> ('adalah', 'ADV')
+2025-05-01 17:18:19,453 - INFO - remaja               -> ('remaja', 'NN')
+2025-05-01 17:18:19,453 - INFO - diharapkan           -> ('diharapkan', 'VB')
+2025-05-01 17:18:19,453 - INFO - lebih                -> ('lebih', 'ADV')
+2025-05-01 17:18:19,453 - INFO - peka                 -> ('peka', 'JJ')
+2025-05-01 17:18:19,453 - INFO - dengan               -> ('dengan', 'IN')
+2025-05-01 17:18:19,453 - INFO - kasus-kasus          -> ('kasus-kasus', 'NN')
+2025-05-01 17:18:19,453 - INFO - kenakalan            -> ('kenakalan', 'NN')
+2025-05-01 17:18:19,453 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:19,453 - INFO - marak                -> ('marak', 'JJ')
+2025-05-01 17:18:19,453 - INFO - terjadi              -> ('terjadi', 'VB')
+2025-05-01 17:18:19,453 - INFO - 
+Accepted phrase: saran
+2025-05-01 17:18:19,453 - INFO - POS sequence: NN
+2025-05-01 17:18:19,453 - INFO - 
+Accepted phrase: penelitian
+2025-05-01 17:18:19,453 - INFO - POS sequence: NN
+2025-05-01 17:18:19,453 - INFO - 
+Accepted phrase: remaja
+2025-05-01 17:18:19,453 - INFO - POS sequence: NN
+2025-05-01 17:18:19,453 - INFO - 
+Accepted phrase: kasus-kasus kenakalan
+2025-05-01 17:18:19,453 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,453 - INFO - 
+Extracted 4 unique phrases:
+2025-05-01 17:18:19,453 - INFO - - saran
+2025-05-01 17:18:19,453 - INFO - - penelitian
+2025-05-01 17:18:19,453 - INFO - - remaja
+2025-05-01 17:18:19,454 - INFO - - kasus-kasus kenakalan
+2025-05-01 17:18:19,459 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,460 - INFO - dengan               -> ('dengan', 'IN')
+2025-05-01 17:18:19,460 - INFO - demikian             -> ('demikian', 'PR')
+2025-05-01 17:18:19,460 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:19,460 - INFO - para                 -> ('para', 'DT')
+2025-05-01 17:18:19,460 - INFO - remaja               -> ('remaja', 'NN')
+2025-05-01 17:18:19,460 - INFO - bisa                 -> ('bisa', 'ADV')
+2025-05-01 17:18:19,460 - INFO - merefleksikan        -> ('merefleksikan', 'VB')
+2025-05-01 17:18:19,460 - INFO - diri                 -> ('diri', 'PR')
+2025-05-01 17:18:19,460 - INFO - agar                 -> ('agar', 'SC')
+2025-05-01 17:18:19,460 - INFO - terhindar            -> ('terhindar', 'VB')
+2025-05-01 17:18:19,460 - INFO - dari                 -> ('dari', 'IN')
+2025-05-01 17:18:19,460 - INFO - perilaku-perilaku    -> ('perilaku-perilaku', 'NN')
+2025-05-01 17:18:19,460 - INFO - tersebut             -> ('tersebut', 'DT')
+2025-05-01 17:18:19,460 - INFO - 
+Accepted phrase: remaja
+2025-05-01 17:18:19,460 - INFO - POS sequence: NN
+2025-05-01 17:18:19,460 - INFO - 
+Accepted phrase: perilaku-perilaku
+2025-05-01 17:18:19,460 - INFO - POS sequence: NN
+2025-05-01 17:18:19,460 - INFO - 
+Extracted 2 unique phrases:
+2025-05-01 17:18:19,460 - INFO - - remaja
+2025-05-01 17:18:19,460 - INFO - - perilaku-perilaku
+2025-05-01 17:18:19,467 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:19,467 - INFO - salah                -> ('salah', 'JJ')
+2025-05-01 17:18:19,467 - INFO - satu                 -> ('satu', 'NUM')
+2025-05-01 17:18:19,467 - INFO - cara                 -> ('cara', 'NN')
+2025-05-01 17:18:19,467 - INFO - remaja               -> ('remaja', 'NN')
+2025-05-01 17:18:19,467 - INFO - untuk                -> ('untuk', 'SC')
+2025-05-01 17:18:19,467 - INFO - dapat                -> ('dapat', 'ADV')
+2025-05-01 17:18:19,467 - INFO - terhindar            -> ('terhindar', 'VB')
+2025-05-01 17:18:19,467 - INFO - adalah               -> ('adalah', 'ADV')
+2025-05-01 17:18:19,467 - INFO - dengan               -> ('dengan', 'IN')
+2025-05-01 17:18:19,467 - INFO - mengembangkan        -> ('mengembangkan', 'VB')
+2025-05-01 17:18:19,467 - INFO - kecerdasan           -> ('kecerdasan', 'NN')
+2025-05-01 17:18:19,467 - INFO - emosional            -> ('emosional', 'JJ')
+2025-05-01 17:18:19,467 - INFO - nya                  -> ('nya', 'PR')
+2025-05-01 17:18:19,467 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:19,467 - INFO - karena               -> ('karena', 'SC')
+2025-05-01 17:18:19,467 - INFO - kecerdasan           -> ('kecerdasan', 'NN')
+2025-05-01 17:18:19,467 - INFO - emosional            -> ('emosional', 'JJ')
+2025-05-01 17:18:19,467 - INFO - merupakan            -> ('merupakan', 'VB')
+2025-05-01 17:18:19,467 - INFO - kemampuan            -> ('kemampuan', 'NN')
+2025-05-01 17:18:19,467 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:19,467 - INFO - bisa                 -> ('bisa', 'ADV')
+2025-05-01 17:18:19,467 - INFO - dipelajari           -> ('dipelajari', 'VB')
+2025-05-01 17:18:19,467 - INFO - 
+Accepted phrase: cara remaja
+2025-05-01 17:18:19,467 - INFO - POS sequence: NN NN
+2025-05-01 17:18:19,468 - INFO - 
+Accepted phrase: kecerdasan emosional
+2025-05-01 17:18:19,468 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:19,468 - INFO - 
+Accepted phrase: kecerdasan emosional
+2025-05-01 17:18:19,468 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:19,468 - INFO - 
+Accepted phrase: kemampuan
+2025-05-01 17:18:19,468 - INFO - POS sequence: NN
+2025-05-01 17:18:19,468 - INFO - 
+Extracted 3 unique phrases:
+2025-05-01 17:18:19,468 - INFO - - cara remaja
+2025-05-01 17:18:19,468 - INFO - - kecerdasan emosional
+2025-05-01 17:18:19,468 - INFO - - kemampuan
+2025-05-01 17:18:19,468 - INFO - 
+Total unique candidates found: 44
+2025-05-01 17:18:19,468 - INFO - Final candidates:
+2025-05-01 17:18:19,468 - INFO - - masa remaja
+2025-05-01 17:18:19,468 - INFO - - masa
+2025-05-01 17:18:19,468 - INFO - - perilaku
+2025-05-01 17:18:19,468 - INFO - - rasa
+2025-05-01 17:18:19,468 - INFO - - perilaku orang
+2025-05-01 17:18:19,468 - INFO - - kenakalan remaja
+2025-05-01 17:18:19,468 - INFO - - faktor
+2025-05-01 17:18:19,468 - INFO - - remaja salah
+2025-05-01 17:18:19,468 - INFO - - kecerdasan emosional
+2025-05-01 17:18:19,468 - INFO - - penelitian
+2025-05-01 17:18:19,468 - INFO - - hubungan kecerdasan
+2025-05-01 17:18:19,468 - INFO - - siswa
+2025-05-01 17:18:19,468 - INFO - - smk islam
+2025-05-01 17:18:19,468 - INFO - - sudirman kecamatan
+2025-05-01 17:18:19,468 - INFO - - ungaran barat
+2025-05-01 17:18:19,468 - INFO - - kabupaten
+2025-05-01 17:18:19,468 - INFO - - penelitian deskriptif
+2025-05-01 17:18:19,468 - INFO - - korelasi
+2025-05-01 17:18:19,468 - INFO - - pendekatan cross
+2025-05-01 17:18:19,469 - INFO - - sectional
+2025-05-01 17:18:19,469 - INFO - - pengambilan sampel
+2025-05-01 17:18:19,469 - INFO - - porpotional random
+2025-05-01 17:18:19,469 - INFO - - sampel
+2025-05-01 17:18:19,469 - INFO - - instrumen penelitian
+2025-05-01 17:18:19,469 - INFO - - kuesioner
+2025-05-01 17:18:19,469 - INFO - - analisis data
+2025-05-01 17:18:19,469 - INFO - - statistik kendall
+2025-05-01 17:18:19,469 - INFO - - tau
+2025-05-01 17:18:19,469 - INFO - - hasil penelitian
+2025-05-01 17:18:19,469 - INFO - - sebagian besar
+2025-05-01 17:18:19,469 - INFO - - sebanyak
+2025-05-01 17:18:19,469 - INFO - - responden
+2025-05-01 17:18:19,469 - INFO - - nilai p-value
+2025-05-01 17:18:19,469 - INFO - - ada
+2025-05-01 17:18:19,469 - INFO - - emosional dengan
+2025-05-01 17:18:19,469 - INFO - - pada siswa
+2025-05-01 17:18:19,469 - INFO - - smk
+2025-05-01 17:18:19,469 - INFO - - kabupaten semarang
+2025-05-01 17:18:19,469 - INFO - - saran
+2025-05-01 17:18:19,469 - INFO - - remaja
+2025-05-01 17:18:19,469 - INFO - - kasus-kasus kenakalan
+2025-05-01 17:18:19,469 - INFO - - perilaku-perilaku
+2025-05-01 17:18:19,469 - INFO - - cara remaja
+2025-05-01 17:18:19,469 - INFO - - kemampuan
+2025-05-01 17:18:29,668 - INFO - 
+=== All Candidate Keyphrases with Similarity Scores (Sorted) ===
+2025-05-01 17:18:29,668 - INFO - Note: Lower scores indicate more important keyphrases
+2025-05-01 17:18:29,668 - INFO - Candidate: statistik kendall                        Score: 0.9983
+2025-05-01 17:18:29,668 - INFO - Candidate: porpotional random                       Score: 0.9983
+2025-05-01 17:18:29,668 - INFO - Candidate: kasus-kasus kenakalan                    Score: 0.9984
+2025-05-01 17:18:29,668 - INFO - Candidate: nilai p-value                            Score: 0.9985
+2025-05-01 17:18:29,668 - INFO - Candidate: analisis data                            Score: 0.9985
+2025-05-01 17:18:29,669 - INFO - Candidate: pengambilan sampel                       Score: 0.9985
+2025-05-01 17:18:29,669 - INFO - Candidate: kabupaten semarang                       Score: 0.9986
+2025-05-01 17:18:29,669 - INFO - Candidate: kenakalan remaja                         Score: 0.9986
+2025-05-01 17:18:29,669 - INFO - Candidate: sebagian besar                           Score: 0.9986
+2025-05-01 17:18:29,669 - INFO - Candidate: kecerdasan emosional                     Score: 0.9986
+2025-05-01 17:18:29,669 - INFO - Candidate: masa remaja                              Score: 0.9987
+2025-05-01 17:18:29,669 - INFO - Candidate: penelitian deskriptif                    Score: 0.9987
+2025-05-01 17:18:29,669 - INFO - Candidate: perilaku orang                           Score: 0.9987
+2025-05-01 17:18:29,669 - INFO - Candidate: hasil penelitian                         Score: 0.9988
+2025-05-01 17:18:29,669 - INFO - Candidate: pendekatan cross                         Score: 0.9988
+2025-05-01 17:18:29,669 - INFO - Candidate: pada siswa                               Score: 0.9988
+2025-05-01 17:18:29,669 - INFO - Candidate: ungaran barat                            Score: 0.9988
+2025-05-01 17:18:29,670 - INFO - Candidate: smk islam                                Score: 0.9988
+2025-05-01 17:18:29,670 - INFO - Candidate: hubungan kecerdasan                      Score: 0.9989
+2025-05-01 17:18:29,670 - INFO - Candidate: sudirman kecamatan                       Score: 0.9989
+2025-05-01 17:18:29,670 - INFO - Candidate: cara remaja                              Score: 0.9989
+2025-05-01 17:18:29,670 - INFO - Candidate: remaja salah                             Score: 0.9989
+2025-05-01 17:18:29,670 - INFO - Candidate: emosional dengan                         Score: 0.9989
+2025-05-01 17:18:29,670 - INFO - 
+=== Candidate Keyphrases with Similarity Scores ===
+2025-05-01 17:18:29,670 - INFO - Note: Lower scores indicate more important keyphrases
+2025-05-01 17:18:29,670 - INFO - Candidate: statistik kendall                        Score: 0.9983
+2025-05-01 17:18:29,670 - INFO - Candidate: porpotional random                       Score: 0.9983
+2025-05-01 17:18:29,670 - INFO - Candidate: kasus-kasus kenakalan                    Score: 0.9984
+2025-05-01 17:18:29,670 - INFO - Candidate: nilai p-value                            Score: 0.9985
+2025-05-01 17:18:29,670 - INFO - Candidate: analisis data                            Score: 0.9985
+2025-05-01 17:18:29,671 - INFO - Candidate: pengambilan sampel                       Score: 0.9985
+2025-05-01 17:18:29,671 - INFO - Candidate: kabupaten semarang                       Score: 0.9986
+2025-05-01 17:18:29,671 - INFO - Candidate: kenakalan remaja                         Score: 0.9986
+2025-05-01 17:18:29,671 - INFO - Candidate: sebagian besar                           Score: 0.9986
+2025-05-01 17:18:29,671 - INFO - Candidate: kecerdasan emosional                     Score: 0.9986
+2025-05-01 17:18:29,671 - INFO - Candidate: masa remaja                              Score: 0.9987
+2025-05-01 17:18:29,671 - INFO - Candidate: penelitian deskriptif                    Score: 0.9987
+2025-05-01 17:18:29,671 - INFO - Candidate: perilaku orang                           Score: 0.9987
+2025-05-01 17:18:29,671 - INFO - Candidate: hasil penelitian                         Score: 0.9988
+2025-05-01 17:18:29,671 - INFO - Candidate: pendekatan cross                         Score: 0.9988
+2025-05-01 17:18:29,671 - INFO - Candidate: pada siswa                               Score: 0.9988
+2025-05-01 17:18:29,672 - INFO - Candidate: ungaran barat                            Score: 0.9988
+2025-05-01 17:18:29,672 - INFO - Candidate: smk islam                                Score: 0.9988
+2025-05-01 17:18:29,672 - INFO - Candidate: hubungan kecerdasan                      Score: 0.9989
+2025-05-01 17:18:29,672 - INFO - Candidate: sudirman kecamatan                       Score: 0.9989
+2025-05-01 17:18:29,672 - INFO - Candidate: cara remaja                              Score: 0.9989
+2025-05-01 17:18:29,672 - INFO - Candidate: remaja salah                             Score: 0.9989
+2025-05-01 17:18:29,672 - INFO - Candidate: emosional dengan                         Score: 0.9989
+2025-05-01 17:18:29,672 - INFO - 
+=== Final Selected Keyphrases ===
+2025-05-01 17:18:29,672 - INFO - 1. statistik kendall                        Score: 0.9983
+2025-05-01 17:18:29,672 - INFO - 2. porpotional random                       Score: 0.9983
+2025-05-01 17:18:29,672 - INFO - 3. kasus-kasus kenakalan                    Score: 0.9984
+2025-05-01 17:18:29,672 - INFO - 4. nilai p-value                            Score: 0.9985
+2025-05-01 17:18:29,673 - INFO - 5. analisis data                            Score: 0.9985
+2025-05-01 17:18:29,673 - INFO - 6. pengambilan sampel                       Score: 0.9985
+2025-05-01 17:18:29,673 - INFO - 7. kabupaten semarang                       Score: 0.9986
+2025-05-01 17:18:29,673 - INFO - 8. kenakalan remaja                         Score: 0.9986
+2025-05-01 17:18:29,673 - INFO - 9. sebagian besar                           Score: 0.9986
+2025-05-01 17:18:29,673 - INFO - 10. kecerdasan emosional                     Score: 0.9986
+2025-05-01 17:18:29,674 - INFO - 
+
+=== Starting Keyphrase Extraction ===
+2025-05-01 17:18:29,674 - INFO - Input text length: 1228
+2025-05-01 17:18:29,674 - INFO - 
+
+=== New Text Processing ===
+2025-05-01 17:18:29,675 - INFO - Original text: artikel ini membahas dampak penerapan kecerdasan buatan (ai) dalam sistem informasi pada tenaga kerja dan masyarakat.
+penerapan ai telah mengubah cara sistem informasi beroperasi, menciptakan peluang baru, dan menghadirkan tantangan signifikan.
+dalam aspek positif, penggunaan ai telah meningkatkan efisiensi dan produktivitas, meningkatkan kualitas hidup melalui diagnosis medis yang lebih akurat, dan memberikan layanan pelanggan yang lebih baik.
+ai juga mengoptimalkan rantai pasokan dan menyediakan pendidikan yang lebih personal.
+namun, dampak negatif termasuk kehilangan pekerjaan, disparitas ekonomi, bias dalam algoritma, serta isu privasi dan ketergantungan pada teknologi.
+kendati begitu, ai tetap menjadi kekuatan penggerak perubahan dalam sistem informasi yang memerlukan kolaborasi antara pemerintah, perusahaan, dan masyarakat.
+investasi dalam pelatihan tenaga kerja, pengembangan regulasi yang bijaksana, dan penerapan etika dalam penggunaan ai adalah langkah-langkah penting menuju pemanfaatan ai yang berkelanjutan dan bermanfaat bagi masyarakat secara keseluruhan.
+artikel ini memberikan gambaran tentang peran ai dalam transformasi sistem informasi modern dan pentingnya pertimbangan etika dalam penerapannya.
+
+2025-05-01 17:18:29,681 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:29,681 - INFO - artikel              -> ('artikel', 'NN')
+2025-05-01 17:18:29,681 - INFO - ini                  -> ('ini', 'DT')
+2025-05-01 17:18:29,681 - INFO - membahas             -> ('membahas', 'VB')
+2025-05-01 17:18:29,681 - INFO - dampak               -> ('dampak', 'NN')
+2025-05-01 17:18:29,682 - INFO - penerapan            -> ('penerapan', 'NN')
+2025-05-01 17:18:29,682 - INFO - kecerdasan           -> ('kecerdasan', 'NN')
+2025-05-01 17:18:29,682 - INFO - buatan               -> ('buatan', 'NN')
+2025-05-01 17:18:29,682 - INFO - (                    -> ('(', 'SYM')
+2025-05-01 17:18:29,682 - INFO - ai                   -> ('ai', 'VB')
+2025-05-01 17:18:29,682 - INFO - )                    -> (')', 'SYM')
+2025-05-01 17:18:29,682 - INFO - dalam                -> ('dalam', 'IN')
+2025-05-01 17:18:29,682 - INFO - sistem               -> ('sistem', 'NN')
+2025-05-01 17:18:29,682 - INFO - informasi            -> ('informasi', 'NN')
+2025-05-01 17:18:29,682 - INFO - pada                 -> ('pada', 'IN')
+2025-05-01 17:18:29,682 - INFO - tenaga               -> ('tenaga', 'NN')
+2025-05-01 17:18:29,682 - INFO - kerja                -> ('kerja', 'NN')
+2025-05-01 17:18:29,682 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:29,682 - INFO - masyarakat           -> ('masyarakat', 'NN')
+2025-05-01 17:18:29,682 - INFO - 
+Accepted phrase: artikel
+2025-05-01 17:18:29,682 - INFO - POS sequence: NN
+2025-05-01 17:18:29,682 - INFO - 
+Accepted phrase: dampak penerapan
+2025-05-01 17:18:29,682 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,682 - INFO - 
+Accepted phrase: kecerdasan buatan
+2025-05-01 17:18:29,682 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,682 - INFO - 
+Accepted phrase: sistem informasi
+2025-05-01 17:18:29,682 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,682 - INFO - 
+Accepted phrase: tenaga kerja
+2025-05-01 17:18:29,682 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,682 - INFO - 
+Accepted phrase: masyarakat
+2025-05-01 17:18:29,683 - INFO - POS sequence: NN
+2025-05-01 17:18:29,683 - INFO - 
+Extracted 6 unique phrases:
+2025-05-01 17:18:29,683 - INFO - - artikel
+2025-05-01 17:18:29,683 - INFO - - dampak penerapan
+2025-05-01 17:18:29,683 - INFO - - kecerdasan buatan
+2025-05-01 17:18:29,683 - INFO - - sistem informasi
+2025-05-01 17:18:29,683 - INFO - - tenaga kerja
+2025-05-01 17:18:29,683 - INFO - - masyarakat
+2025-05-01 17:18:29,689 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:29,689 - INFO - penerapan            -> ('penerapan', 'NN')
+2025-05-01 17:18:29,689 - INFO - ai                   -> ('ai', 'VB')
+2025-05-01 17:18:29,689 - INFO - telah                -> ('telah', 'ADV')
+2025-05-01 17:18:29,689 - INFO - mengubah             -> ('mengubah', 'VB')
+2025-05-01 17:18:29,689 - INFO - cara                 -> ('cara', 'NN')
+2025-05-01 17:18:29,689 - INFO - sistem               -> ('sistem', 'NN')
+2025-05-01 17:18:29,690 - INFO - informasi            -> ('informasi', 'NN')
+2025-05-01 17:18:29,690 - INFO - beroperasi           -> ('beroperasi', 'VB')
+2025-05-01 17:18:29,690 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,690 - INFO - menciptakan          -> ('menciptakan', 'VB')
+2025-05-01 17:18:29,690 - INFO - peluang              -> ('peluang', 'NN')
+2025-05-01 17:18:29,690 - INFO - baru                 -> ('baru', 'JJ')
+2025-05-01 17:18:29,690 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,690 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:29,690 - INFO - menghadirkan         -> ('menghadirkan', 'VB')
+2025-05-01 17:18:29,690 - INFO - tantangan            -> ('tantangan', 'NN')
+2025-05-01 17:18:29,690 - INFO - signifikan           -> ('signifikan', 'JJ')
+2025-05-01 17:18:29,690 - INFO - 
+Accepted phrase: penerapan
+2025-05-01 17:18:29,690 - INFO - POS sequence: NN
+2025-05-01 17:18:29,690 - INFO - 
+Accepted phrase: cara sistem
+2025-05-01 17:18:29,690 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,690 - INFO - 
+Accepted phrase: informasi
+2025-05-01 17:18:29,690 - INFO - POS sequence: NN
+2025-05-01 17:18:29,690 - INFO - 
+Accepted phrase: peluang baru
+2025-05-01 17:18:29,690 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:29,690 - INFO - 
+Accepted phrase: tantangan signifikan
+2025-05-01 17:18:29,690 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:29,690 - INFO - 
+Extracted 5 unique phrases:
+2025-05-01 17:18:29,691 - INFO - - penerapan
+2025-05-01 17:18:29,691 - INFO - - cara sistem
+2025-05-01 17:18:29,691 - INFO - - informasi
+2025-05-01 17:18:29,691 - INFO - - peluang baru
+2025-05-01 17:18:29,691 - INFO - - tantangan signifikan
+2025-05-01 17:18:29,699 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:29,699 - INFO - dalam                -> ('dalam', 'IN')
+2025-05-01 17:18:29,699 - INFO - aspek                -> ('aspek', 'NN')
+2025-05-01 17:18:29,699 - INFO - positif              -> ('positif', 'JJ')
+2025-05-01 17:18:29,699 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,699 - INFO - penggunaan           -> ('penggunaan', 'NN')
+2025-05-01 17:18:29,699 - INFO - ai                   -> ('ai', 'VB')
+2025-05-01 17:18:29,699 - INFO - telah                -> ('telah', 'ADV')
+2025-05-01 17:18:29,699 - INFO - meningkatkan         -> ('meningkatkan', 'VB')
+2025-05-01 17:18:29,699 - INFO - efisiensi            -> ('efisiensi', 'NN')
+2025-05-01 17:18:29,699 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:29,699 - INFO - produktivitas        -> ('produktivitas', 'NN')
+2025-05-01 17:18:29,699 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,699 - INFO - meningkatkan         -> ('meningkatkan', 'VB')
+2025-05-01 17:18:29,700 - INFO - kualitas             -> ('kualitas', 'NN')
+2025-05-01 17:18:29,700 - INFO - hidup                -> ('hidup', 'VB')
+2025-05-01 17:18:29,700 - INFO - melalui              -> ('melalui', 'IN')
+2025-05-01 17:18:29,700 - INFO - diagnosis            -> ('diagnosis', 'NN')
+2025-05-01 17:18:29,700 - INFO - medis                -> ('medis', 'JJ')
+2025-05-01 17:18:29,700 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:29,700 - INFO - lebih                -> ('lebih', 'ADV')
+2025-05-01 17:18:29,700 - INFO - akurat               -> ('akurat', 'JJ')
+2025-05-01 17:18:29,700 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,700 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:29,700 - INFO - memberikan           -> ('memberikan', 'VB')
+2025-05-01 17:18:29,700 - INFO - layanan              -> ('layanan', 'NN')
+2025-05-01 17:18:29,700 - INFO - pelanggan            -> ('pelanggan', 'NN')
+2025-05-01 17:18:29,700 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:29,700 - INFO - lebih                -> ('lebih', 'ADV')
+2025-05-01 17:18:29,700 - INFO - baik                 -> ('baik', 'JJ')
+2025-05-01 17:18:29,700 - INFO - 
+Accepted phrase: aspek positif
+2025-05-01 17:18:29,700 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:29,700 - INFO - 
+Accepted phrase: penggunaan
+2025-05-01 17:18:29,700 - INFO - POS sequence: NN
+2025-05-01 17:18:29,700 - INFO - 
+Accepted phrase: efisiensi
+2025-05-01 17:18:29,700 - INFO - POS sequence: NN
+2025-05-01 17:18:29,700 - INFO - 
+Accepted phrase: produktivitas
+2025-05-01 17:18:29,701 - INFO - POS sequence: NN
+2025-05-01 17:18:29,701 - INFO - 
+Accepted phrase: kualitas
+2025-05-01 17:18:29,701 - INFO - POS sequence: NN
+2025-05-01 17:18:29,701 - INFO - 
+Accepted phrase: diagnosis medis
+2025-05-01 17:18:29,701 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:29,701 - INFO - 
+Accepted phrase: layanan pelanggan
+2025-05-01 17:18:29,701 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,701 - INFO - 
+Extracted 7 unique phrases:
+2025-05-01 17:18:29,701 - INFO - - aspek positif
+2025-05-01 17:18:29,701 - INFO - - penggunaan
+2025-05-01 17:18:29,701 - INFO - - efisiensi
+2025-05-01 17:18:29,701 - INFO - - produktivitas
+2025-05-01 17:18:29,701 - INFO - - kualitas
+2025-05-01 17:18:29,701 - INFO - - diagnosis medis
+2025-05-01 17:18:29,701 - INFO - - layanan pelanggan
+2025-05-01 17:18:29,708 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:29,708 - INFO - ai                   -> ('ai', 'VB')
+2025-05-01 17:18:29,708 - INFO - juga                 -> ('juga', 'ADV')
+2025-05-01 17:18:29,708 - INFO - mengoptimalkan       -> ('mengoptimalkan', 'VB')
+2025-05-01 17:18:29,708 - INFO - rantai               -> ('rantai', 'VB')
+2025-05-01 17:18:29,708 - INFO - pasokan              -> ('pasokan', 'NN')
+2025-05-01 17:18:29,708 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:29,708 - INFO - menyediakan          -> ('menyediakan', 'VB')
+2025-05-01 17:18:29,708 - INFO - pendidikan           -> ('pendidikan', 'NN')
+2025-05-01 17:18:29,708 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:29,708 - INFO - lebih                -> ('lebih', 'ADV')
+2025-05-01 17:18:29,708 - INFO - personal             -> ('personal', 'JJ')
+2025-05-01 17:18:29,708 - INFO - 
+Accepted phrase: pasokan
+2025-05-01 17:18:29,708 - INFO - POS sequence: NN
+2025-05-01 17:18:29,708 - INFO - 
+Accepted phrase: pendidikan
+2025-05-01 17:18:29,709 - INFO - POS sequence: NN
+2025-05-01 17:18:29,709 - INFO - 
+Extracted 2 unique phrases:
+2025-05-01 17:18:29,709 - INFO - - pasokan
+2025-05-01 17:18:29,709 - INFO - - pendidikan
+2025-05-01 17:18:29,716 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:29,716 - INFO - namun                -> ('namun', 'CC')
+2025-05-01 17:18:29,716 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,716 - INFO - dampak               -> ('dampak', 'NN')
+2025-05-01 17:18:29,716 - INFO - negatif              -> ('negatif', 'JJ')
+2025-05-01 17:18:29,716 - INFO - termasuk             -> ('termasuk', 'VB')
+2025-05-01 17:18:29,716 - INFO - kehilangan           -> ('kehilangan', 'NN')
+2025-05-01 17:18:29,716 - INFO - pekerjaan            -> ('pekerjaan', 'NN')
+2025-05-01 17:18:29,716 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,716 - INFO - disparitas           -> ('disparitas', 'VB')
+2025-05-01 17:18:29,716 - INFO - ekonomi              -> ('ekonomi', 'NN')
+2025-05-01 17:18:29,716 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,716 - INFO - bias                 -> ('bias', 'NN')
+2025-05-01 17:18:29,716 - INFO - dalam                -> ('dalam', 'IN')
+2025-05-01 17:18:29,716 - INFO - algoritma            -> ('algoritma', 'NN')
+2025-05-01 17:18:29,717 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,717 - INFO - serta                -> ('serta', 'CC')
+2025-05-01 17:18:29,717 - INFO - isu                  -> ('isu', 'NN')
+2025-05-01 17:18:29,717 - INFO - privasi              -> ('privasi', 'NN')
+2025-05-01 17:18:29,717 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:29,717 - INFO - ketergantungan       -> ('ketergantungan', 'NN')
+2025-05-01 17:18:29,717 - INFO - pada                 -> ('pada', 'IN')
+2025-05-01 17:18:29,717 - INFO - teknologi            -> ('teknologi', 'NN')
+2025-05-01 17:18:29,717 - INFO - 
+Accepted phrase: dampak negatif
+2025-05-01 17:18:29,717 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:29,717 - INFO - 
+Accepted phrase: kehilangan pekerjaan
+2025-05-01 17:18:29,717 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,717 - INFO - 
+Accepted phrase: ekonomi
+2025-05-01 17:18:29,717 - INFO - POS sequence: NN
+2025-05-01 17:18:29,717 - INFO - 
+Accepted phrase: bias
+2025-05-01 17:18:29,717 - INFO - POS sequence: NN
+2025-05-01 17:18:29,717 - INFO - 
+Accepted phrase: algoritma
+2025-05-01 17:18:29,717 - INFO - POS sequence: NN
+2025-05-01 17:18:29,717 - INFO - 
+Accepted phrase: isu privasi
+2025-05-01 17:18:29,717 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,717 - INFO - 
+Accepted phrase: ketergantungan
+2025-05-01 17:18:29,717 - INFO - POS sequence: NN
+2025-05-01 17:18:29,717 - INFO - 
+Accepted phrase: teknologi
+2025-05-01 17:18:29,718 - INFO - POS sequence: NN
+2025-05-01 17:18:29,718 - INFO - 
+Extracted 8 unique phrases:
+2025-05-01 17:18:29,718 - INFO - - dampak negatif
+2025-05-01 17:18:29,718 - INFO - - kehilangan pekerjaan
+2025-05-01 17:18:29,718 - INFO - - ekonomi
+2025-05-01 17:18:29,718 - INFO - - bias
+2025-05-01 17:18:29,718 - INFO - - algoritma
+2025-05-01 17:18:29,718 - INFO - - isu privasi
+2025-05-01 17:18:29,718 - INFO - - ketergantungan
+2025-05-01 17:18:29,718 - INFO - - teknologi
+2025-05-01 17:18:29,725 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:29,725 - INFO - kendati              -> ('kendati', 'VB')
+2025-05-01 17:18:29,725 - INFO - begitu               -> ('begitu', 'PR')
+2025-05-01 17:18:29,725 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,725 - INFO - ai                   -> ('ai', 'VB')
+2025-05-01 17:18:29,725 - INFO - tetap                -> ('tetap', 'ADV')
+2025-05-01 17:18:29,725 - INFO - menjadi              -> ('menjadi', 'VB')
+2025-05-01 17:18:29,725 - INFO - kekuatan             -> ('kekuatan', 'NN')
+2025-05-01 17:18:29,725 - INFO - penggerak            -> ('penggerak', 'NN')
+2025-05-01 17:18:29,725 - INFO - perubahan            -> ('perubahan', 'NN')
+2025-05-01 17:18:29,726 - INFO - dalam                -> ('dalam', 'IN')
+2025-05-01 17:18:29,726 - INFO - sistem               -> ('sistem', 'NN')
+2025-05-01 17:18:29,726 - INFO - informasi            -> ('informasi', 'NN')
+2025-05-01 17:18:29,726 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:29,726 - INFO - memerlukan           -> ('memerlukan', 'VB')
+2025-05-01 17:18:29,726 - INFO - kolaborasi           -> ('kolaborasi', 'NN')
+2025-05-01 17:18:29,726 - INFO - antara               -> ('antara', 'IN')
+2025-05-01 17:18:29,726 - INFO - pemerintah           -> ('pemerintah', 'NN')
+2025-05-01 17:18:29,726 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,726 - INFO - perusahaan           -> ('perusahaan', 'NN')
+2025-05-01 17:18:29,726 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,726 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:29,726 - INFO - masyarakat           -> ('masyarakat', 'NN')
+2025-05-01 17:18:29,726 - INFO - 
+Accepted phrase: kekuatan penggerak
+2025-05-01 17:18:29,726 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,726 - INFO - 
+Accepted phrase: perubahan
+2025-05-01 17:18:29,726 - INFO - POS sequence: NN
+2025-05-01 17:18:29,726 - INFO - 
+Accepted phrase: sistem informasi
+2025-05-01 17:18:29,726 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,726 - INFO - 
+Accepted phrase: kolaborasi
+2025-05-01 17:18:29,726 - INFO - POS sequence: NN
+2025-05-01 17:18:29,726 - INFO - 
+Accepted phrase: pemerintah
+2025-05-01 17:18:29,726 - INFO - POS sequence: NN
+2025-05-01 17:18:29,726 - INFO - 
+Accepted phrase: perusahaan
+2025-05-01 17:18:29,726 - INFO - POS sequence: NN
+2025-05-01 17:18:29,726 - INFO - 
+Accepted phrase: masyarakat
+2025-05-01 17:18:29,726 - INFO - POS sequence: NN
+2025-05-01 17:18:29,726 - INFO - 
+Extracted 7 unique phrases:
+2025-05-01 17:18:29,727 - INFO - - kekuatan penggerak
+2025-05-01 17:18:29,727 - INFO - - perubahan
+2025-05-01 17:18:29,727 - INFO - - sistem informasi
+2025-05-01 17:18:29,727 - INFO - - kolaborasi
+2025-05-01 17:18:29,727 - INFO - - pemerintah
+2025-05-01 17:18:29,727 - INFO - - perusahaan
+2025-05-01 17:18:29,727 - INFO - - masyarakat
+2025-05-01 17:18:29,733 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:29,733 - INFO - investasi            -> ('investasi', 'NN')
+2025-05-01 17:18:29,733 - INFO - dalam                -> ('dalam', 'IN')
+2025-05-01 17:18:29,733 - INFO - pelatihan            -> ('pelatihan', 'NN')
+2025-05-01 17:18:29,733 - INFO - tenaga               -> ('tenaga', 'NN')
+2025-05-01 17:18:29,733 - INFO - kerja                -> ('kerja', 'NN')
+2025-05-01 17:18:29,734 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,734 - INFO - pengembangan         -> ('pengembangan', 'NN')
+2025-05-01 17:18:29,734 - INFO - regulasi             -> ('regulasi', 'NN')
+2025-05-01 17:18:29,734 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:29,734 - INFO - bijaksana            -> ('bijaksana', 'NN')
+2025-05-01 17:18:29,734 - INFO - ,                    -> (',', 'SYM')
+2025-05-01 17:18:29,734 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:29,734 - INFO - penerapan            -> ('penerapan', 'NN')
+2025-05-01 17:18:29,734 - INFO - etika                -> ('etika', 'NN')
+2025-05-01 17:18:29,734 - INFO - dalam                -> ('dalam', 'IN')
+2025-05-01 17:18:29,734 - INFO - penggunaan           -> ('penggunaan', 'NN')
+2025-05-01 17:18:29,734 - INFO - ai                   -> ('ai', 'VB')
+2025-05-01 17:18:29,734 - INFO - adalah               -> ('adalah', 'ADV')
+2025-05-01 17:18:29,734 - INFO - langkah-langkah      -> ('langkah-langkah', 'NN')
+2025-05-01 17:18:29,734 - INFO - penting              -> ('penting', 'JJ')
+2025-05-01 17:18:29,734 - INFO - menuju               -> ('menuju', 'VB')
+2025-05-01 17:18:29,734 - INFO - pemanfaatan          -> ('pemanfaatan', 'NN')
+2025-05-01 17:18:29,734 - INFO - ai                   -> ('ai', 'VB')
+2025-05-01 17:18:29,734 - INFO - yang                 -> ('yang', 'PR')
+2025-05-01 17:18:29,734 - INFO - berkelanjutan        -> ('berkelanjutan', 'VB')
+2025-05-01 17:18:29,734 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:29,734 - INFO - bermanfaat           -> ('bermanfaat', 'VB')
+2025-05-01 17:18:29,734 - INFO - bagi                 -> ('bagi', 'IN')
+2025-05-01 17:18:29,734 - INFO - masyarakat           -> ('masyarakat', 'NN')
+2025-05-01 17:18:29,734 - INFO - secara               -> ('secara', 'IN')
+2025-05-01 17:18:29,734 - INFO - keseluruhan          -> ('keseluruhan', 'NN')
+2025-05-01 17:18:29,734 - INFO - 
+Accepted phrase: investasi
+2025-05-01 17:18:29,734 - INFO - POS sequence: NN
+2025-05-01 17:18:29,735 - INFO - 
+Accepted phrase: pelatihan tenaga
+2025-05-01 17:18:29,735 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,735 - INFO - 
+Accepted phrase: kerja
+2025-05-01 17:18:29,735 - INFO - POS sequence: NN
+2025-05-01 17:18:29,735 - INFO - 
+Accepted phrase: pengembangan regulasi
+2025-05-01 17:18:29,735 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,735 - INFO - 
+Accepted phrase: bijaksana
+2025-05-01 17:18:29,735 - INFO - POS sequence: NN
+2025-05-01 17:18:29,735 - INFO - 
+Accepted phrase: penerapan etika
+2025-05-01 17:18:29,735 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,735 - INFO - 
+Accepted phrase: penggunaan
+2025-05-01 17:18:29,735 - INFO - POS sequence: NN
+2025-05-01 17:18:29,735 - INFO - 
+Accepted phrase: langkah-langkah penting
+2025-05-01 17:18:29,735 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:29,735 - INFO - 
+Accepted phrase: pemanfaatan
+2025-05-01 17:18:29,735 - INFO - POS sequence: NN
+2025-05-01 17:18:29,735 - INFO - 
+Accepted phrase: masyarakat
+2025-05-01 17:18:29,735 - INFO - POS sequence: NN
+2025-05-01 17:18:29,735 - INFO - 
+Accepted phrase: keseluruhan
+2025-05-01 17:18:29,735 - INFO - POS sequence: NN
+2025-05-01 17:18:29,735 - INFO - 
+Extracted 11 unique phrases:
+2025-05-01 17:18:29,735 - INFO - - investasi
+2025-05-01 17:18:29,735 - INFO - - pelatihan tenaga
+2025-05-01 17:18:29,735 - INFO - - kerja
+2025-05-01 17:18:29,735 - INFO - - pengembangan regulasi
+2025-05-01 17:18:29,735 - INFO - - bijaksana
+2025-05-01 17:18:29,735 - INFO - - penerapan etika
+2025-05-01 17:18:29,735 - INFO - - penggunaan
+2025-05-01 17:18:29,735 - INFO - - langkah-langkah penting
+2025-05-01 17:18:29,736 - INFO - - pemanfaatan
+2025-05-01 17:18:29,736 - INFO - - masyarakat
+2025-05-01 17:18:29,736 - INFO - - keseluruhan
+2025-05-01 17:18:29,742 - INFO - 
+POS Tagging Results:
+2025-05-01 17:18:29,742 - INFO - artikel              -> ('artikel', 'NN')
+2025-05-01 17:18:29,742 - INFO - ini                  -> ('ini', 'DT')
+2025-05-01 17:18:29,742 - INFO - memberikan           -> ('memberikan', 'VB')
+2025-05-01 17:18:29,742 - INFO - gambaran             -> ('gambaran', 'NN')
+2025-05-01 17:18:29,742 - INFO - tentang              -> ('tentang', 'IN')
+2025-05-01 17:18:29,742 - INFO - peran                -> ('peran', 'NN')
+2025-05-01 17:18:29,742 - INFO - ai                   -> ('ai', 'VB')
+2025-05-01 17:18:29,742 - INFO - dalam                -> ('dalam', 'SC')
+2025-05-01 17:18:29,742 - INFO - transformasi         -> ('transformasi', 'NN')
+2025-05-01 17:18:29,742 - INFO - sistem               -> ('sistem', 'NN')
+2025-05-01 17:18:29,742 - INFO - informasi            -> ('informasi', 'NN')
+2025-05-01 17:18:29,742 - INFO - modern               -> ('modern', 'JJ')
+2025-05-01 17:18:29,742 - INFO - dan                  -> ('dan', 'CC')
+2025-05-01 17:18:29,742 - INFO - penting              -> ('penting', 'JJ')
+2025-05-01 17:18:29,742 - INFO - nya                  -> ('nya', 'DT')
+2025-05-01 17:18:29,742 - INFO - pertimbangan         -> ('pertimbangan', 'NN')
+2025-05-01 17:18:29,742 - INFO - etika                -> ('etika', 'NN')
+2025-05-01 17:18:29,742 - INFO - dalam                -> ('dalam', 'IN')
+2025-05-01 17:18:29,742 - INFO - penerapan            -> ('penerapan', 'NN')
+2025-05-01 17:18:29,742 - INFO - nya                  -> ('nya', 'DT')
+2025-05-01 17:18:29,742 - INFO - 
+Accepted phrase: artikel
+2025-05-01 17:18:29,742 - INFO - POS sequence: NN
+2025-05-01 17:18:29,742 - INFO - 
+Accepted phrase: gambaran
+2025-05-01 17:18:29,742 - INFO - POS sequence: NN
+2025-05-01 17:18:29,742 - INFO - 
+Accepted phrase: peran
+2025-05-01 17:18:29,743 - INFO - POS sequence: NN
+2025-05-01 17:18:29,743 - INFO - 
+Accepted phrase: transformasi sistem
+2025-05-01 17:18:29,743 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,743 - INFO - 
+Accepted phrase: informasi modern
+2025-05-01 17:18:29,743 - INFO - POS sequence: NN JJ
+2025-05-01 17:18:29,743 - INFO - 
+Accepted phrase: pertimbangan etika
+2025-05-01 17:18:29,743 - INFO - POS sequence: NN NN
+2025-05-01 17:18:29,743 - INFO - 
+Accepted phrase: penerapan
+2025-05-01 17:18:29,743 - INFO - POS sequence: NN
+2025-05-01 17:18:29,743 - INFO - 
+Extracted 7 unique phrases:
+2025-05-01 17:18:29,743 - INFO - - artikel
+2025-05-01 17:18:29,743 - INFO - - gambaran
+2025-05-01 17:18:29,743 - INFO - - peran
+2025-05-01 17:18:29,743 - INFO - - transformasi sistem
+2025-05-01 17:18:29,743 - INFO - - informasi modern
+2025-05-01 17:18:29,743 - INFO - - pertimbangan etika
+2025-05-01 17:18:29,743 - INFO - - penerapan
+2025-05-01 17:18:29,743 - INFO - 
+Total unique candidates found: 47
+2025-05-01 17:18:29,743 - INFO - Final candidates:
+2025-05-01 17:18:29,743 - INFO - - artikel
+2025-05-01 17:18:29,743 - INFO - - dampak penerapan
+2025-05-01 17:18:29,743 - INFO - - kecerdasan buatan
+2025-05-01 17:18:29,743 - INFO - - sistem informasi
+2025-05-01 17:18:29,743 - INFO - - tenaga kerja
+2025-05-01 17:18:29,743 - INFO - - masyarakat
+2025-05-01 17:18:29,743 - INFO - - penerapan
+2025-05-01 17:18:29,743 - INFO - - cara sistem
+2025-05-01 17:18:29,743 - INFO - - informasi
+2025-05-01 17:18:29,743 - INFO - - peluang baru
+2025-05-01 17:18:29,744 - INFO - - tantangan signifikan
+2025-05-01 17:18:29,744 - INFO - - aspek positif
+2025-05-01 17:18:29,744 - INFO - - penggunaan
+2025-05-01 17:18:29,744 - INFO - - efisiensi
+2025-05-01 17:18:29,744 - INFO - - produktivitas
+2025-05-01 17:18:29,744 - INFO - - kualitas
+2025-05-01 17:18:29,744 - INFO - - diagnosis medis
+2025-05-01 17:18:29,744 - INFO - - layanan pelanggan
+2025-05-01 17:18:29,744 - INFO - - pasokan
+2025-05-01 17:18:29,744 - INFO - - pendidikan
+2025-05-01 17:18:29,744 - INFO - - dampak negatif
+2025-05-01 17:18:29,744 - INFO - - kehilangan pekerjaan
+2025-05-01 17:18:29,744 - INFO - - ekonomi
+2025-05-01 17:18:29,744 - INFO - - bias
+2025-05-01 17:18:29,744 - INFO - - algoritma
+2025-05-01 17:18:29,744 - INFO - - isu privasi
+2025-05-01 17:18:29,744 - INFO - - ketergantungan
+2025-05-01 17:18:29,744 - INFO - - teknologi
+2025-05-01 17:18:29,744 - INFO - - kekuatan penggerak
+2025-05-01 17:18:29,744 - INFO - - perubahan
+2025-05-01 17:18:29,744 - INFO - - kolaborasi
+2025-05-01 17:18:29,744 - INFO - - pemerintah
+2025-05-01 17:18:29,744 - INFO - - perusahaan
+2025-05-01 17:18:29,744 - INFO - - investasi
+2025-05-01 17:18:29,744 - INFO - - pelatihan tenaga
+2025-05-01 17:18:29,744 - INFO - - kerja
+2025-05-01 17:18:29,744 - INFO - - pengembangan regulasi
+2025-05-01 17:18:29,744 - INFO - - bijaksana
+2025-05-01 17:18:29,744 - INFO - - penerapan etika
+2025-05-01 17:18:29,744 - INFO - - langkah-langkah penting
+2025-05-01 17:18:29,745 - INFO - - pemanfaatan
+2025-05-01 17:18:29,745 - INFO - - keseluruhan
+2025-05-01 17:18:29,745 - INFO - - gambaran
+2025-05-01 17:18:29,745 - INFO - - peran
+2025-05-01 17:18:29,745 - INFO - - transformasi sistem
+2025-05-01 17:18:29,745 - INFO - - informasi modern
+2025-05-01 17:18:29,745 - INFO - - pertimbangan etika
+2025-05-01 17:18:36,175 - INFO - 
+=== All Candidate Keyphrases with Similarity Scores (Sorted) ===
+2025-05-01 17:18:36,175 - INFO - Note: Lower scores indicate more important keyphrases
+2025-05-01 17:18:36,175 - INFO - Candidate: kecerdasan buatan                        Score: 0.9954
+2025-05-01 17:18:36,175 - INFO - Candidate: dampak penerapan                         Score: 0.9956
+2025-05-01 17:18:36,175 - INFO - Candidate: tantangan signifikan                     Score: 0.9956
+2025-05-01 17:18:36,176 - INFO - Candidate: kekuatan penggerak                       Score: 0.9960
+2025-05-01 17:18:36,176 - INFO - Candidate: pengembangan regulasi                    Score: 0.9961
+2025-05-01 17:18:36,176 - INFO - Candidate: sistem informasi                         Score: 0.9961
+2025-05-01 17:18:36,176 - INFO - Candidate: tenaga kerja                             Score: 0.9962
+2025-05-01 17:18:36,176 - INFO - Candidate: isu privasi                              Score: 0.9963
+2025-05-01 17:18:36,176 - INFO - Candidate: diagnosis medis                          Score: 0.9963
+2025-05-01 17:18:36,176 - INFO - Candidate: aspek positif                            Score: 0.9964
+2025-05-01 17:18:36,176 - INFO - Candidate: kehilangan pekerjaan                     Score: 0.9964
+2025-05-01 17:18:36,176 - INFO - Candidate: penerapan etika                          Score: 0.9965
+2025-05-01 17:18:36,176 - INFO - Candidate: layanan pelanggan                        Score: 0.9965
+2025-05-01 17:18:36,176 - INFO - Candidate: peluang baru                             Score: 0.9966
+2025-05-01 17:18:36,177 - INFO - Candidate: langkah-langkah penting                  Score: 0.9966
+2025-05-01 17:18:36,177 - INFO - Candidate: dampak negatif                           Score: 0.9966
+2025-05-01 17:18:36,177 - INFO - Candidate: pertimbangan etika                       Score: 0.9967
+2025-05-01 17:18:36,177 - INFO - Candidate: pelatihan tenaga                         Score: 0.9967
+2025-05-01 17:18:36,177 - INFO - Candidate: transformasi sistem                      Score: 0.9970
+2025-05-01 17:18:36,177 - INFO - Candidate: cara sistem                              Score: 0.9970
+2025-05-01 17:18:36,177 - INFO - Candidate: informasi modern                         Score: 0.9971
+2025-05-01 17:18:36,177 - INFO - 
+=== Candidate Keyphrases with Similarity Scores ===
+2025-05-01 17:18:36,177 - INFO - Note: Lower scores indicate more important keyphrases
+2025-05-01 17:18:36,177 - INFO - Candidate: kecerdasan buatan                        Score: 0.9954
+2025-05-01 17:18:36,177 - INFO - Candidate: dampak penerapan                         Score: 0.9956
+2025-05-01 17:18:36,178 - INFO - Candidate: tantangan signifikan                     Score: 0.9956
+2025-05-01 17:18:36,178 - INFO - Candidate: kekuatan penggerak                       Score: 0.9960
+2025-05-01 17:18:36,178 - INFO - Candidate: pengembangan regulasi                    Score: 0.9961
+2025-05-01 17:18:36,178 - INFO - Candidate: sistem informasi                         Score: 0.9961
+2025-05-01 17:18:36,178 - INFO - Candidate: tenaga kerja                             Score: 0.9962
+2025-05-01 17:18:36,178 - INFO - Candidate: isu privasi                              Score: 0.9963
+2025-05-01 17:18:36,178 - INFO - Candidate: diagnosis medis                          Score: 0.9963
+2025-05-01 17:18:36,178 - INFO - Candidate: aspek positif                            Score: 0.9964
+2025-05-01 17:18:36,178 - INFO - Candidate: kehilangan pekerjaan                     Score: 0.9964
+2025-05-01 17:18:36,178 - INFO - Candidate: penerapan etika                          Score: 0.9965
+2025-05-01 17:18:36,179 - INFO - Candidate: layanan pelanggan                        Score: 0.9965
+2025-05-01 17:18:36,179 - INFO - Candidate: peluang baru                             Score: 0.9966
+2025-05-01 17:18:36,179 - INFO - Candidate: langkah-langkah penting                  Score: 0.9966
+2025-05-01 17:18:36,179 - INFO - Candidate: dampak negatif                           Score: 0.9966
+2025-05-01 17:18:36,179 - INFO - Candidate: pertimbangan etika                       Score: 0.9967
+2025-05-01 17:18:36,179 - INFO - Candidate: pelatihan tenaga                         Score: 0.9967
+2025-05-01 17:18:36,179 - INFO - Candidate: transformasi sistem                      Score: 0.9970
+2025-05-01 17:18:36,179 - INFO - Candidate: cara sistem                              Score: 0.9970
+2025-05-01 17:18:36,179 - INFO - Candidate: informasi modern                         Score: 0.9971
+2025-05-01 17:18:36,179 - INFO - 
+=== Final Selected Keyphrases ===
+2025-05-01 17:18:36,179 - INFO - 1. kecerdasan buatan                        Score: 0.9954
+2025-05-01 17:18:36,180 - INFO - 2. dampak penerapan                         Score: 0.9956
+2025-05-01 17:18:36,180 - INFO - 3. tantangan signifikan                     Score: 0.9956
+2025-05-01 17:18:36,180 - INFO - 4. kekuatan penggerak                       Score: 0.9960
+2025-05-01 17:18:36,180 - INFO - 5. pengembangan regulasi                    Score: 0.9961
+2025-05-01 17:18:36,180 - INFO - 6. sistem informasi                         Score: 0.9961
+2025-05-01 17:18:36,180 - INFO - 7. tenaga kerja                             Score: 0.9962
+2025-05-01 17:18:36,180 - INFO - 8. isu privasi                              Score: 0.9963
+2025-05-01 17:18:36,180 - INFO - 9. diagnosis medis                          Score: 0.9963
+2025-05-01 17:18:36,180 - INFO - 10. aspek positif                            Score: 0.9964

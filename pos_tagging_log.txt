@@ -1,2606 +1,671 @@
 
 
 === Starting Keyphrase Extraction ===
-Input text length: 3958
+Input text length: 1649
 
 
 === New Text Processing ===
-Original text: tips memulai bisnis online untuk pemula: panduan lengkap memulai bisnis online kini menjadi pilihan banyak orang yang ingin meraih penghasilan tambahan atau bahkan membangun karier mandiri.
-dengan perkembangan teknologi dan akses internet yang luas, peluang untuk sukses di dunia digital semakin terbuka lebar.
-namun, bagi pemula, langkah awal bisa terasa membingungkan.
-artikel ini akan membahas secara lengkap tips memulai bisnis online, mulai dari perencanaan hingga strategi pemasaran digital.
-​ 1.
-tentukan niche atau pasar yang tepat langkah pertama dalam memulai bisnis online adalah menentukan niche atau pasar yang ingin anda tuju.
-pilihlah bidang yang sesuai dengan minat dan keahlian anda, serta memiliki potensi pasar yang menjanjikan.
-misalnya, jika anda memiliki passion di bidang fashion, anda bisa memulai bisnis online dengan menjual pakaian atau aksesori.
-​ 2.
-lakukan riset pasar sebelum memulai, lakukan riset pasar untuk memahami kebutuhan dan preferensi konsumen.
-gunakan tools seperti google trends atau survei online untuk mengumpulkan data.
-riset ini akan membantu anda menentukan produk atau layanan yang tepat serta strategi pemasaran yang efektif.
-​ 3.
-buat rencana bisnis yang jelas rencana bisnis adalah panduan yang akan membantu anda menjalankan bisnis online dengan terstruktur.
-dalam rencana ini, cantumkan tujuan bisnis, target pasar, strategi pemasaran, analisis kompetitor, dan proyeksi keuangan.
-dengan rencana yang matang, anda dapat mengantisipasi tantangan dan mengambil keputusan yang tepat.
-​ markbro.
-com +2 saungwriter +2 jobstreet +2 4.
-bangun brand yang kuat branding adalah kunci untuk membedakan bisnis anda dari kompetitor.
-tentukan nama brand yang unik dan mudah diingat, desain logo yang menarik, serta konsisten dalam penggunaan warna dan gaya komunikasi.
-brand yang kuat akan meningkatkan kepercayaan konsumen dan loyalitas pelanggan.
-​ 5.
-pilih platform penjualan yang sesuai ada berbagai platform yang bisa anda gunakan untuk menjual produk secara online, seperti marketplace (tokopedia, shopee), media sosial (instagram, facebook), atau website pribadi.
-pilih platform yang sesuai dengan target pasar dan jenis produk anda.
-jika memungkinkan, kombinasikan beberapa platform untuk menjangkau audiens yang lebih luas.
-​ 6.
-optimalkan website dengan seo jika anda menggunakan website sebagai platform penjualan, pastikan untuk mengoptimalkannya dengan teknik seo (search engine optimization).
-gunakan kata kunci yang relevan, buat konten berkualitas, dan pastikan website anda mobile-friendly.
-dengan seo yang baik, website anda akan lebih mudah ditemukan di mesin pencari seperti google.
-​ 7.
-manfaatkan media sosial untuk promosi media sosial adalah alat yang efektif untuk mempromosikan bisnis online anda.
-buat konten yang menarik dan interaktif, seperti foto produk, video tutorial, atau testimoni pelanggan.
-gunakan fitur iklan berbayar untuk menjangkau audiens yang lebih spesifik dan meningkatkan penjualan.
-​ 8.
-kelola keuangan dengan bijak pengelolaan keuangan yang baik adalah kunci keberhasilan bisnis.
-catat semua pemasukan dan pengeluaran, pisahkan keuangan pribadi dan bisnis, serta alokasikan dana untuk pengembangan usaha.
-gunakan aplikasi keuangan atau spreadsheet untuk memudahkan pencatatan dan analisis.
-​ 9.
-berikan pelayanan pelanggan yang prima pelayanan pelanggan yang baik akan meningkatkan kepuasan dan loyalitas pelanggan.
-tanggapi pertanyaan dan keluhan dengan cepat dan profesional, serta berikan solusi yang memuaskan.
-pertimbangkan untuk menyediakan layanan purna jual, seperti garansi atau dukungan teknis.
-​ 10.
-evaluasi dan tingkatkan strategi bisnis secara rutin, evaluasi kinerja bisnis anda untuk mengetahui apa yang sudah berjalan baik dan apa yang perlu diperbaiki.
-gunakan data penjualan, feedback pelanggan, dan analisis kompetitor sebagai bahan evaluasi.
-dengan evaluasi yang tepat, anda dapat mengembangkan strategi yang lebih efektif untuk pertumbuhan bisnis.
+Original text: masa remaja merupakan masa yang rentan dengan perilaku menyimpang yang memiliki rasa ingin tahu yang tinggi dan cenderung meniru perilaku orang dewasa yang ada disekitarnya yang akan mengakibatkan terjadinya kenakalan remaja.
+faktor yang mempengaruhi remaja salah satunya adalah kecerdasan emosional.
+penelitian ini bertujuan untuk mengetahui hubungan kecerdasan emosional dengan kenakalan remaja pada siswa di smk islam sudirman kecamatan ungaran barat kabupaten semarang.
+penelitian ini merupakan penelitian deskriptif korelasi dengan pendekatan cross sectional.
+pengambilan sampel dengan porpotional random sampling.
+besarnya sampel adalah 76 siswa di smkislam sudirman kecamatan ungaran barat kabupaten semarang.
+instrumen penelitiannya berupa kuesioner.
+analisis data menggunakan uji statistik kendall tau.
+kemudian hasil penelitian didapatkan bahwa sebagian besar kecerdasan emosional adalah rendah sebanyak 34 responden (44,7), dan didapatkan bahwa sebagian besar kenakalan remaja adalah sedang sebanyak 43 responden (56,6).
+hasil penelitian melalui uji statistik kendall tau didapatkan nilai p-value 0,000<=0,05 yang artinya ada hubungan kecerdasan emosional dengan kenakalan remaja pada siswa di smk islam sudirman kecamatan ungaran barat kabupaten semarang.
+saran dalam penelitian ini adalah remaja diharapkan lebih peka dengan kasus-kasus kenakalan yang marak terjadi.
+dengan demikian, para remaja bisa merefleksikan diri agar terhindar dari perilaku-perilaku tersebut.
+salah satu cara remaja untuk dapat terhindar adalah dengan mengembangkan kecerdasan emosionalnya, karena kecerdasan emosional merupakan kemampuan yang bisa dipelajari.
 
 
 POS Tagging Results:
-tips                 -> ('tips', 'NN')
-memulai              -> ('memulai', 'VB')
-bisnis               -> ('bisnis', 'NN')
-online               -> ('online', 'JJ')
-untuk                -> ('untuk', 'SC')
-pemula               -> ('pemula', 'NN')
-:                    -> (':', 'SYM')
-panduan              -> ('panduan', 'NN')
-lengkap              -> ('lengkap', 'JJ')
-memulai              -> ('memulai', 'VB')
-bisnis               -> ('bisnis', 'NN')
-online               -> ('online', 'JJ')
-kini                 -> ('kini', 'NN')
-menjadi              -> ('menjadi', 'VB')
-pilihan              -> ('pilihan', 'NN')
-banyak               -> ('banyak', 'DT')
+masa                 -> ('masa', 'NN')
+remaja               -> ('remaja', 'NN')
+merupakan            -> ('merupakan', 'VB')
+masa                 -> ('masa', 'NN')
+yang                 -> ('yang', 'PR')
+rentan               -> ('rentan', 'JJ')
+dengan               -> ('dengan', 'IN')
+perilaku             -> ('perilaku', 'NN')
+menyimpang           -> ('menyimpang', 'VB')
+yang                 -> ('yang', 'PR')
+memiliki             -> ('memiliki', 'VB')
+rasa                 -> ('rasa', 'NN')
+ingin                -> ('ingin', 'ADV')
+tahu                 -> ('tahu', 'VB')
+yang                 -> ('yang', 'PR')
+tinggi               -> ('tinggi', 'JJ')
+dan                  -> ('dan', 'CC')
+cenderung            -> ('cenderung', 'JJ')
+meniru               -> ('meniru', 'VB')
+perilaku             -> ('perilaku', 'NN')
 orang                -> ('orang', 'NN')
+dewasa               -> ('dewasa', 'JJ')
 yang                 -> ('yang', 'PR')
-ingin                -> ('ingin', 'ADV')
-meraih               -> ('meraih', 'VB')
-penghasilan          -> ('penghasilan', 'NN')
-tambahan             -> ('tambahan', 'NN')
-atau                 -> ('atau', 'CC')
-bahkan               -> ('bahkan', 'IN')
-membangun            -> ('membangun', 'VB')
-karier               -> ('karier', 'NN')
-mandiri              -> ('mandiri', 'JJ')
-
-Accepted phrase: tips
-POS sequence: NN
-
-Accepted phrase: bisnis online
-POS sequence: NN JJ
-
-Accepted phrase: pemula
-POS sequence: NN
-
-Accepted phrase: panduan lengkap
-POS sequence: NN JJ
-
-Accepted phrase: bisnis online
-POS sequence: NN JJ
-
-Accepted phrase: kini
-POS sequence: NN
-
-Accepted phrase: pilihan
-POS sequence: NN
-
-Accepted phrase: orang
-POS sequence: NN
-
-Accepted phrase: penghasilan tambahan
-POS sequence: NN NN
-
-Accepted phrase: karier mandiri
-POS sequence: NN JJ
-
-Extracted 9 unique phrases:
-- tips
-- bisnis online
-- pemula
-- panduan lengkap
-- kini
-- pilihan
-- orang
-- penghasilan tambahan
-- karier mandiri
-
-POS Tagging Results:
-dengan               -> ('dengan', 'IN')
-perkembangan         -> ('perkembangan', 'NN')
-teknologi            -> ('teknologi', 'NN')
-dan                  -> ('dan', 'CC')
-akses                -> ('akses', 'NN')
-internet             -> ('internet', 'NN')
-yang                 -> ('yang', 'PR')
-luas                 -> ('luas', 'JJ')
-,                    -> (',', 'SYM')
-peluang              -> ('peluang', 'NN')
-untuk                -> ('untuk', 'IN')
-sukses               -> ('sukses', 'JJ')
-di                   -> ('di', 'IN')
-dunia                -> ('dunia', 'NN')
-digital              -> ('digital', 'JJ')
-semakin              -> ('semakin', 'ADV')
-terbuka              -> ('terbuka', 'JJ')
-lebar                -> ('lebar', 'JJ')
-
-Accepted phrase: perkembangan teknologi
-POS sequence: NN NN
-
-Accepted phrase: akses internet
-POS sequence: NN NN
-
-Accepted phrase: peluang
-POS sequence: NN
-
-Accepted phrase: dunia digital
-POS sequence: NN JJ
-
-Extracted 4 unique phrases:
-- perkembangan teknologi
-- akses internet
-- peluang
-- dunia digital
-
-POS Tagging Results:
-namun                -> ('namun', 'CC')
-,                    -> (',', 'SYM')
-bagi                 -> ('bagi', 'IN')
-pemula               -> ('pemula', 'NN')
-,                    -> (',', 'SYM')
-langkah              -> ('langkah', 'NN')
-awal                 -> ('awal', 'NN')
-bisa                 -> ('bisa', 'ADV')
-terasa               -> ('terasa', 'VB')
-membingungkan        -> ('membingungkan', 'VB')
-
-Accepted phrase: pemula
-POS sequence: NN
-
-Accepted phrase: langkah awal
-POS sequence: NN NN
-
-Extracted 2 unique phrases:
-- pemula
-- langkah awal
-
-POS Tagging Results:
-artikel              -> ('artikel', 'NN')
-ini                  -> ('ini', 'DT')
-akan                 -> ('akan', 'ADV')
-membahas             -> ('membahas', 'VB')
-secara               -> ('secara', 'IN')
-lengkap              -> ('lengkap', 'JJ')
-tips                 -> ('tips', 'NN')
-memulai              -> ('memulai', 'VB')
-bisnis               -> ('bisnis', 'NN')
-online               -> ('online', 'JJ')
-,                    -> (',', 'SYM')
-mulai                -> ('mulai', 'VB')
-dari                 -> ('dari', 'IN')
-perencanaan          -> ('perencanaan', 'NN')
-hingga               -> ('hingga', 'IN')
-strategi             -> ('strategi', 'NN')
-pemasaran            -> ('pemasaran', 'NN')
-digital              -> ('digital', 'JJ')
-
-Accepted phrase: artikel
-POS sequence: NN
-
-Accepted phrase: tips
-POS sequence: NN
-
-Accepted phrase: bisnis online
-POS sequence: NN JJ
-
-Accepted phrase: perencanaan
-POS sequence: NN
-
-Accepted phrase: strategi pemasaran
-POS sequence: NN NN
-
-Extracted 5 unique phrases:
-- artikel
-- tips
-- bisnis online
-- perencanaan
-- strategi pemasaran
-
-POS Tagging Results:
-​                    -> ('\u200b', 'SYM')
-1                    -> ('1', 'NUM')
-
-Extracted 0 unique phrases:
-
-POS Tagging Results:
-tentukan             -> ('tentukan', 'VB')
-niche                -> ('niche', 'FW')
-atau                 -> ('atau', 'CC')
-pasar                -> ('pasar', 'NN')
-yang                 -> ('yang', 'PR')
-tepat                -> ('tepat', 'JJ')
-langkah              -> ('langkah', 'NN')
-pertama              -> ('pertama', 'JJ')
-dalam                -> ('dalam', 'IN')
-memulai              -> ('memulai', 'VB')
-bisnis               -> ('bisnis', 'NN')
-online               -> ('online', 'JJ')
-adalah               -> ('adalah', 'ADV')
-menentukan           -> ('menentukan', 'VB')
-niche                -> ('niche', 'FW')
-atau                 -> ('atau', 'CC')
-pasar                -> ('pasar', 'NN')
-yang                 -> ('yang', 'PR')
-ingin                -> ('ingin', 'ADV')
-anda                 -> ('anda', 'NN')
-tuju                 -> ('tuju', 'VB')
-
-Accepted phrase: niche
-POS sequence: FW
-
-Accepted phrase: pasar
-POS sequence: NN
-
-Accepted phrase: langkah pertama
-POS sequence: NN JJ
-
-Accepted phrase: bisnis online
-POS sequence: NN JJ
-
-Accepted phrase: niche
-POS sequence: FW
-
-Accepted phrase: pasar
-POS sequence: NN
-
-Accepted phrase: anda
-POS sequence: NN
-
-Extracted 5 unique phrases:
-- niche
-- pasar
-- langkah pertama
-- bisnis online
-- anda
-
-POS Tagging Results:
-pilih                -> ('pilih', 'VB')
-lah                  -> ('lah', 'RP')
-bidang               -> ('bidang', 'NN')
-yang                 -> ('yang', 'PR')
-sesuai               -> ('sesuai', 'JJ')
-dengan               -> ('dengan', 'IN')
-minat                -> ('minat', 'NN')
-dan                  -> ('dan', 'CC')
-keahlian             -> ('keahlian', 'NN')
-anda                 -> ('anda', 'NN')
-,                    -> (',', 'SYM')
-serta                -> ('serta', 'CC')
-memiliki             -> ('memiliki', 'VB')
-potensi              -> ('potensi', 'NN')
-pasar                -> ('pasar', 'NN')
-yang                 -> ('yang', 'PR')
-menjanjikan          -> ('menjanjikan', 'VB')
-
-Accepted phrase: bidang
-POS sequence: NN
-
-Accepted phrase: minat
-POS sequence: NN
-
-Accepted phrase: keahlian anda
-POS sequence: NN NN
-
-Accepted phrase: potensi pasar
-POS sequence: NN NN
-
-Extracted 4 unique phrases:
-- bidang
-- minat
-- keahlian anda
-- potensi pasar
-
-POS Tagging Results:
-misalnya             -> ('misalnya', 'NN')
-,                    -> (',', 'SYM')
-jika                 -> ('jika', 'SC')
-anda                 -> ('anda', 'NN')
-memiliki             -> ('memiliki', 'VB')
-passion              -> ('passion', 'FW')
-di                   -> ('di', 'IN')
-bidang               -> ('bidang', 'NN')
-fashion              -> ('fashion', 'FW')
-,                    -> (',', 'SYM')
-anda                 -> ('anda', 'NN')
-bisa                 -> ('bisa', 'ADV')
-memulai              -> ('memulai', 'VB')
-bisnis               -> ('bisnis', 'NN')
-online               -> ('online', 'JJ')
-dengan               -> ('dengan', 'IN')
-menjual              -> ('menjual', 'VB')
-pakaian              -> ('pakaian', 'NN')
-atau                 -> ('atau', 'CC')
-aksesori             -> ('aksesori', 'NN')
-
-Accepted phrase: misalnya
-POS sequence: NN
-
-Accepted phrase: anda
-POS sequence: NN
-
-Accepted phrase: passion
-POS sequence: FW
-
-Accepted phrase: bidang fashion
-POS sequence: NN FW
-
-Accepted phrase: anda
-POS sequence: NN
-
-Accepted phrase: bisnis online
-POS sequence: NN JJ
-
-Accepted phrase: pakaian
-POS sequence: NN
-
-Accepted phrase: aksesori
-POS sequence: NN
-
-Extracted 7 unique phrases:
-- misalnya
-- anda
-- passion
-- bidang fashion
-- bisnis online
-- pakaian
-- aksesori
-
-POS Tagging Results:
-​                    -> ('\u200b', 'SYM')
-2                    -> ('2', 'NUM')
-
-Extracted 0 unique phrases:
-
-POS Tagging Results:
-lakukan              -> ('lakukan', 'VB')
-riset                -> ('riset', 'NN')
-pasar                -> ('pasar', 'NN')
-sebelum              -> ('sebelum', 'SC')
-memulai              -> ('memulai', 'VB')
-,                    -> (',', 'SYM')
-lakukan              -> ('lakukan', 'VB')
-riset                -> ('riset', 'NN')
-pasar                -> ('pasar', 'NN')
-untuk                -> ('untuk', 'SC')
-memahami             -> ('memahami', 'VB')
-kebutuhan            -> ('kebutuhan', 'NN')
-dan                  -> ('dan', 'CC')
-preferensi           -> ('preferensi', 'NN')
-konsumen             -> ('konsumen', 'NN')
-
-Accepted phrase: riset pasar
-POS sequence: NN NN
-
-Accepted phrase: riset pasar
-POS sequence: NN NN
-
-Accepted phrase: kebutuhan
-POS sequence: NN
-
-Accepted phrase: preferensi konsumen
-POS sequence: NN NN
-
-Extracted 3 unique phrases:
-- riset pasar
-- kebutuhan
-- preferensi konsumen
-
-POS Tagging Results:
-gunakan              -> ('gunakan', 'VB')
-tools                -> ('tools', 'NN')
-seperti              -> ('seperti', 'IN')
-google               -> ('google', 'FW')
-trends               -> ('trends', 'NN')
-atau                 -> ('atau', 'CC')
-survei               -> ('survei', 'NN')
-online               -> ('online', 'JJ')
-untuk                -> ('untuk', 'SC')
-mengumpulkan         -> ('mengumpulkan', 'VB')
-data                 -> ('data', 'NN')
-
-Accepted phrase: tools
-POS sequence: NN
-
-Accepted phrase: google trends
-POS sequence: FW NN
-
-Accepted phrase: survei online
-POS sequence: NN JJ
-
-Accepted phrase: data
-POS sequence: NN
-
-Extracted 4 unique phrases:
-- tools
-- google trends
-- survei online
-- data
-
-POS Tagging Results:
-riset                -> ('riset', 'NN')
-ini                  -> ('ini', 'DT')
-akan                 -> ('akan', 'ADV')
-membantu             -> ('membantu', 'VB')
-anda                 -> ('anda', 'NN')
-menentukan           -> ('menentukan', 'VB')
-produk               -> ('produk', 'NN')
-atau                 -> ('atau', 'CC')
-layanan              -> ('layanan', 'NN')
-yang                 -> ('yang', 'PR')
-tepat                -> ('tepat', 'JJ')
-serta                -> ('serta', 'CC')
-strategi             -> ('strategi', 'NN')
-pemasaran            -> ('pemasaran', 'NN')
-yang                 -> ('yang', 'PR')
-efektif              -> ('efektif', 'JJ')
-
-Accepted phrase: riset
-POS sequence: NN
-
-Accepted phrase: anda
-POS sequence: NN
-
-Accepted phrase: produk
-POS sequence: NN
-
-Accepted phrase: layanan
-POS sequence: NN
-
-Accepted phrase: strategi pemasaran
-POS sequence: NN NN
-
-Extracted 5 unique phrases:
-- riset
-- anda
-- produk
-- layanan
-- strategi pemasaran
-
-POS Tagging Results:
-​                    -> ('\u200b', 'SYM')
-3                    -> ('3', 'NUM')
-
-Extracted 0 unique phrases:
-
-POS Tagging Results:
-buat                 -> ('buat', 'IN')
-rencana              -> ('rencana', 'NN')
-bisnis               -> ('bisnis', 'NN')
-yang                 -> ('yang', 'PR')
-jelas                -> ('jelas', 'JJ')
-rencana              -> ('rencana', 'NN')
-bisnis               -> ('bisnis', 'NN')
-adalah               -> ('adalah', 'ADV')
-panduan              -> ('panduan', 'NN')
-yang                 -> ('yang', 'PR')
-akan                 -> ('akan', 'ADV')
-membantu             -> ('membantu', 'VB')
-anda                 -> ('anda', 'NN')
-menjalankan          -> ('menjalankan', 'VB')
-bisnis               -> ('bisnis', 'NN')
-online               -> ('online', 'JJ')
-dengan               -> ('dengan', 'IN')
-terstruktur          -> ('terstruktur', 'VB')
-
-Accepted phrase: rencana bisnis
-POS sequence: NN NN
-
-Accepted phrase: rencana bisnis
-POS sequence: NN NN
-
-Accepted phrase: panduan
-POS sequence: NN
-
-Accepted phrase: anda
-POS sequence: NN
-
-Accepted phrase: bisnis online
-POS sequence: NN JJ
-
-Extracted 4 unique phrases:
-- rencana bisnis
-- panduan
-- anda
-- bisnis online
-
-POS Tagging Results:
-dalam                -> ('dalam', 'IN')
-rencana              -> ('rencana', 'NN')
-ini                  -> ('ini', 'DT')
-,                    -> (',', 'SYM')
-cantumkan            -> ('cantumkan', 'VB')
-tujuan               -> ('tujuan', 'NN')
-bisnis               -> ('bisnis', 'NN')
-,                    -> (',', 'SYM')
-target               -> ('target', 'NN')
-pasar                -> ('pasar', 'NN')
-,                    -> (',', 'SYM')
-strategi             -> ('strategi', 'NN')
-pemasaran            -> ('pemasaran', 'NN')
-,                    -> (',', 'SYM')
-analisis             -> ('analisis', 'NN')
-kompetitor           -> ('kompetitor', 'NN')
-,                    -> (',', 'SYM')
-dan                  -> ('dan', 'CC')
-proyeksi             -> ('proyeksi', 'NN')
-keuangan             -> ('keuangan', 'NN')
-
-Accepted phrase: rencana
-POS sequence: NN
-
-Accepted phrase: tujuan bisnis
-POS sequence: NN NN
-
-Accepted phrase: target pasar
-POS sequence: NN NN
-
-Accepted phrase: strategi pemasaran
-POS sequence: NN NN
-
-Accepted phrase: analisis kompetitor
-POS sequence: NN NN
-
-Accepted phrase: proyeksi keuangan
-POS sequence: NN NN
-
-Extracted 6 unique phrases:
-- rencana
-- tujuan bisnis
-- target pasar
-- strategi pemasaran
-- analisis kompetitor
-- proyeksi keuangan
-
-POS Tagging Results:
-dengan               -> ('dengan', 'IN')
-rencana              -> ('rencana', 'NN')
-yang                 -> ('yang', 'PR')
-matang               -> ('matang', 'JJ')
-,                    -> (',', 'SYM')
-anda                 -> ('anda', 'NN')
-dapat                -> ('dapat', 'ADV')
-mengantisipasi       -> ('mengantisipasi', 'VB')
-tantangan            -> ('tantangan', 'NN')
-dan                  -> ('dan', 'CC')
-mengambil            -> ('mengambil', 'VB')
-keputusan            -> ('keputusan', 'NN')
-yang                 -> ('yang', 'PR')
-tepat                -> ('tepat', 'JJ')
-
-Accepted phrase: rencana
-POS sequence: NN
-
-Accepted phrase: anda
-POS sequence: NN
-
-Accepted phrase: tantangan
-POS sequence: NN
-
-Accepted phrase: keputusan
-POS sequence: NN
-
-Extracted 4 unique phrases:
-- rencana
-- anda
-- tantangan
-- keputusan
-
-POS Tagging Results:
-​                    -> ('\u200b', 'NNP')
-markbro              -> ('markbro', 'NN')
-
-Accepted phrase: ​ markbro
-POS sequence: NNP NN
-
-Extracted 1 unique phrases:
-- ​ markbro
-
-POS Tagging Results:
-com                  -> ('com', 'NN')
-+2                   -> ('+2', 'NUM')
-saungwriter          -> ('saungwriter', 'NN')
-+2                   -> ('+2', 'NUM')
-jobstreet            -> ('jobstreet', 'NN')
-+2                   -> ('+2', 'NUM')
-4                    -> ('4', 'NUM')
-
-Accepted phrase: com
-POS sequence: NN
-
-Accepted phrase: saungwriter
-POS sequence: NN
-
-Accepted phrase: jobstreet
-POS sequence: NN
-
-Extracted 3 unique phrases:
-- com
-- saungwriter
-- jobstreet
-
-POS Tagging Results:
-bangun               -> ('bangun', 'VB')
-brand                -> ('brand', 'FW')
-yang                 -> ('yang', 'PR')
-kuat                 -> ('kuat', 'JJ')
-branding             -> ('branding', 'NN')
-adalah               -> ('adalah', 'ADV')
-kunci                -> ('kunci', 'NN')
-untuk                -> ('untuk', 'SC')
-membedakan           -> ('membedakan', 'VB')
-bisnis               -> ('bisnis', 'NN')
-anda                 -> ('anda', 'NN')
-dari                 -> ('dari', 'IN')
-kompetitor           -> ('kompetitor', 'NN')
-
-Accepted phrase: brand
-POS sequence: FW
-
-Accepted phrase: branding
-POS sequence: NN
-
-Accepted phrase: kunci
-POS sequence: NN
-
-Accepted phrase: bisnis anda
-POS sequence: NN NN
-
-Accepted phrase: kompetitor
-POS sequence: NN
-
-Extracted 5 unique phrases:
-- brand
-- branding
-- kunci
-- bisnis anda
-- kompetitor
-
-POS Tagging Results:
-tentukan             -> ('tentukan', 'VB')
-nama                 -> ('nama', 'NN')
-brand                -> ('brand', 'FW')
-yang                 -> ('yang', 'PR')
-unik                 -> ('unik', 'JJ')
-dan                  -> ('dan', 'CC')
-mudah                -> ('mudah', 'JJ')
-diingat              -> ('diingat', 'VB')
-,                    -> (',', 'SYM')
-desain               -> ('desain', 'NN')
-logo                 -> ('logo', 'NN')
-yang                 -> ('yang', 'PR')
-menarik              -> ('menarik', 'VB')
-,                    -> (',', 'SYM')
-serta                -> ('serta', 'CC')
-konsisten            -> ('konsisten', 'JJ')
-dalam                -> ('dalam', 'IN')
-penggunaan           -> ('penggunaan', 'NN')
-warna                -> ('warna', 'NN')
-dan                  -> ('dan', 'CC')
-gaya                 -> ('gaya', 'NN')
-komunikasi           -> ('komunikasi', 'NN')
-
-Accepted phrase: nama brand
-POS sequence: NN FW
-
-Accepted phrase: desain logo
-POS sequence: NN NN
-
-Accepted phrase: penggunaan warna
-POS sequence: NN NN
-
-Accepted phrase: gaya komunikasi
-POS sequence: NN NN
-
-Extracted 4 unique phrases:
-- nama brand
-- desain logo
-- penggunaan warna
-- gaya komunikasi
-
-POS Tagging Results:
-brand                -> ('brand', 'FW')
-yang                 -> ('yang', 'PR')
-kuat                 -> ('kuat', 'JJ')
-akan                 -> ('akan', 'ADV')
-meningkatkan         -> ('meningkatkan', 'VB')
-kepercayaan          -> ('kepercayaan', 'NN')
-konsumen             -> ('konsumen', 'NN')
-dan                  -> ('dan', 'CC')
-loyalitas            -> ('loyalitas', 'NN')
-pelanggan            -> ('pelanggan', 'NN')
-
-Accepted phrase: brand
-POS sequence: FW
-
-Accepted phrase: kepercayaan konsumen
-POS sequence: NN NN
-
-Accepted phrase: loyalitas pelanggan
-POS sequence: NN NN
-
-Extracted 3 unique phrases:
-- brand
-- kepercayaan konsumen
-- loyalitas pelanggan
-
-POS Tagging Results:
-​                    -> ('\u200b', 'SYM')
-5                    -> ('5', 'NUM')
-
-Extracted 0 unique phrases:
-
-POS Tagging Results:
-pilih                -> ('pilih', 'VB')
-platform             -> ('platform', 'NN')
-penjualan            -> ('penjualan', 'NN')
-yang                 -> ('yang', 'PR')
-sesuai               -> ('sesuai', 'JJ')
 ada                  -> ('ada', 'VB')
-berbagai             -> ('berbagai', 'DT')
-platform             -> ('platform', 'NN')
+disekitar            -> ('disekitar', 'VB')
+nya                  -> ('nya', 'DT')
 yang                 -> ('yang', 'PR')
-bisa                 -> ('bisa', 'ADV')
-anda                 -> ('anda', 'NN')
-gunakan              -> ('gunakan', 'VB')
-untuk                -> ('untuk', 'SC')
-menjual              -> ('menjual', 'VB')
-produk               -> ('produk', 'NN')
-secara               -> ('secara', 'IN')
-online               -> ('online', 'JJ')
-,                    -> (',', 'SYM')
-seperti              -> ('seperti', 'IN')
-marketplace          -> ('marketplace', 'FW')
-(                    -> ('(', 'SYM')
-tokopedia            -> ('tokopedia', 'NN')
-,                    -> (',', 'SYM')
-shopee               -> ('shopee', 'FW')
-)                    -> (')', 'SYM')
-,                    -> (',', 'SYM')
-media                -> ('media', 'NN')
-sosial               -> ('sosial', 'NN')
-(                    -> ('(', 'SYM')
-instagram            -> ('instagram', 'NN')
-,                    -> (',', 'SYM')
-facebook             -> ('facebook', 'NN')
-)                    -> (')', 'SYM')
-,                    -> (',', 'SYM')
-atau                 -> ('atau', 'CC')
-website              -> ('website', 'FW')
-pribadi              -> ('pribadi', 'NN')
-
-Accepted phrase: platform penjualan
-POS sequence: NN NN
-
-Accepted phrase: platform
-POS sequence: NN
-
-Accepted phrase: anda
-POS sequence: NN
-
-Accepted phrase: produk
-POS sequence: NN
-
-Accepted phrase: marketplace
-POS sequence: FW
-
-Accepted phrase: tokopedia
-POS sequence: NN
-
-Accepted phrase: shopee
-POS sequence: FW
-
-Accepted phrase: media sosial
-POS sequence: NN NN
-
-Accepted phrase: instagram
-POS sequence: NN
-
-Accepted phrase: facebook
-POS sequence: NN
-
-Accepted phrase: website pribadi
-POS sequence: FW NN
-
-Extracted 11 unique phrases:
-- platform penjualan
-- platform
-- anda
-- produk
-- marketplace
-- tokopedia
-- shopee
-- media sosial
-- instagram
-- facebook
-- website pribadi
-
-POS Tagging Results:
-pilih                -> ('pilih', 'VB')
-platform             -> ('platform', 'NN')
-yang                 -> ('yang', 'PR')
-sesuai               -> ('sesuai', 'JJ')
-dengan               -> ('dengan', 'IN')
-target               -> ('target', 'NN')
-pasar                -> ('pasar', 'NN')
-dan                  -> ('dan', 'CC')
-jenis                -> ('jenis', 'NN')
-produk               -> ('produk', 'NN')
-anda                 -> ('anda', 'NN')
-
-Accepted phrase: platform
-POS sequence: NN
-
-Accepted phrase: target pasar
-POS sequence: NN NN
-
-Accepted phrase: jenis produk
-POS sequence: NN NN
-
-Accepted phrase: anda
-POS sequence: NN
-
-Extracted 4 unique phrases:
-- platform
-- target pasar
-- jenis produk
-- anda
-
-POS Tagging Results:
-jika                 -> ('jika', 'SC')
-memungkinkan         -> ('memungkinkan', 'VB')
-,                    -> (',', 'SYM')
-kombinasikan         -> ('kombinasikan', 'NN')
-beberapa             -> ('beberapa', 'DT')
-platform             -> ('platform', 'NN')
-untuk                -> ('untuk', 'SC')
-menjangkau           -> ('menjangkau', 'VB')
-audiens              -> ('audiens', 'NN')
-yang                 -> ('yang', 'PR')
-lebih                -> ('lebih', 'ADV')
-luas                 -> ('luas', 'JJ')
-
-Accepted phrase: kombinasikan
-POS sequence: NN
-
-Accepted phrase: platform
-POS sequence: NN
-
-Accepted phrase: audiens
-POS sequence: NN
-
-Extracted 3 unique phrases:
-- kombinasikan
-- platform
-- audiens
-
-POS Tagging Results:
-​                    -> ('\u200b', 'SYM')
-6                    -> ('6', 'NUM')
-
-Extracted 0 unique phrases:
-
-POS Tagging Results:
-optimalkan           -> ('optimalkan', 'VB')
-website              -> ('website', 'FW')
-dengan               -> ('dengan', 'IN')
-seo                  -> ('seo', 'NN')
-jika                 -> ('jika', 'SC')
-anda                 -> ('anda', 'NN')
-menggunakan          -> ('menggunakan', 'VB')
-website              -> ('website', 'FW')
-sebagai              -> ('sebagai', 'IN')
-platform             -> ('platform', 'NN')
-penjualan            -> ('penjualan', 'NN')
-,                    -> (',', 'SYM')
-pastikan             -> ('pastikan', 'VB')
-untuk                -> ('untuk', 'SC')
-mengoptimalkan       -> ('mengoptimalkan', 'VB')
-nya                  -> ('nya', 'PR')
-dengan               -> ('dengan', 'IN')
-teknik               -> ('teknik', 'NN')
-seo                  -> ('seo', 'NN')
-(                    -> ('(', 'SYM')
-search               -> ('search', 'NN')
-engine               -> ('engine', 'FW')
-optimization         -> ('optimization', 'FW')
-)                    -> (')', 'SYM')
-
-Accepted phrase: website
-POS sequence: FW
-
-Accepted phrase: seo
-POS sequence: NN
-
-Accepted phrase: anda
-POS sequence: NN
-
-Accepted phrase: website
-POS sequence: FW
-
-Accepted phrase: platform penjualan
-POS sequence: NN NN
-
-Accepted phrase: teknik seo
-POS sequence: NN NN
-
-Accepted phrase: search engine
-POS sequence: NN FW
-
-Accepted phrase: optimization
-POS sequence: FW
-
-Extracted 7 unique phrases:
-- website
-- seo
-- anda
-- platform penjualan
-- teknik seo
-- search engine
-- optimization
-
-POS Tagging Results:
-gunakan              -> ('gunakan', 'VB')
-kata                 -> ('kata', 'NN')
-kunci                -> ('kunci', 'NN')
-yang                 -> ('yang', 'PR')
-relevan              -> ('relevan', 'JJ')
-,                    -> (',', 'SYM')
-buat                 -> ('buat', 'IN')
-konten               -> ('konten', 'NN')
-berkualitas          -> ('berkualitas', 'VB')
-,                    -> (',', 'SYM')
-dan                  -> ('dan', 'CC')
-pastikan             -> ('pastikan', 'VB')
-website              -> ('website', 'FW')
-anda                 -> ('anda', 'NN')
-mobile-friendly      -> ('mobile-friendly', 'NN')
-
-Accepted phrase: kata kunci
-POS sequence: NN NN
-
-Accepted phrase: konten
-POS sequence: NN
-
-Accepted phrase: website anda
-POS sequence: FW NN
-
-Accepted phrase: mobile-friendly
-POS sequence: NN
-
-Extracted 4 unique phrases:
-- kata kunci
-- konten
-- website anda
-- mobile-friendly
-
-POS Tagging Results:
-dengan               -> ('dengan', 'IN')
-seo                  -> ('seo', 'NN')
-yang                 -> ('yang', 'PR')
-baik                 -> ('baik', 'JJ')
-,                    -> (',', 'SYM')
-website              -> ('website', 'FW')
-anda                 -> ('anda', 'NN')
 akan                 -> ('akan', 'ADV')
-lebih                -> ('lebih', 'ADV')
-mudah                -> ('mudah', 'JJ')
-ditemukan            -> ('ditemukan', 'VB')
-di                   -> ('di', 'IN')
-mesin                -> ('mesin', 'NN')
-pencari              -> ('pencari', 'NN')
-seperti              -> ('seperti', 'IN')
-google               -> ('google', 'FW')
+mengakibatkan        -> ('mengakibatkan', 'VB')
+terjadi              -> ('terjadi', 'VB')
+nya                  -> ('nya', 'DT')
+kenakalan            -> ('kenakalan', 'NN')
+remaja               -> ('remaja', 'NN')
 
-Accepted phrase: seo
-POS sequence: NN
-
-Accepted phrase: website anda
-POS sequence: FW NN
-
-Accepted phrase: mesin pencari
+Accepted phrase: masa remaja
 POS sequence: NN NN
 
-Accepted phrase: google
-POS sequence: FW
+Accepted phrase: masa
+POS sequence: NN
 
-Extracted 4 unique phrases:
-- seo
-- website anda
-- mesin pencari
-- google
+Accepted phrase: perilaku
+POS sequence: NN
 
-POS Tagging Results:
-​                    -> ('\u200b', 'SYM')
-7                    -> ('7', 'NUM')
+Accepted phrase: rasa
+POS sequence: NN
 
-Extracted 0 unique phrases:
-
-POS Tagging Results:
-manfaatkan           -> ('manfaatkan', 'VB')
-media                -> ('media', 'NN')
-sosial               -> ('sosial', 'NN')
-untuk                -> ('untuk', 'SC')
-promosi              -> ('promosi', 'NN')
-media                -> ('media', 'NN')
-sosial               -> ('sosial', 'NN')
-adalah               -> ('adalah', 'ADV')
-alat                 -> ('alat', 'NN')
-yang                 -> ('yang', 'PR')
-efektif              -> ('efektif', 'JJ')
-untuk                -> ('untuk', 'SC')
-mempromosikan        -> ('mempromosikan', 'VB')
-bisnis               -> ('bisnis', 'NN')
-online               -> ('online', 'JJ')
-anda                 -> ('anda', 'NN')
-
-Accepted phrase: media sosial
+Accepted phrase: perilaku orang
 POS sequence: NN NN
 
-Accepted phrase: promosi media
+Accepted phrase: kenakalan remaja
 POS sequence: NN NN
-
-Accepted phrase: sosial
-POS sequence: NN
-
-Accepted phrase: alat
-POS sequence: NN
-
-Accepted phrase: bisnis online
-POS sequence: NN JJ
-
-Accepted phrase: anda
-POS sequence: NN
 
 Extracted 6 unique phrases:
-- media sosial
-- promosi media
-- sosial
-- alat
-- bisnis online
-- anda
+- masa remaja
+- masa
+- perilaku
+- rasa
+- perilaku orang
+- kenakalan remaja
 
 POS Tagging Results:
-buat                 -> ('buat', 'IN')
-konten               -> ('konten', 'NN')
+faktor               -> ('faktor', 'NN')
 yang                 -> ('yang', 'PR')
-menarik              -> ('menarik', 'VB')
-dan                  -> ('dan', 'CC')
-interaktif           -> ('interaktif', 'NN')
-,                    -> (',', 'SYM')
-seperti              -> ('seperti', 'IN')
-foto                 -> ('foto', 'NN')
-produk               -> ('produk', 'NN')
-,                    -> (',', 'SYM')
-video                -> ('video', 'NN')
-tutorial             -> ('tutorial', 'NN')
-,                    -> (',', 'SYM')
-atau                 -> ('atau', 'CC')
-testimoni            -> ('testimoni', 'VB')
-pelanggan            -> ('pelanggan', 'NN')
-
-Accepted phrase: konten
-POS sequence: NN
-
-Accepted phrase: interaktif
-POS sequence: NN
-
-Accepted phrase: foto produk
-POS sequence: NN NN
-
-Accepted phrase: video tutorial
-POS sequence: NN NN
-
-Accepted phrase: pelanggan
-POS sequence: NN
-
-Extracted 5 unique phrases:
-- konten
-- interaktif
-- foto produk
-- video tutorial
-- pelanggan
-
-POS Tagging Results:
-gunakan              -> ('gunakan', 'VB')
-fitur                -> ('fitur', 'NN')
-iklan                -> ('iklan', 'NN')
-berbayar             -> ('berbayar', 'VB')
-untuk                -> ('untuk', 'SC')
-menjangkau           -> ('menjangkau', 'VB')
-audiens              -> ('audiens', 'NN')
-yang                 -> ('yang', 'PR')
-lebih                -> ('lebih', 'ADV')
-spesifik             -> ('spesifik', 'JJ')
-dan                  -> ('dan', 'CC')
-meningkatkan         -> ('meningkatkan', 'VB')
-penjualan            -> ('penjualan', 'NN')
-
-Accepted phrase: fitur iklan
-POS sequence: NN NN
-
-Accepted phrase: audiens
-POS sequence: NN
-
-Accepted phrase: penjualan
-POS sequence: NN
-
-Extracted 3 unique phrases:
-- fitur iklan
-- audiens
-- penjualan
-
-POS Tagging Results:
-​                    -> ('\u200b', 'SYM')
-8                    -> ('8', 'NUM')
-
-Extracted 0 unique phrases:
-
-POS Tagging Results:
-kelola               -> ('kelola', 'NN')
-keuangan             -> ('keuangan', 'NN')
-dengan               -> ('dengan', 'IN')
-bijak                -> ('bijak', 'JJ')
-pengelolaan          -> ('pengelolaan', 'NN')
-keuangan             -> ('keuangan', 'NN')
-yang                 -> ('yang', 'PR')
-baik                 -> ('baik', 'JJ')
+mempengaruhi         -> ('mempengaruhi', 'VB')
+remaja               -> ('remaja', 'NN')
+salah                -> ('salah', 'JJ')
+satu                 -> ('satu', 'NUM')
+nya                  -> ('nya', 'DT')
 adalah               -> ('adalah', 'ADV')
-kunci                -> ('kunci', 'NN')
-keberhasilan         -> ('keberhasilan', 'NN')
-bisnis               -> ('bisnis', 'NN')
+kecerdasan           -> ('kecerdasan', 'NN')
+emosional            -> ('emosional', 'JJ')
 
-Accepted phrase: kelola keuangan
-POS sequence: NN NN
-
-Accepted phrase: pengelolaan keuangan
-POS sequence: NN NN
-
-Accepted phrase: kunci keberhasilan
-POS sequence: NN NN
-
-Accepted phrase: bisnis
+Accepted phrase: faktor
 POS sequence: NN
 
-Extracted 4 unique phrases:
-- kelola keuangan
-- pengelolaan keuangan
-- kunci keberhasilan
-- bisnis
-
-POS Tagging Results:
-catat                -> ('catat', 'NN')
-semua                -> ('semua', 'DT')
-pemasukan            -> ('pemasukan', 'NN')
-dan                  -> ('dan', 'CC')
-pengeluaran          -> ('pengeluaran', 'NN')
-,                    -> (',', 'SYM')
-pisahkan             -> ('pisahkan', 'VB')
-keuangan             -> ('keuangan', 'NN')
-pribadi              -> ('pribadi', 'NN')
-dan                  -> ('dan', 'CC')
-bisnis               -> ('bisnis', 'NN')
-,                    -> (',', 'SYM')
-serta                -> ('serta', 'CC')
-alokasikan           -> ('alokasikan', 'VB')
-dana                 -> ('dana', 'NN')
-untuk                -> ('untuk', 'SC')
-pengembangan         -> ('pengembangan', 'NN')
-usaha                -> ('usaha', 'NN')
-
-Accepted phrase: catat
-POS sequence: NN
-
-Accepted phrase: pemasukan
-POS sequence: NN
-
-Accepted phrase: pengeluaran
-POS sequence: NN
-
-Accepted phrase: keuangan pribadi
-POS sequence: NN NN
-
-Accepted phrase: bisnis
-POS sequence: NN
-
-Accepted phrase: dana
-POS sequence: NN
-
-Accepted phrase: pengembangan usaha
-POS sequence: NN NN
-
-Extracted 7 unique phrases:
-- catat
-- pemasukan
-- pengeluaran
-- keuangan pribadi
-- bisnis
-- dana
-- pengembangan usaha
-
-POS Tagging Results:
-gunakan              -> ('gunakan', 'VB')
-aplikasi             -> ('aplikasi', 'NN')
-keuangan             -> ('keuangan', 'NN')
-atau                 -> ('atau', 'CC')
-spreadsheet          -> ('spreadsheet', 'NN')
-untuk                -> ('untuk', 'SC')
-memudahkan           -> ('memudahkan', 'VB')
-pencatatan           -> ('pencatatan', 'NN')
-dan                  -> ('dan', 'CC')
-analisis             -> ('analisis', 'NN')
-
-Accepted phrase: aplikasi keuangan
-POS sequence: NN NN
-
-Accepted phrase: spreadsheet
-POS sequence: NN
-
-Accepted phrase: pencatatan
-POS sequence: NN
-
-Accepted phrase: analisis
-POS sequence: NN
-
-Extracted 4 unique phrases:
-- aplikasi keuangan
-- spreadsheet
-- pencatatan
-- analisis
-
-POS Tagging Results:
-​                    -> ('\u200b', 'SYM')
-9                    -> ('9', 'NUM')
-
-Extracted 0 unique phrases:
-
-POS Tagging Results:
-berikan              -> ('berikan', 'VB')
-pelayanan            -> ('pelayanan', 'NN')
-pelanggan            -> ('pelanggan', 'NN')
-yang                 -> ('yang', 'PR')
-prima                -> ('prima', 'NN')
-pelayanan            -> ('pelayanan', 'NN')
-pelanggan            -> ('pelanggan', 'NN')
-yang                 -> ('yang', 'PR')
-baik                 -> ('baik', 'JJ')
-akan                 -> ('akan', 'ADV')
-meningkatkan         -> ('meningkatkan', 'VB')
-kepuasan             -> ('kepuasan', 'NN')
-dan                  -> ('dan', 'CC')
-loyalitas            -> ('loyalitas', 'NN')
-pelanggan            -> ('pelanggan', 'NN')
-
-Accepted phrase: pelayanan pelanggan
-POS sequence: NN NN
-
-Accepted phrase: prima pelayanan
-POS sequence: NN NN
-
-Accepted phrase: pelanggan
-POS sequence: NN
-
-Accepted phrase: kepuasan
-POS sequence: NN
-
-Accepted phrase: loyalitas pelanggan
-POS sequence: NN NN
-
-Extracted 5 unique phrases:
-- pelayanan pelanggan
-- prima pelayanan
-- pelanggan
-- kepuasan
-- loyalitas pelanggan
-
-POS Tagging Results:
-tanggapi             -> ('tanggapi', 'VB')
-pertanyaan           -> ('pertanyaan', 'NN')
-dan                  -> ('dan', 'CC')
-keluhan              -> ('keluhan', 'NN')
-dengan               -> ('dengan', 'IN')
-cepat                -> ('cepat', 'JJ')
-dan                  -> ('dan', 'CC')
-profesional          -> ('profesional', 'NN')
-,                    -> (',', 'SYM')
-serta                -> ('serta', 'CC')
-berikan              -> ('berikan', 'VB')
-solusi               -> ('solusi', 'NN')
-yang                 -> ('yang', 'PR')
-memuaskan            -> ('memuaskan', 'VB')
-
-Accepted phrase: pertanyaan
-POS sequence: NN
-
-Accepted phrase: keluhan
-POS sequence: NN
-
-Accepted phrase: profesional
-POS sequence: NN
-
-Accepted phrase: solusi
-POS sequence: NN
-
-Extracted 4 unique phrases:
-- pertanyaan
-- keluhan
-- profesional
-- solusi
-
-POS Tagging Results:
-pertimbangkan        -> ('pertimbangkan', 'NN')
-untuk                -> ('untuk', 'SC')
-menyediakan          -> ('menyediakan', 'VB')
-layanan              -> ('layanan', 'NN')
-purna                -> ('purna', 'NN')
-jual                 -> ('jual', 'VB')
-,                    -> (',', 'SYM')
-seperti              -> ('seperti', 'IN')
-garansi              -> ('garansi', 'NN')
-atau                 -> ('atau', 'CC')
-dukungan             -> ('dukungan', 'NN')
-teknis               -> ('teknis', 'JJ')
-
-Accepted phrase: pertimbangkan
-POS sequence: NN
-
-Accepted phrase: layanan purna
-POS sequence: NN NN
-
-Accepted phrase: garansi
-POS sequence: NN
-
-Accepted phrase: dukungan teknis
+Accepted phrase: remaja salah
 POS sequence: NN JJ
 
-Extracted 4 unique phrases:
-- pertimbangkan
-- layanan purna
-- garansi
-- dukungan teknis
+Accepted phrase: kecerdasan emosional
+POS sequence: NN JJ
+
+Extracted 3 unique phrases:
+- faktor
+- remaja salah
+- kecerdasan emosional
 
 POS Tagging Results:
-​                    -> ('\u200b', 'SYM')
-10                   -> ('10', 'NUM')
-
-Extracted 0 unique phrases:
-
-POS Tagging Results:
-evaluasi             -> ('evaluasi', 'NN')
-dan                  -> ('dan', 'CC')
-tingkatkan           -> ('tingkatkan', 'NN')
-strategi             -> ('strategi', 'NN')
-bisnis               -> ('bisnis', 'NN')
-secara               -> ('secara', 'IN')
-rutin                -> ('rutin', 'JJ')
-,                    -> (',', 'SYM')
-evaluasi             -> ('evaluasi', 'NN')
-kinerja              -> ('kinerja', 'NN')
-bisnis               -> ('bisnis', 'NN')
-anda                 -> ('anda', 'NN')
+penelitian           -> ('penelitian', 'NN')
+ini                  -> ('ini', 'DT')
+bertujuan            -> ('bertujuan', 'VB')
 untuk                -> ('untuk', 'SC')
 mengetahui           -> ('mengetahui', 'VB')
-apa                  -> ('apa', 'PR')
-yang                 -> ('yang', 'PR')
-sudah                -> ('sudah', 'ADV')
-berjalan             -> ('berjalan', 'VB')
-baik                 -> ('baik', 'JJ')
-dan                  -> ('dan', 'CC')
-apa                  -> ('apa', 'PR')
-yang                 -> ('yang', 'PR')
-perlu                -> ('perlu', 'ADV')
-diperbaiki           -> ('diperbaiki', 'VB')
-
-Accepted phrase: evaluasi
-POS sequence: NN
-
-Accepted phrase: tingkatkan strategi
-POS sequence: NN NN
-
-Accepted phrase: bisnis
-POS sequence: NN
-
-Accepted phrase: evaluasi kinerja
-POS sequence: NN NN
-
-Accepted phrase: bisnis anda
-POS sequence: NN NN
-
-Extracted 5 unique phrases:
-- evaluasi
-- tingkatkan strategi
-- bisnis
-- evaluasi kinerja
-- bisnis anda
-
-POS Tagging Results:
-gunakan              -> ('gunakan', 'VB')
-data                 -> ('data', 'NN')
-penjualan            -> ('penjualan', 'NN')
-,                    -> (',', 'SYM')
-feedback             -> ('feedback', 'FW')
-pelanggan            -> ('pelanggan', 'NN')
-,                    -> (',', 'SYM')
-dan                  -> ('dan', 'CC')
-analisis             -> ('analisis', 'NN')
-kompetitor           -> ('kompetitor', 'NN')
-sebagai              -> ('sebagai', 'IN')
-bahan                -> ('bahan', 'NN')
-evaluasi             -> ('evaluasi', 'NN')
-
-Accepted phrase: data penjualan
-POS sequence: NN NN
-
-Accepted phrase: feedback pelanggan
-POS sequence: FW NN
-
-Accepted phrase: analisis kompetitor
-POS sequence: NN NN
-
-Accepted phrase: bahan evaluasi
-POS sequence: NN NN
-
-Extracted 4 unique phrases:
-- data penjualan
-- feedback pelanggan
-- analisis kompetitor
-- bahan evaluasi
-
-POS Tagging Results:
+hubungan             -> ('hubungan', 'NN')
+kecerdasan           -> ('kecerdasan', 'NN')
+emosional            -> ('emosional', 'JJ')
 dengan               -> ('dengan', 'IN')
-evaluasi             -> ('evaluasi', 'NN')
-yang                 -> ('yang', 'PR')
-tepat                -> ('tepat', 'JJ')
-,                    -> (',', 'SYM')
-anda                 -> ('anda', 'NN')
-dapat                -> ('dapat', 'ADV')
-mengembangkan        -> ('mengembangkan', 'VB')
-strategi             -> ('strategi', 'NN')
-yang                 -> ('yang', 'PR')
-lebih                -> ('lebih', 'ADV')
-efektif              -> ('efektif', 'JJ')
-untuk                -> ('untuk', 'SC')
-pertumbuhan          -> ('pertumbuhan', 'NN')
-bisnis               -> ('bisnis', 'NN')
-
-Accepted phrase: evaluasi
-POS sequence: NN
-
-Accepted phrase: anda
-POS sequence: NN
-
-Accepted phrase: strategi
-POS sequence: NN
-
-Accepted phrase: pertumbuhan bisnis
-POS sequence: NN NN
-
-Extracted 4 unique phrases:
-- evaluasi
-- anda
-- strategi
-- pertumbuhan bisnis
-
-Total unique candidates found: 129
-Final candidates:
-- tips
-- bisnis online
-- pemula
-- panduan lengkap
-- kini
-- pilihan
-- orang
-- penghasilan tambahan
-- karier mandiri
-- perkembangan teknologi
-- akses internet
-- peluang
-- dunia digital
-- langkah awal
-- artikel
-- perencanaan
-- strategi pemasaran
-- niche
-- pasar
-- langkah pertama
-- anda
-- bidang
-- minat
-- keahlian anda
-- potensi pasar
-- misalnya
-- passion
-- bidang fashion
-- pakaian
-- aksesori
-- riset pasar
-- kebutuhan
-- preferensi konsumen
-- tools
-- google trends
-- survei online
-- data
-- riset
-- produk
-- layanan
-- rencana bisnis
-- panduan
-- rencana
-- tujuan bisnis
-- target pasar
-- analisis kompetitor
-- proyeksi keuangan
-- tantangan
-- keputusan
-- ​ markbro
-- com
-- saungwriter
-- jobstreet
-- brand
-- branding
-- kunci
-- bisnis anda
-- kompetitor
-- nama brand
-- desain logo
-- penggunaan warna
-- gaya komunikasi
-- kepercayaan konsumen
-- loyalitas pelanggan
-- platform penjualan
-- platform
-- marketplace
-- tokopedia
-- shopee
-- media sosial
-- instagram
-- facebook
-- website pribadi
-- jenis produk
-- kombinasikan
-- audiens
-- website
-- seo
-- teknik seo
-- search engine
-- optimization
-- kata kunci
-- konten
-- website anda
-- mobile-friendly
-- mesin pencari
-- google
-- promosi media
-- sosial
-- alat
-- interaktif
-- foto produk
-- video tutorial
-- pelanggan
-- fitur iklan
-- penjualan
-- kelola keuangan
-- pengelolaan keuangan
-- kunci keberhasilan
-- bisnis
-- catat
-- pemasukan
-- pengeluaran
-- keuangan pribadi
-- dana
-- pengembangan usaha
-- aplikasi keuangan
-- spreadsheet
-- pencatatan
-- analisis
-- pelayanan pelanggan
-- prima pelayanan
-- kepuasan
-- pertanyaan
-- keluhan
-- profesional
-- solusi
-- pertimbangkan
-- layanan purna
-- garansi
-- dukungan teknis
-- evaluasi
-- tingkatkan strategi
-- evaluasi kinerja
-- data penjualan
-- feedback pelanggan
-- bahan evaluasi
-- strategi
-- pertumbuhan bisnis
-
-=== Candidate Keyphrases with Similarity Scores ===
-Note: Lower scores indicate more important keyphrases
-Candidate: fitur iklan                              Score: 0.9996
-Candidate: google trends                            Score: 0.9996
-Candidate: platform penjualan                       Score: 0.9996
-Candidate: karier mandiri                           Score: 0.9996
-Candidate: riset pasar                              Score: 0.9996
-Candidate: bidang fashion                           Score: 0.9996
-Candidate: nama brand                               Score: 0.9996
-Candidate: perkembangan teknologi                   Score: 0.9996
-Candidate: rencana bisnis                           Score: 0.9996
-Candidate: penghasilan tambahan                     Score: 0.9996
-Candidate: panduan lengkap                          Score: 0.9996
-Candidate: strategi pemasaran                       Score: 0.9996
-Candidate: bisnis anda                              Score: 0.9996
-Candidate: website pribadi                          Score: 0.9996
-Candidate: desain logo                              Score: 0.9996
-Candidate: promosi media                            Score: 0.9997
-Candidate: media sosial                             Score: 0.9997
-Candidate: gaya komunikasi                          Score: 0.9997
-Candidate: kata kunci                               Score: 0.9997
-Candidate: ​ markbro                                Score: 0.9997
-Candidate: kepercayaan konsumen                     Score: 0.9997
-Candidate: survei online                            Score: 0.9997
-Candidate: akses internet                           Score: 0.9997
-Candidate: analisis kompetitor                      Score: 0.9997
-Candidate: langkah pertama                          Score: 0.9997
-Candidate: bisnis online                            Score: 0.9997
-Candidate: target pasar                             Score: 0.9997
-Candidate: penggunaan warna                         Score: 0.9997
-Candidate: teknik seo                               Score: 0.9997
-Candidate: jenis produk                             Score: 0.9997
-Candidate: mesin pencari                            Score: 0.9997
-Candidate: potensi pasar                            Score: 0.9997
-Candidate: proyeksi keuangan                        Score: 0.9997
-Candidate: langkah awal                             Score: 0.9997
-Candidate: dunia digital                            Score: 0.9997
-Candidate: tujuan bisnis                            Score: 0.9997
-Candidate: video tutorial                           Score: 0.9997
-Candidate: search engine                            Score: 0.9997
-Candidate: foto produk                              Score: 0.9997
-Candidate: keahlian anda                            Score: 0.9997
-Candidate: loyalitas pelanggan                      Score: 0.9997
-Candidate: website anda                             Score: 0.9997
-Candidate: preferensi konsumen                      Score: 0.9997
-Candidate: kelola keuangan                          Score: 1.0000
-Candidate: pengelolaan keuangan                     Score: 1.0000
-Candidate: kunci keberhasilan                       Score: 1.0000
-Candidate: keuangan pribadi                         Score: 1.0000
-Candidate: pengembangan usaha                       Score: 1.0000
-Candidate: aplikasi keuangan                        Score: 1.0000
-Candidate: pelayanan pelanggan                      Score: 1.0000
-Candidate: prima pelayanan                          Score: 1.0000
-Candidate: layanan purna                            Score: 1.0000
-Candidate: dukungan teknis                          Score: 1.0000
-Candidate: tingkatkan strategi                      Score: 1.0000
-Candidate: evaluasi kinerja                         Score: 1.0000
-Candidate: data penjualan                           Score: 1.0000
-Candidate: feedback pelanggan                       Score: 1.0000
-Candidate: bahan evaluasi                           Score: 1.0000
-Candidate: pertumbuhan bisnis                       Score: 1.0000
-
-=== Final Selected Keyphrases ===
-1. fitur iklan                              Score: 0.9996
-2. google trends                            Score: 0.9996
-3. platform penjualan                       Score: 0.9996
-4. karier mandiri                           Score: 0.9996
-5. riset pasar                              Score: 0.9996
-6. bidang fashion                           Score: 0.9996
-7. nama brand                               Score: 0.9996
-8. perkembangan teknologi                   Score: 0.9996
-9. rencana bisnis                           Score: 0.9996
-10. penghasilan tambahan                     Score: 0.9996
-
-
-=== Starting Keyphrase Extraction ===
-Input text length: 2283
-
-
-=== New Text Processing ===
-Original text: transformasi digital dalam dunia pendidikan indonesia dalam beberapa tahun terakhir, transformasi digital telah menjadi pendorong utama perubahan di berbagai sektor, termasuk pendidikan.
-di indonesia, adopsi teknologi digital dalam dunia pendidikan mengalami percepatan signifikan, terutama sejak pandemi covid-19 memaksa institusi pendidikan untuk beralih ke pembelajaran daring.
-platform pembelajaran online, aplikasi edukasi, dan sistem manajemen pembelajaran (lms) menjadi alat penting dalam mendukung proses belajar mengajar.
-​ arxiv namun, transformasi ini tidak hanya sebatas pada penggunaan teknologi semata.
-lebih dari itu, diperlukan perubahan paradigma dalam metode pengajaran, kurikulum, dan evaluasi pembelajaran.
-guru dan tenaga pendidik dituntut untuk meningkatkan literasi digital mereka agar dapat memanfaatkan teknologi secara optimal.
-selain itu, pemerintah dan pemangku kepentingan lainnya perlu memastikan ketersediaan infrastruktur yang memadai, seperti akses internet yang stabil dan perangkat teknologi yang terjangkau, terutama di daerah terpencil.
-​ transformasi digital juga membuka peluang untuk menerapkan pembelajaran yang lebih personalisasi, adaptif, dan berbasis data.
-dengan analisis data, institusi pendidikan dapat memahami kebutuhan dan perkembangan peserta didik secara lebih mendalam, sehingga dapat memberikan intervensi yang tepat waktu dan efektif.
-selain itu, kolaborasi antara sektor publik dan swasta dalam pengembangan konten edukasi digital dapat memperkaya sumber belajar yang tersedia bagi siswa dan guru.
-​ dreambox +1 glints +1 meskipun demikian, tantangan dalam transformasi digital pendidikan di indonesia masih cukup besar.
-kesenjangan digital antara wilayah perkotaan dan pedesaan, keterbatasan sumber daya manusia yang terampil di bidang teknologi, serta resistensi terhadap perubahan menjadi beberapa hambatan yang perlu diatasi.
-oleh karena itu, pendekatan yang holistik dan inklusif sangat diperlukan untuk memastikan bahwa transformasi digital membawa manfaat yang merata bagi seluruh lapisan masyarakat.
-​ dengan komitmen dan kolaborasi dari semua pihak, transformasi digital dalam dunia pendidikan indonesia dapat menjadi katalisator bagi peningkatan kualitas pendidikan dan pencapaian tujuan pembangunan berkelanjutan.
-​
-
-
-POS Tagging Results:
-transformasi         -> ('transformasi', 'NN')
-digital              -> ('digital', 'JJ')
-dalam                -> ('dalam', 'IN')
-dunia                -> ('dunia', 'NN')
-pendidikan           -> ('pendidikan', 'NN')
-indonesia            -> ('indonesia', 'NN')
-dalam                -> ('dalam', 'IN')
-beberapa             -> ('beberapa', 'DT')
-tahun                -> ('tahun', 'NN')
-terakhir             -> ('terakhir', 'JJ')
-,                    -> (',', 'SYM')
-transformasi         -> ('transformasi', 'NN')
-digital              -> ('digital', 'JJ')
-telah                -> ('telah', 'ADV')
-menjadi              -> ('menjadi', 'VB')
-pendorong            -> ('pendorong', 'NN')
-utama                -> ('utama', 'JJ')
-perubahan            -> ('perubahan', 'NN')
+kenakalan            -> ('kenakalan', 'NN')
+remaja               -> ('remaja', 'NN')
+pada                 -> ('pada', 'IN')
+siswa                -> ('siswa', 'NN')
 di                   -> ('di', 'IN')
-berbagai             -> ('berbagai', 'DT')
-sektor               -> ('sektor', 'NN')
-,                    -> (',', 'SYM')
-termasuk             -> ('termasuk', 'VB')
-pendidikan           -> ('pendidikan', 'NN')
+smk                  -> ('smk', 'NN')
+islam                -> ('islam', 'NN')
+sudirman             -> ('sudirman', 'NN')
+kecamatan            -> ('kecamatan', 'NN')
+ungaran              -> ('ungaran', 'NN')
+barat                -> ('barat', 'NN')
+kabupaten            -> ('kabupaten', 'NN')
+semarang             -> ('semarang', 'ADV')
 
-Accepted phrase: transformasi digital
-POS sequence: NN JJ
+Accepted phrase: penelitian
+POS sequence: NN
 
-Accepted phrase: dunia pendidikan
+Accepted phrase: hubungan kecerdasan
 POS sequence: NN NN
 
-Accepted phrase: indonesia
+Accepted phrase: kenakalan remaja
+POS sequence: NN NN
+
+Accepted phrase: siswa
 POS sequence: NN
 
-Accepted phrase: tahun terakhir
-POS sequence: NN JJ
+Accepted phrase: smk islam
+POS sequence: NN NN
 
-Accepted phrase: transformasi digital
-POS sequence: NN JJ
+Accepted phrase: sudirman kecamatan
+POS sequence: NN NN
 
-Accepted phrase: pendorong utama
-POS sequence: NN JJ
+Accepted phrase: ungaran barat
+POS sequence: NN NN
 
-Accepted phrase: perubahan
-POS sequence: NN
-
-Accepted phrase: sektor
-POS sequence: NN
-
-Accepted phrase: pendidikan
+Accepted phrase: kabupaten
 POS sequence: NN
 
 Extracted 8 unique phrases:
-- transformasi digital
-- dunia pendidikan
-- indonesia
-- tahun terakhir
-- pendorong utama
-- perubahan
-- sektor
-- pendidikan
+- penelitian
+- hubungan kecerdasan
+- kenakalan remaja
+- siswa
+- smk islam
+- sudirman kecamatan
+- ungaran barat
+- kabupaten
 
 POS Tagging Results:
-di                   -> ('di', 'IN')
-indonesia            -> ('indonesia', 'NNP')
-,                    -> (',', 'SYM')
-adopsi               -> ('adopsi', 'NN')
-teknologi            -> ('teknologi', 'NN')
-digital              -> ('digital', 'JJ')
-dalam                -> ('dalam', 'IN')
-dunia                -> ('dunia', 'NN')
-pendidikan           -> ('pendidikan', 'NN')
-mengalami            -> ('mengalami', 'VB')
-percepatan           -> ('percepatan', 'NN')
-signifikan           -> ('signifikan', 'JJ')
-,                    -> (',', 'SYM')
-terutama             -> ('terutama', 'JJ')
-sejak                -> ('sejak', 'IN')
-pandemi              -> ('pandemi', 'VB')
-covid-19             -> ('covid-19', 'NN')
-memaksa              -> ('memaksa', 'VB')
-institusi            -> ('institusi', 'NN')
-pendidikan           -> ('pendidikan', 'NN')
-untuk                -> ('untuk', 'SC')
-beralih              -> ('beralih', 'VB')
-ke                   -> ('ke', 'IN')
-pembelajaran         -> ('pembelajaran', 'NN')
-daring               -> ('daring', 'FW')
+penelitian           -> ('penelitian', 'NN')
+ini                  -> ('ini', 'DT')
+merupakan            -> ('merupakan', 'VB')
+penelitian           -> ('penelitian', 'NN')
+deskriptif           -> ('deskriptif', 'NN')
+korelasi             -> ('korelasi', 'NN')
+dengan               -> ('dengan', 'IN')
+pendekatan           -> ('pendekatan', 'NN')
+cross                -> ('cross', 'FW')
+sectional            -> ('sectional', 'NN')
 
-Accepted phrase: indonesia
-POS sequence: NNP
-
-Accepted phrase: adopsi teknologi
-POS sequence: NN NN
-
-Accepted phrase: dunia pendidikan
-POS sequence: NN NN
-
-Accepted phrase: percepatan signifikan
-POS sequence: NN JJ
-
-Accepted phrase: covid-19
+Accepted phrase: penelitian
 POS sequence: NN
 
-Accepted phrase: institusi pendidikan
+Accepted phrase: penelitian deskriptif
 POS sequence: NN NN
 
-Accepted phrase: pembelajaran daring
+Accepted phrase: korelasi
+POS sequence: NN
+
+Accepted phrase: pendekatan cross
 POS sequence: NN FW
 
-Extracted 7 unique phrases:
-- indonesia
-- adopsi teknologi
-- dunia pendidikan
-- percepatan signifikan
-- covid-19
-- institusi pendidikan
-- pembelajaran daring
+Accepted phrase: sectional
+POS sequence: NN
+
+Extracted 5 unique phrases:
+- penelitian
+- penelitian deskriptif
+- korelasi
+- pendekatan cross
+- sectional
 
 POS Tagging Results:
-platform             -> ('platform', 'NN')
-pembelajaran         -> ('pembelajaran', 'NN')
-online               -> ('online', 'JJ')
-,                    -> (',', 'SYM')
-aplikasi             -> ('aplikasi', 'NN')
-edukasi              -> ('edukasi', 'NN')
-,                    -> (',', 'SYM')
-dan                  -> ('dan', 'CC')
-sistem               -> ('sistem', 'NN')
-manajemen            -> ('manajemen', 'NN')
-pembelajaran         -> ('pembelajaran', 'NN')
-(                    -> ('(', 'SYM')
-lms                  -> ('lms', 'NN')
-)                    -> (')', 'SYM')
-menjadi              -> ('menjadi', 'VB')
-alat                 -> ('alat', 'NN')
-penting              -> ('penting', 'JJ')
-dalam                -> ('dalam', 'SC')
-mendukung            -> ('mendukung', 'VB')
-proses               -> ('proses', 'NN')
-belajar              -> ('belajar', 'VB')
-mengajar             -> ('mengajar', 'VB')
-
-Accepted phrase: platform pembelajaran
-POS sequence: NN NN
-
-Accepted phrase: aplikasi edukasi
-POS sequence: NN NN
-
-Accepted phrase: sistem manajemen
-POS sequence: NN NN
-
-Accepted phrase: pembelajaran
-POS sequence: NN
-
-Accepted phrase: lms
-POS sequence: NN
-
-Accepted phrase: alat penting
-POS sequence: NN JJ
-
-Accepted phrase: proses
-POS sequence: NN
-
-Extracted 7 unique phrases:
-- platform pembelajaran
-- aplikasi edukasi
-- sistem manajemen
-- pembelajaran
-- lms
-- alat penting
-- proses
-
-POS Tagging Results:
-​                    -> ('\u200b', 'NNP')
-arxiv                -> ('arxiv', 'NN')
-namun                -> ('namun', 'CC')
-,                    -> (',', 'SYM')
-transformasi         -> ('transformasi', 'NN')
-ini                  -> ('ini', 'DT')
-tidak                -> ('tidak', 'NEG')
-hanya                -> ('hanya', 'ADV')
-sebatas              -> ('sebatas', 'JJ')
-pada                 -> ('pada', 'IN')
-penggunaan           -> ('penggunaan', 'NN')
-teknologi            -> ('teknologi', 'NN')
-semata               -> ('semata', 'JJ')
-
-Accepted phrase: ​ arxiv
-POS sequence: NNP NN
-
-Accepted phrase: transformasi
-POS sequence: NN
-
-Accepted phrase: penggunaan teknologi
-POS sequence: NN NN
-
-Extracted 3 unique phrases:
-- ​ arxiv
-- transformasi
-- penggunaan teknologi
-
-POS Tagging Results:
-lebih                -> ('lebih', 'JJ')
-dari                 -> ('dari', 'IN')
-itu                  -> ('itu', 'PR')
-,                    -> (',', 'SYM')
-diperlukan           -> ('diperlukan', 'VB')
-perubahan            -> ('perubahan', 'NN')
-paradigma            -> ('paradigma', 'NN')
-dalam                -> ('dalam', 'IN')
-metode               -> ('metode', 'NN')
-pengajaran           -> ('pengajaran', 'NN')
-,                    -> (',', 'SYM')
-kurikulum            -> ('kurikulum', 'NN')
-,                    -> (',', 'SYM')
-dan                  -> ('dan', 'CC')
-evaluasi             -> ('evaluasi', 'NN')
-pembelajaran         -> ('pembelajaran', 'NN')
-
-Accepted phrase: perubahan paradigma
-POS sequence: NN NN
-
-Accepted phrase: metode pengajaran
-POS sequence: NN NN
-
-Accepted phrase: kurikulum
-POS sequence: NN
-
-Accepted phrase: evaluasi pembelajaran
-POS sequence: NN NN
-
-Extracted 4 unique phrases:
-- perubahan paradigma
-- metode pengajaran
-- kurikulum
-- evaluasi pembelajaran
-
-POS Tagging Results:
-guru                 -> ('guru', 'NN')
-dan                  -> ('dan', 'CC')
-tenaga               -> ('tenaga', 'NN')
-pendidik             -> ('pendidik', 'NN')
-dituntut             -> ('dituntut', 'VB')
-untuk                -> ('untuk', 'SC')
-meningkatkan         -> ('meningkatkan', 'VB')
-literasi             -> ('literasi', 'NN')
-digital              -> ('digital', 'JJ')
-mereka               -> ('mereka', 'PR')
-agar                 -> ('agar', 'SC')
-dapat                -> ('dapat', 'ADV')
-memanfaatkan         -> ('memanfaatkan', 'VB')
-teknologi            -> ('teknologi', 'NN')
-secara               -> ('secara', 'IN')
-optimal              -> ('optimal', 'JJ')
-
-Accepted phrase: guru
-POS sequence: NN
-
-Accepted phrase: tenaga pendidik
-POS sequence: NN NN
-
-Accepted phrase: literasi digital
-POS sequence: NN JJ
-
-Accepted phrase: teknologi
-POS sequence: NN
-
-Extracted 4 unique phrases:
-- guru
-- tenaga pendidik
-- literasi digital
-- teknologi
-
-POS Tagging Results:
-selain               -> ('selain', 'CC')
-itu                  -> ('itu', 'PR')
-,                    -> (',', 'SYM')
-pemerintah           -> ('pemerintah', 'NN')
-dan                  -> ('dan', 'CC')
-pemangku             -> ('pemangku', 'NN')
-kepentingan          -> ('kepentingan', 'NN')
-lain                 -> ('lain', 'JJ')
-nya                  -> ('nya', 'DT')
-perlu                -> ('perlu', 'ADV')
-memastikan           -> ('memastikan', 'VB')
-ketersediaan         -> ('ketersediaan', 'NN')
-infrastruktur        -> ('infrastruktur', 'NN')
-yang                 -> ('yang', 'PR')
-memadai              -> ('memadai', 'VB')
-,                    -> (',', 'SYM')
-seperti              -> ('seperti', 'IN')
-akses                -> ('akses', 'NN')
-internet             -> ('internet', 'NN')
-yang                 -> ('yang', 'PR')
-stabil               -> ('stabil', 'JJ')
-dan                  -> ('dan', 'CC')
-perangkat            -> ('perangkat', 'NN')
-teknologi            -> ('teknologi', 'NN')
-yang                 -> ('yang', 'PR')
-terjangkau           -> ('terjangkau', 'VB')
-,                    -> (',', 'SYM')
-terutama             -> ('terutama', 'JJ')
-di                   -> ('di', 'IN')
-daerah               -> ('daerah', 'NN')
-terpencil            -> ('terpencil', 'JJ')
-
-Accepted phrase: pemerintah
-POS sequence: NN
-
-Accepted phrase: pemangku kepentingan
-POS sequence: NN NN
-
-Accepted phrase: ketersediaan infrastruktur
-POS sequence: NN NN
-
-Accepted phrase: akses internet
-POS sequence: NN NN
-
-Accepted phrase: perangkat teknologi
-POS sequence: NN NN
-
-Accepted phrase: daerah terpencil
-POS sequence: NN JJ
-
-Extracted 6 unique phrases:
-- pemerintah
-- pemangku kepentingan
-- ketersediaan infrastruktur
-- akses internet
-- perangkat teknologi
-- daerah terpencil
-
-POS Tagging Results:
-​                    -> ('\u200b', 'NNP')
-transformasi         -> ('transformasi', 'NN')
-digital              -> ('digital', 'JJ')
-juga                 -> ('juga', 'ADV')
-membuka              -> ('membuka', 'VB')
-peluang              -> ('peluang', 'NN')
-untuk                -> ('untuk', 'SC')
-menerapkan           -> ('menerapkan', 'VB')
-pembelajaran         -> ('pembelajaran', 'NN')
-yang                 -> ('yang', 'PR')
-lebih                -> ('lebih', 'ADV')
-personalisasi        -> ('personalisasi', 'NN')
-,                    -> (',', 'SYM')
-adaptif              -> ('adaptif', 'NN')
-,                    -> (',', 'SYM')
-dan                  -> ('dan', 'CC')
-berbasis             -> ('berbasis', 'VB')
-data                 -> ('data', 'NN')
-
-Accepted phrase: ​ transformasi
-POS sequence: NNP NN
-
-Accepted phrase: peluang
-POS sequence: NN
-
-Accepted phrase: pembelajaran
-POS sequence: NN
-
-Accepted phrase: personalisasi
-POS sequence: NN
-
-Accepted phrase: adaptif
-POS sequence: NN
-
-Accepted phrase: data
-POS sequence: NN
-
-Extracted 6 unique phrases:
-- ​ transformasi
-- peluang
-- pembelajaran
-- personalisasi
-- adaptif
-- data
-
-POS Tagging Results:
+pengambilan          -> ('pengambilan', 'NN')
+sampel               -> ('sampel', 'NN')
 dengan               -> ('dengan', 'IN')
-analisis             -> ('analisis', 'NN')
-data                 -> ('data', 'NN')
-,                    -> (',', 'SYM')
-institusi            -> ('institusi', 'NN')
-pendidikan           -> ('pendidikan', 'NN')
-dapat                -> ('dapat', 'ADV')
-memahami             -> ('memahami', 'VB')
-kebutuhan            -> ('kebutuhan', 'NN')
-dan                  -> ('dan', 'CC')
-perkembangan         -> ('perkembangan', 'NN')
-peserta              -> ('peserta', 'NN')
-didik                -> ('didik', 'VB')
-secara               -> ('secara', 'IN')
-lebih                -> ('lebih', 'ADV')
-mendalam             -> ('mendalam', 'VB')
-,                    -> (',', 'SYM')
-sehingga             -> ('sehingga', 'SC')
-dapat                -> ('dapat', 'ADV')
-memberikan           -> ('memberikan', 'VB')
-intervensi           -> ('intervensi', 'NN')
-yang                 -> ('yang', 'PR')
-tepat                -> ('tepat', 'JJ')
-waktu                -> ('waktu', 'NN')
-dan                  -> ('dan', 'CC')
-efektif              -> ('efektif', 'JJ')
+porpotional          -> ('porpotional', 'NN')
+random               -> ('random', 'NN')
+sampling             -> ('sampling', 'ADV')
 
-Accepted phrase: analisis data
+Accepted phrase: pengambilan sampel
 POS sequence: NN NN
 
-Accepted phrase: institusi pendidikan
+Accepted phrase: porpotional random
 POS sequence: NN NN
 
-Accepted phrase: kebutuhan
-POS sequence: NN
-
-Accepted phrase: perkembangan peserta
-POS sequence: NN NN
-
-Accepted phrase: intervensi
-POS sequence: NN
-
-Accepted phrase: waktu
-POS sequence: NN
-
-Extracted 6 unique phrases:
-- analisis data
-- institusi pendidikan
-- kebutuhan
-- perkembangan peserta
-- intervensi
-- waktu
+Extracted 2 unique phrases:
+- pengambilan sampel
+- porpotional random
 
 POS Tagging Results:
-selain               -> ('selain', 'CC')
-itu                  -> ('itu', 'PR')
-,                    -> (',', 'SYM')
-kolaborasi           -> ('kolaborasi', 'NN')
-antara               -> ('antara', 'IN')
-sektor               -> ('sektor', 'NN')
-publik               -> ('publik', 'NN')
-dan                  -> ('dan', 'CC')
-swasta               -> ('swasta', 'JJ')
-dalam                -> ('dalam', 'IN')
-pengembangan         -> ('pengembangan', 'NN')
-konten               -> ('konten', 'NN')
-edukasi              -> ('edukasi', 'NN')
-digital              -> ('digital', 'JJ')
-dapat                -> ('dapat', 'ADV')
-memperkaya           -> ('memperkaya', 'VB')
-sumber               -> ('sumber', 'NN')
-belajar              -> ('belajar', 'VB')
-yang                 -> ('yang', 'PR')
-tersedia             -> ('tersedia', 'VB')
-bagi                 -> ('bagi', 'IN')
+besar                -> ('besar', 'JJ')
+nya                  -> ('nya', 'PR')
+sampel               -> ('sampel', 'NN')
+adalah               -> ('adalah', 'ADV')
+76                   -> ('76', 'NUM')
 siswa                -> ('siswa', 'NN')
-dan                  -> ('dan', 'CC')
-guru                 -> ('guru', 'NN')
+di                   -> ('di', 'IN')
+smkislam             -> ('smkislam', 'NN')
+sudirman             -> ('sudirman', 'NN')
+kecamatan            -> ('kecamatan', 'NN')
+ungaran              -> ('ungaran', 'NN')
+barat                -> ('barat', 'NN')
+kabupaten            -> ('kabupaten', 'NN')
+semarang             -> ('semarang', 'ADV')
 
-Accepted phrase: kolaborasi
-POS sequence: NN
-
-Accepted phrase: sektor publik
-POS sequence: NN NN
-
-Accepted phrase: pengembangan konten
-POS sequence: NN NN
-
-Accepted phrase: edukasi digital
-POS sequence: NN JJ
-
-Accepted phrase: sumber
+Accepted phrase: sampel
 POS sequence: NN
 
 Accepted phrase: siswa
 POS sequence: NN
 
-Accepted phrase: guru
-POS sequence: NN
-
-Extracted 7 unique phrases:
-- kolaborasi
-- sektor publik
-- pengembangan konten
-- edukasi digital
-- sumber
-- siswa
-- guru
-
-POS Tagging Results:
-​                    -> ('\u200b', 'NNP')
-dreambox             -> ('dreambox', 'NN')
-+1                   -> ('+1', 'NUM')
-glints               -> ('glints', 'NN')
-+1                   -> ('+1', 'NUM')
-meskipun             -> ('meskipun', 'SC')
-demikian             -> ('demikian', 'PR')
-,                    -> (',', 'SYM')
-tantangan            -> ('tantangan', 'NN')
-dalam                -> ('dalam', 'IN')
-transformasi         -> ('transformasi', 'NN')
-digital              -> ('digital', 'JJ')
-pendidikan           -> ('pendidikan', 'NN')
-di                   -> ('di', 'IN')
-indonesia            -> ('indonesia', 'NN')
-masih                -> ('masih', 'ADV')
-cukup                -> ('cukup', 'ADV')
-besar                -> ('besar', 'JJ')
-
-Accepted phrase: ​ dreambox
-POS sequence: NNP NN
-
-Accepted phrase: glints
-POS sequence: NN
-
-Accepted phrase: tantangan
-POS sequence: NN
-
-Accepted phrase: transformasi digital
-POS sequence: NN JJ
-
-Accepted phrase: pendidikan
-POS sequence: NN
-
-Accepted phrase: indonesia
-POS sequence: NN
-
-Extracted 6 unique phrases:
-- ​ dreambox
-- glints
-- tantangan
-- transformasi digital
-- pendidikan
-- indonesia
-
-POS Tagging Results:
-kesenjangan          -> ('kesenjangan', 'NN')
-digital              -> ('digital', 'JJ')
-antara               -> ('antara', 'IN')
-wilayah              -> ('wilayah', 'NN')
-perkotaan            -> ('perkotaan', 'NN')
-dan                  -> ('dan', 'CC')
-pedesaan             -> ('pedesaan', 'NN')
-,                    -> (',', 'SYM')
-keterbatasan         -> ('keterbatasan', 'NN')
-sumber               -> ('sumber', 'NN')
-daya                 -> ('daya', 'NN')
-manusia              -> ('manusia', 'NN')
-yang                 -> ('yang', 'PR')
-terampil             -> ('terampil', 'JJ')
-di                   -> ('di', 'IN')
-bidang               -> ('bidang', 'NN')
-teknologi            -> ('teknologi', 'NN')
-,                    -> (',', 'SYM')
-serta                -> ('serta', 'CC')
-resistensi           -> ('resistensi', 'NN')
-terhadap             -> ('terhadap', 'IN')
-perubahan            -> ('perubahan', 'NN')
-menjadi              -> ('menjadi', 'VB')
-beberapa             -> ('beberapa', 'DT')
-hambatan             -> ('hambatan', 'NN')
-yang                 -> ('yang', 'PR')
-perlu                -> ('perlu', 'ADV')
-diatasi              -> ('diatasi', 'VB')
-
-Accepted phrase: kesenjangan digital
-POS sequence: NN JJ
-
-Accepted phrase: wilayah perkotaan
+Accepted phrase: smkislam sudirman
 POS sequence: NN NN
 
-Accepted phrase: pedesaan
-POS sequence: NN
-
-Accepted phrase: keterbatasan sumber
+Accepted phrase: kecamatan ungaran
 POS sequence: NN NN
 
-Accepted phrase: daya manusia
-POS sequence: NN NN
-
-Accepted phrase: bidang teknologi
-POS sequence: NN NN
-
-Accepted phrase: resistensi
-POS sequence: NN
-
-Accepted phrase: perubahan
-POS sequence: NN
-
-Accepted phrase: hambatan
-POS sequence: NN
-
-Extracted 9 unique phrases:
-- kesenjangan digital
-- wilayah perkotaan
-- pedesaan
-- keterbatasan sumber
-- daya manusia
-- bidang teknologi
-- resistensi
-- perubahan
-- hambatan
-
-POS Tagging Results:
-oleh                 -> ('oleh', 'IN')
-karena               -> ('karena', 'SC')
-itu                  -> ('itu', 'PR')
-,                    -> (',', 'SYM')
-pendekatan           -> ('pendekatan', 'NN')
-yang                 -> ('yang', 'PR')
-holistik             -> ('holistik', 'JJ')
-dan                  -> ('dan', 'CC')
-inklusif             -> ('inklusif', 'NN')
-sangat               -> ('sangat', 'ADV')
-diperlukan           -> ('diperlukan', 'VB')
-untuk                -> ('untuk', 'SC')
-memastikan           -> ('memastikan', 'VB')
-bahwa                -> ('bahwa', 'SC')
-transformasi         -> ('transformasi', 'NN')
-digital              -> ('digital', 'JJ')
-membawa              -> ('membawa', 'VB')
-manfaat              -> ('manfaat', 'NN')
-yang                 -> ('yang', 'PR')
-merata               -> ('merata', 'VB')
-bagi                 -> ('bagi', 'IN')
-seluruh              -> ('seluruh', 'DT')
-lapisan              -> ('lapisan', 'NN')
-masyarakat           -> ('masyarakat', 'NN')
-
-Accepted phrase: pendekatan
-POS sequence: NN
-
-Accepted phrase: inklusif
-POS sequence: NN
-
-Accepted phrase: transformasi digital
-POS sequence: NN JJ
-
-Accepted phrase: manfaat
-POS sequence: NN
-
-Accepted phrase: lapisan masyarakat
+Accepted phrase: barat kabupaten
 POS sequence: NN NN
 
 Extracted 5 unique phrases:
-- pendekatan
-- inklusif
-- transformasi digital
-- manfaat
-- lapisan masyarakat
+- sampel
+- siswa
+- smkislam sudirman
+- kecamatan ungaran
+- barat kabupaten
 
 POS Tagging Results:
-​                    -> ('\u200b', 'NNP')
-dengan               -> ('dengan', 'IN')
-komitmen             -> ('komitmen', 'NN')
-dan                  -> ('dan', 'CC')
-kolaborasi           -> ('kolaborasi', 'NN')
-dari                 -> ('dari', 'IN')
-semua                -> ('semua', 'DT')
-pihak                -> ('pihak', 'NN')
-,                    -> (',', 'SYM')
-transformasi         -> ('transformasi', 'NN')
-digital              -> ('digital', 'JJ')
-dalam                -> ('dalam', 'IN')
-dunia                -> ('dunia', 'NN')
-pendidikan           -> ('pendidikan', 'NN')
-indonesia            -> ('indonesia', 'NN')
-dapat                -> ('dapat', 'ADV')
-menjadi              -> ('menjadi', 'VB')
-katalisator          -> ('katalisator', 'NN')
-bagi                 -> ('bagi', 'IN')
-peningkatan          -> ('peningkatan', 'NN')
-kualitas             -> ('kualitas', 'NN')
-pendidikan           -> ('pendidikan', 'NN')
-dan                  -> ('dan', 'CC')
-pencapaian           -> ('pencapaian', 'NN')
-tujuan               -> ('tujuan', 'NN')
-pembangunan          -> ('pembangunan', 'NN')
-berkelanjutan        -> ('berkelanjutan', 'VB')
+instrumen            -> ('instrumen', 'NN')
+penelitian           -> ('penelitian', 'NN')
+nya                  -> ('nya', 'PR')
+berupa               -> ('berupa', 'VB')
+kuesioner            -> ('kuesioner', 'NN')
 
-Accepted phrase: ​
-POS sequence: NNP
+Accepted phrase: instrumen penelitian
+POS sequence: NN NN
 
-Accepted phrase: komitmen
+Accepted phrase: kuesioner
 POS sequence: NN
 
-Accepted phrase: kolaborasi
-POS sequence: NN
+Extracted 2 unique phrases:
+- instrumen penelitian
+- kuesioner
 
-Accepted phrase: pihak
-POS sequence: NN
+POS Tagging Results:
+analisis             -> ('analisis', 'NN')
+data                 -> ('data', 'NN')
+menggunakan          -> ('menggunakan', 'VB')
+uji                  -> ('uji', 'VB')
+statistik            -> ('statistik', 'NN')
+kendall              -> ('kendall', 'JJ')
+tau                  -> ('tau', 'NN')
 
-Accepted phrase: transformasi digital
+Accepted phrase: analisis data
+POS sequence: NN NN
+
+Accepted phrase: statistik kendall
 POS sequence: NN JJ
 
-Accepted phrase: dunia pendidikan
-POS sequence: NN NN
-
-Accepted phrase: indonesia
+Accepted phrase: tau
 POS sequence: NN
 
-Accepted phrase: katalisator
-POS sequence: NN
-
-Accepted phrase: peningkatan kualitas
-POS sequence: NN NN
-
-Accepted phrase: pendidikan
-POS sequence: NN
-
-Accepted phrase: pencapaian tujuan
-POS sequence: NN NN
-
-Accepted phrase: pembangunan
-POS sequence: NN
-
-Extracted 12 unique phrases:
-- ​
-- komitmen
-- kolaborasi
-- pihak
-- transformasi digital
-- dunia pendidikan
-- indonesia
-- katalisator
-- peningkatan kualitas
-- pendidikan
-- pencapaian tujuan
-- pembangunan
+Extracted 3 unique phrases:
+- analisis data
+- statistik kendall
+- tau
 
 POS Tagging Results:
-​                    -> ('\u200b', 'SYM')
+kemudian             -> ('kemudian', 'ADV')
+hasil                -> ('hasil', 'NN')
+penelitian           -> ('penelitian', 'NN')
+didapatkan           -> ('didapatkan', 'VB')
+bahwa                -> ('bahwa', 'SC')
+sebagian             -> ('sebagian', 'NN')
+besar                -> ('besar', 'JJ')
+kecerdasan           -> ('kecerdasan', 'NN')
+emosional            -> ('emosional', 'JJ')
+adalah               -> ('adalah', 'ADV')
+rendah               -> ('rendah', 'JJ')
+sebanyak             -> ('sebanyak', 'NN')
+34                   -> ('34', 'NUM')
+responden            -> ('responden', 'NN')
+(                    -> ('(', 'SYM')
+44,7                 -> ('44,7', 'NUM')
+)                    -> (')', 'SYM')
+,                    -> (',', 'SYM')
+dan                  -> ('dan', 'CC')
+didapatkan           -> ('didapatkan', 'VB')
+bahwa                -> ('bahwa', 'SC')
+sebagian             -> ('sebagian', 'NN')
+besar                -> ('besar', 'JJ')
+kenakalan            -> ('kenakalan', 'NN')
+remaja               -> ('remaja', 'NN')
+adalah               -> ('adalah', 'ADV')
+sedang               -> ('sedang', 'ADV')
+sebanyak             -> ('sebanyak', 'NN')
+43                   -> ('43', 'NUM')
+responden            -> ('responden', 'NN')
+(                    -> ('(', 'SYM')
+56,6                 -> ('56,6', 'NUM')
+)                    -> (')', 'SYM')
 
-Extracted 0 unique phrases:
+Accepted phrase: hasil penelitian
+POS sequence: NN NN
 
-Total unique candidates found: 75
+Accepted phrase: sebagian besar
+POS sequence: NN JJ
+
+Accepted phrase: kecerdasan emosional
+POS sequence: NN JJ
+
+Accepted phrase: sebanyak
+POS sequence: NN
+
+Accepted phrase: responden
+POS sequence: NN
+
+Accepted phrase: sebagian besar
+POS sequence: NN JJ
+
+Accepted phrase: kenakalan remaja
+POS sequence: NN NN
+
+Accepted phrase: sebanyak
+POS sequence: NN
+
+Accepted phrase: responden
+POS sequence: NN
+
+Extracted 6 unique phrases:
+- hasil penelitian
+- sebagian besar
+- kecerdasan emosional
+- sebanyak
+- responden
+- kenakalan remaja
+
+POS Tagging Results:
+hasil                -> ('hasil', 'NN')
+penelitian           -> ('penelitian', 'NN')
+melalui              -> ('melalui', 'IN')
+uji                  -> ('uji', 'VB')
+statistik            -> ('statistik', 'NN')
+kendall              -> ('kendall', 'JJ')
+tau                  -> ('tau', 'NN')
+didapatkan           -> ('didapatkan', 'VB')
+nilai                -> ('nilai', 'NN')
+p-value              -> ('p-value', 'NN')
+0                    -> ('0', 'NUM')
+,                    -> (',', 'SYM')
+000<=0              -> ('000', 'NUM')
+,                    -> ('<', 'SYM')
+05                   -> ('\uf061=0', 'NUM')
+yang                 -> (',', 'SYM')
+arti                 -> ('05', 'NUM')
+nya                  -> ('yang', 'PR')
+ada                  -> ('arti', 'NN')
+hubungan             -> ('nya', 'DT')
+kecerdasan           -> ('ada', 'VB')
+emosional            -> ('hubungan', 'NN')
+dengan               -> ('kecerdasan', 'NN')
+kenakalan            -> ('emosional', 'JJ')
+remaja               -> ('dengan', 'IN')
+pada                 -> ('kenakalan', 'NN')
+siswa                -> ('remaja', 'NN')
+di                   -> ('pada', 'IN')
+smk                  -> ('siswa', 'NN')
+islam                -> ('di', 'IN')
+sudirman             -> ('smk', 'NN')
+kecamatan            -> ('islam', 'NN')
+ungaran              -> ('sudirman', 'NN')
+barat                -> ('kecamatan', 'NN')
+kabupaten            -> ('ungaran', 'NN')
+semarang             -> ('barat', 'NN')
+
+Accepted phrase: hasil penelitian
+POS sequence: NN NN
+
+Accepted phrase: statistik kendall
+POS sequence: NN JJ
+
+Accepted phrase: tau
+POS sequence: NN
+
+Accepted phrase: nilai p-value
+POS sequence: NN NN
+
+Accepted phrase: ada
+POS sequence: NN
+
+Accepted phrase: emosional dengan
+POS sequence: NN NN
+
+Accepted phrase: pada siswa
+POS sequence: NN NN
+
+Accepted phrase: smk
+POS sequence: NN
+
+Accepted phrase: sudirman kecamatan
+POS sequence: NN NN
+
+Accepted phrase: ungaran barat
+POS sequence: NN NN
+
+Accepted phrase: kabupaten semarang
+POS sequence: NN NN
+
+Extracted 11 unique phrases:
+- hasil penelitian
+- statistik kendall
+- tau
+- nilai p-value
+- ada
+- emosional dengan
+- pada siswa
+- smk
+- sudirman kecamatan
+- ungaran barat
+- kabupaten semarang
+
+POS Tagging Results:
+saran                -> ('saran', 'NN')
+dalam                -> ('dalam', 'IN')
+penelitian           -> ('penelitian', 'NN')
+ini                  -> ('ini', 'DT')
+adalah               -> ('adalah', 'ADV')
+remaja               -> ('remaja', 'NN')
+diharapkan           -> ('diharapkan', 'VB')
+lebih                -> ('lebih', 'ADV')
+peka                 -> ('peka', 'JJ')
+dengan               -> ('dengan', 'IN')
+kasus-kasus          -> ('kasus-kasus', 'NN')
+kenakalan            -> ('kenakalan', 'NN')
+yang                 -> ('yang', 'PR')
+marak                -> ('marak', 'JJ')
+terjadi              -> ('terjadi', 'VB')
+
+Accepted phrase: saran
+POS sequence: NN
+
+Accepted phrase: penelitian
+POS sequence: NN
+
+Accepted phrase: remaja
+POS sequence: NN
+
+Accepted phrase: kasus-kasus kenakalan
+POS sequence: NN NN
+
+Extracted 4 unique phrases:
+- saran
+- penelitian
+- remaja
+- kasus-kasus kenakalan
+
+POS Tagging Results:
+dengan               -> ('dengan', 'IN')
+demikian             -> ('demikian', 'PR')
+,                    -> (',', 'SYM')
+para                 -> ('para', 'DT')
+remaja               -> ('remaja', 'NN')
+bisa                 -> ('bisa', 'ADV')
+merefleksikan        -> ('merefleksikan', 'VB')
+diri                 -> ('diri', 'PR')
+agar                 -> ('agar', 'SC')
+terhindar            -> ('terhindar', 'VB')
+dari                 -> ('dari', 'IN')
+perilaku-perilaku    -> ('perilaku-perilaku', 'NN')
+tersebut             -> ('tersebut', 'DT')
+
+Accepted phrase: remaja
+POS sequence: NN
+
+Accepted phrase: perilaku-perilaku
+POS sequence: NN
+
+Extracted 2 unique phrases:
+- remaja
+- perilaku-perilaku
+
+POS Tagging Results:
+salah                -> ('salah', 'JJ')
+satu                 -> ('satu', 'NUM')
+cara                 -> ('cara', 'NN')
+remaja               -> ('remaja', 'NN')
+untuk                -> ('untuk', 'SC')
+dapat                -> ('dapat', 'ADV')
+terhindar            -> ('terhindar', 'VB')
+adalah               -> ('adalah', 'ADV')
+dengan               -> ('dengan', 'IN')
+mengembangkan        -> ('mengembangkan', 'VB')
+kecerdasan           -> ('kecerdasan', 'NN')
+emosional            -> ('emosional', 'JJ')
+nya                  -> ('nya', 'PR')
+,                    -> (',', 'SYM')
+karena               -> ('karena', 'SC')
+kecerdasan           -> ('kecerdasan', 'NN')
+emosional            -> ('emosional', 'JJ')
+merupakan            -> ('merupakan', 'VB')
+kemampuan            -> ('kemampuan', 'NN')
+yang                 -> ('yang', 'PR')
+bisa                 -> ('bisa', 'ADV')
+dipelajari           -> ('dipelajari', 'VB')
+
+Accepted phrase: cara remaja
+POS sequence: NN NN
+
+Accepted phrase: kecerdasan emosional
+POS sequence: NN JJ
+
+Accepted phrase: kecerdasan emosional
+POS sequence: NN JJ
+
+Accepted phrase: kemampuan
+POS sequence: NN
+
+Extracted 3 unique phrases:
+- cara remaja
+- kecerdasan emosional
+- kemampuan
+
+Total unique candidates found: 47
 Final candidates:
-- transformasi digital
-- dunia pendidikan
-- indonesia
-- tahun terakhir
-- pendorong utama
-- perubahan
-- sektor
-- pendidikan
-- adopsi teknologi
-- percepatan signifikan
-- covid-19
-- institusi pendidikan
-- pembelajaran daring
-- platform pembelajaran
-- aplikasi edukasi
-- sistem manajemen
-- pembelajaran
-- lms
-- alat penting
-- proses
-- ​ arxiv
-- transformasi
-- penggunaan teknologi
-- perubahan paradigma
-- metode pengajaran
-- kurikulum
-- evaluasi pembelajaran
-- guru
-- tenaga pendidik
-- literasi digital
-- teknologi
-- pemerintah
-- pemangku kepentingan
-- ketersediaan infrastruktur
-- akses internet
-- perangkat teknologi
-- daerah terpencil
-- ​ transformasi
-- peluang
-- personalisasi
-- adaptif
-- data
-- analisis data
-- kebutuhan
-- perkembangan peserta
-- intervensi
-- waktu
-- kolaborasi
-- sektor publik
-- pengembangan konten
-- edukasi digital
-- sumber
+- masa remaja
+- masa
+- perilaku
+- rasa
+- perilaku orang
+- kenakalan remaja
+- faktor
+- remaja salah
+- kecerdasan emosional
+- penelitian
+- hubungan kecerdasan
 - siswa
-- ​ dreambox
-- glints
-- tantangan
-- kesenjangan digital
-- wilayah perkotaan
-- pedesaan
-- keterbatasan sumber
-- daya manusia
-- bidang teknologi
-- resistensi
-- hambatan
-- pendekatan
-- inklusif
-- manfaat
-- lapisan masyarakat
-- ​
-- komitmen
-- pihak
-- katalisator
-- peningkatan kualitas
-- pencapaian tujuan
-- pembangunan
+- smk islam
+- sudirman kecamatan
+- ungaran barat
+- kabupaten
+- penelitian deskriptif
+- korelasi
+- pendekatan cross
+- sectional
+- pengambilan sampel
+- porpotional random
+- sampel
+- smkislam sudirman
+- kecamatan ungaran
+- barat kabupaten
+- instrumen penelitian
+- kuesioner
+- analisis data
+- statistik kendall
+- tau
+- hasil penelitian
+- sebagian besar
+- sebanyak
+- responden
+- nilai p-value
+- ada
+- emosional dengan
+- pada siswa
+- smk
+- kabupaten semarang
+- saran
+- remaja
+- kasus-kasus kenakalan
+- perilaku-perilaku
+- cara remaja
+- kemampuan
+
+=== All Candidate Keyphrases with Similarity Scores ===
+Note: Lower scores indicate more important keyphrases
+Candidate: masa remaja                              Score: 0.9984
+Candidate: perilaku orang                           Score: 0.9986
+Candidate: kenakalan remaja                         Score: 0.9985
+Candidate: remaja salah                             Score: 0.9988
+Candidate: kecerdasan emosional                     Score: 0.9985
+Candidate: hubungan kecerdasan                      Score: 0.9987
+Candidate: smk islam                                Score: 0.9987
+Candidate: sudirman kecamatan                       Score: 0.9987
+Candidate: ungaran barat                            Score: 0.9988
+Candidate: penelitian deskriptif                    Score: 0.9986
+Candidate: pendekatan cross                         Score: 0.9987
+Candidate: pengambilan sampel                       Score: 0.9985
+Candidate: porpotional random                       Score: 0.9983
+Candidate: smkislam sudirman                        Score: 0.9985
+Candidate: kecamatan ungaran                        Score: 0.9985
+Candidate: barat kabupaten                          Score: 0.9987
+Candidate: analisis data                            Score: 0.9986
+Candidate: statistik kendall                        Score: 0.9983
+Candidate: hasil penelitian                         Score: 0.9988
+Candidate: sebagian besar                           Score: 0.9985
+Candidate: nilai p-value                            Score: 0.9985
+Candidate: emosional dengan                         Score: 0.9988
+Candidate: pada siswa                               Score: 0.9986
+Candidate: kabupaten semarang                       Score: 0.9984
+Candidate: kasus-kasus kenakalan                    Score: 0.9983
+Candidate: cara remaja                              Score: 0.9989
 
 === Candidate Keyphrases with Similarity Scores ===
 Note: Lower scores indicate more important keyphrases
-Candidate: pembelajaran daring                      Score: 0.9971
-Candidate: literasi digital                         Score: 0.9978
-Candidate: transformasi digital                     Score: 0.9979
-Candidate: metode pengajaran                        Score: 0.9980
-Candidate: pendorong utama                          Score: 0.9981
-Candidate: adopsi teknologi                         Score: 0.9981
-Candidate: penggunaan teknologi                     Score: 0.9981
-Candidate: ​ transformasi                           Score: 0.9982
-Candidate: perubahan paradigma                      Score: 0.9982
-Candidate: edukasi digital                          Score: 0.9983
-Candidate: platform pembelajaran                    Score: 0.9983
-Candidate: tenaga pendidik                          Score: 0.9983
-Candidate: ​ arxiv                                  Score: 0.9983
-Candidate: alat penting                             Score: 0.9983
-Candidate: daya manusia                             Score: 0.9983
-Candidate: dunia pendidikan                         Score: 0.9984
-Candidate: pemangku kepentingan                     Score: 0.9984
-Candidate: ketersediaan infrastruktur               Score: 0.9984
-Candidate: perangkat teknologi                      Score: 0.9984
-Candidate: pengembangan konten                      Score: 0.9984
-Candidate: analisis data                            Score: 0.9985
-Candidate: lapisan masyarakat                       Score: 0.9985
-Candidate: kesenjangan digital                      Score: 0.9985
-Candidate: perkembangan peserta                     Score: 0.9985
-Candidate: institusi pendidikan                     Score: 0.9986
-Candidate: tahun terakhir                           Score: 0.9986
-Candidate: akses internet                           Score: 0.9986
-Candidate: keterbatasan sumber                      Score: 0.9986
-Candidate: evaluasi pembelajaran                    Score: 0.9986
-Candidate: bidang teknologi                         Score: 0.9986
-Candidate: ​ dreambox                               Score: 0.9986
-Candidate: daerah terpencil                         Score: 0.9987
-Candidate: sektor publik                            Score: 0.9987
-Candidate: wilayah perkotaan                        Score: 0.9987
-Candidate: percepatan signifikan                    Score: 0.9987
-Candidate: aplikasi edukasi                         Score: 0.9987
-Candidate: sistem manajemen                         Score: 0.9988
-Candidate: pencapaian tujuan                        Score: 0.9990
-Candidate: peningkatan kualitas                     Score: 0.9991
+Candidate: statistik kendall                        Score: 0.9983
+Candidate: kasus-kasus kenakalan                    Score: 0.9983
+Candidate: porpotional random                       Score: 0.9983
+Candidate: kabupaten semarang                       Score: 0.9984
+Candidate: masa remaja                              Score: 0.9984
+Candidate: pengambilan sampel                       Score: 0.9985
+Candidate: sebagian besar                           Score: 0.9985
+Candidate: kecerdasan emosional                     Score: 0.9985
+Candidate: smkislam sudirman                        Score: 0.9985
+Candidate: kenakalan remaja                         Score: 0.9985
+Candidate: kecamatan ungaran                        Score: 0.9985
+Candidate: nilai p-value                            Score: 0.9985
+Candidate: analisis data                            Score: 0.9986
+Candidate: penelitian deskriptif                    Score: 0.9986
+Candidate: perilaku orang                           Score: 0.9986
+Candidate: pada siswa                               Score: 0.9986
+Candidate: barat kabupaten                          Score: 0.9987
+Candidate: pendekatan cross                         Score: 0.9987
+Candidate: hubungan kecerdasan                      Score: 0.9987
+Candidate: smk islam                                Score: 0.9987
+Candidate: sudirman kecamatan                       Score: 0.9987
+Candidate: hasil penelitian                         Score: 0.9988
+Candidate: remaja salah                             Score: 0.9988
+Candidate: emosional dengan                         Score: 0.9988
+Candidate: ungaran barat                            Score: 0.9988
+Candidate: cara remaja                              Score: 0.9989
 
 === Final Selected Keyphrases ===
-1. pembelajaran daring                      Score: 0.9971
-2. literasi digital                         Score: 0.9978
-3. transformasi digital                     Score: 0.9979
-4. metode pengajaran                        Score: 0.9980
-5. pendorong utama                          Score: 0.9981
-6. adopsi teknologi                         Score: 0.9981
-7. penggunaan teknologi                     Score: 0.9981
-8. ​ transformasi                           Score: 0.9982
-9. perubahan paradigma                      Score: 0.9982
-10. edukasi digital                          Score: 0.9983
+1. statistik kendall                        Score: 0.9983
+2. kasus-kasus kenakalan                    Score: 0.9983
+3. porpotional random                       Score: 0.9983
+4. kabupaten semarang                       Score: 0.9984
+5. masa remaja                              Score: 0.9984
+6. pengambilan sampel                       Score: 0.9985
+7. sebagian besar                           Score: 0.9985
+8. kecerdasan emosional                     Score: 0.9985
+9. smkislam sudirman                        Score: 0.9985
+10. kenakalan remaja                         Score: 0.9985

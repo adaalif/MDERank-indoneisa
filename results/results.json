@@ -3,87 +3,66 @@
     {
       "id": "ID001",
       "extracted_keyphrases": [
-        "fitur iklan",
-        "google trends",
-        "platform penjualan",
-        "karier mandiri",
-        "riset pasar",
-        "bidang fashion",
-        "nama brand",
-        "perkembangan teknologi",
-        "rencana bisnis",
-        "penghasilan tambahan"
+        "statistik kendall",
+        "porpotional random",
+        "kasus-kasus kenakalan",
+        "nilai p-value",
+        "analisis data",
+        "pengambilan sampel",
+        "kabupaten semarang",
+        "kenakalan remaja",
+        "sebagian besar",
+        "kecerdasan emosional"
       ],
       "reference_keyphrases": [
-        "Memulai bisnis online",
-        "Tips bisnis online",
-        "Niche pasar",
-        "Riset pasar",
-        "Rencana bisnis",
-        "Branding",
-        "Platform penjualan",
-        "SEO",
-        "Media sosial",
-        "Pengelolaan keuangan",
-        "Pelayanan pelanggan",
-        "Evaluasi bisnis"
+        "Kecerdasan emosional",
+        "kenakalan remaja"
       ],
       "metrics": {
-        "precision": 0.3,
-        "recall": 0.25,
-        "f1": 0.2727272727272727,
-        "correct": 3,
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1": 0.33333333333333337,
+        "correct": 2,
         "extracted": 10,
-        "reference": 12
+        "reference": 2
       }
     },
     {
       "id": "ID002",
       "extracted_keyphrases": [
-        "pembelajaran daring",
-        "literasi digital",
-        "transformasi digital",
-        "metode pengajaran",
-        "pendorong utama",
-        "adopsi teknologi",
-        "penggunaan teknologi",
-        "​ transformasi",
-        "perubahan paradigma",
-        "edukasi digital"
+        "kecerdasan buatan",
+        "dampak penerapan",
+        "tantangan signifikan",
+        "kekuatan penggerak",
+        "pengembangan regulasi",
+        "sistem informasi",
+        "tenaga kerja",
+        "isu privasi",
+        "diagnosis medis",
+        "aspek positif"
       ],
       "reference_keyphrases": [
-        "Transformasi digital",
-        "Pendidikan Indonesia",
-        "Pembelajaran daring",
-        "Platform pembelajaran online",
-        "Aplikasi edukasi",
-        "Sistem manajemen pembelajaran (LMS)",
-        "Literasi digital",
-        "Infrastruktur pendidikan",
-        "Akses internet",
-        "Personalized learning",
-        "Analisis data pendidikan",
-        "Konten edukasi digital",
-        "Kesenjangan digital",
-        "Sumber daya manusia terampi",
-        "Pembangunan berkelanjutan",
-        "Kolaborasi publik dan swasta",
-        "Evaluasi pembelajaran"
+        "Kecerdasan Buatan",
+        "AI",
+        "Sistem Informasi",
+        "Aplikasi",
+        "Etika",
+        "Dampak Sosial"
       ],
       "metrics": {
-        "precision": 0.3,
-        "recall": 0.17647058823529413,
-        "f1": 0.22222222222222224,
-        "correct": 3,
+        "precision": 0.2,
+        "recall": 0.3333333333333333,
+        "f1": 0.25,
+        "correct": 2,
         "extracted": 10,
-        "reference": 17
+        "reference": 6
       }
     }
   ],
   "average_metrics": {
-    "precision": 0.3,
-    "recall": 0.21323529411764708,
-    "f1": 0.24747474747474746
+    "precision": 0.2,
+    "recall": 0.6666666666666666,
+    "f1": 0.2916666666666667
   },
   "args": {
     "dataset_dir": "data/SemEval2017_Indonesian",

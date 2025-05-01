@@ -27,16 +27,34 @@ try:
 except LookupError:
     nltk.download('punkt')
 
-# Set up logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+# Set up logging directory
+log_dir = 'results/log'
+os.makedirs(log_dir, exist_ok=True)
 
-# Create a file handler for POS tagging logs
+# Configure main logger
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+logger.propagate = False  # Prevent propagation to root logger
+
+# Create file handler for main logger
+main_handler = logging.FileHandler(os.path.join(log_dir, 'main_log.txt'), mode='w', encoding='utf-8')
+main_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+logger.addHandler(main_handler)
+
+# Configure POS logger
 pos_logger = logging.getLogger('pos_tagger')
 pos_logger.setLevel(logging.INFO)
-pos_handler = logging.FileHandler('pos_tagging_log.txt', mode='w', encoding='utf-8')
-pos_handler.setFormatter(logging.Formatter('%(message)s'))
+pos_logger.propagate = False  # Prevent propagation to root logger
+
+# Create file handler for POS logger
+pos_handler = logging.FileHandler(os.path.join(log_dir, 'pos_tagging_log.txt'), mode='w', encoding='utf-8')
+pos_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 pos_logger.addHandler(pos_handler)
+
+# Remove any existing handlers from root logger to prevent console output
+root_logger = logging.getLogger()
+for handler in root_logger.handlers[:]:
+    root_logger.removeHandler(handler)
 
 # Initialize Indonesian NLP tools
 lemmatizer = Lemmatizer()
@@ -104,100 +122,76 @@ def extract_noun_phrases(self, text, pos_tagger=None):
     pos_tagger = pos_tagger or self.pos_tagger
     
     # Get POS tags
-    tokens = self.tokenizer_id.tokenize(text)
-    pos_tags = pos_tagger.get_pos_tag(' '.join(str(token) for token in tokens))
-    
-    # Log POS tagging results
-    pos_logger.info("\nPOS Tagging Results:")
-    for token, tag in zip(tokens, pos_tags):
-        pos_logger.info(f"{str(token):20} -> {tag}")
-    
-    # Initialize variables for phrase extraction
-    phrases = []
-    current_phrase = []
-    current_pos = []
-    
-    # Define valid POS patterns for noun phrases
-    noun_tags = {'NN', 'NNP', 'NNPS', 'NNS'}  # Noun tags
-    adj_tags = {'JJ', 'JJR', 'JJS'}           # Adjective tags
-    det_tags = {'DT'}                          # Determiner tags
-    valid_start_tags = noun_tags | adj_tags | det_tags | {'FW'}  # Foreign word
-    
-    for i, (token, tag) in enumerate(zip(tokens, pos_tags)):
-        token_str = str(token)
+    try:
+        # Normalize and clean text before tokenization
+        text = re.sub(r'\s+', ' ', text.strip())
         
-        # Start new phrase if:
-        # 1. Current token is a valid start (noun, adj, det, foreign word)
-        # 2. No current phrase is being built
-        if tag[1] in valid_start_tags and not current_phrase:
-            current_phrase = [token_str]
-            current_pos = [tag[1]]
-            continue
+        tokens = self.tokenizer_id.tokenize(text)
+        
+        # Safety check for empty tokens
+        if not tokens:
+            pos_logger.info("\nEmpty tokens after tokenization for text: " + text[:50] + "...")
+            return []
             
-        # Continue phrase if:
-        # 1. We have a current phrase
-        # 2. Current token is a noun, adj, or foreign word
-        # 3. Phrase isn't too long yet
-        if current_phrase and tag[1] in (noun_tags | adj_tags | {'FW'}) and len(current_phrase) < 4:
-            current_phrase.append(token_str)
-            current_pos.append(tag[1])
-            continue
+        pos_tags = pos_tagger.get_pos_tag(' '.join(str(token) for token in tokens))
         
-        # End current phrase if:
-        # 1. We have a current phrase
-        # 2. Current token doesn't continue the phrase
-        if current_phrase:
-            # Valid phrase must:
-            # 1. End with a noun or foreign word
-            # 2. Not be too long (max 4 words)
-            # 3. Contain at least one noun
-            if (current_pos[-1] in (noun_tags | {'FW'}) and
-                len(current_phrase) <= 4 and
-                any(pos in noun_tags for pos in current_pos)):
+        # Ensure pos_tags and tokens have the same length
+        if len(pos_tags) != len(tokens):
+            pos_logger.info(f"\nMismatch between tokens ({len(tokens)}) and POS tags ({len(pos_tags)})")
+            min_length = min(len(tokens), len(pos_tags))
+            tokens = tokens[:min_length]
+            pos_tags = pos_tags[:min_length]
+        
+        # Log POS tagging results
+        pos_logger.info("\nPOS Tagging Results:")
+        for token, tag in zip(tokens, pos_tags):
+            pos_logger.info(f"{str(token):20} -> {tag}")
+        
+        # Initialize variables for phrase extraction
+        phrases = []
+        
+        i = 0
+        while i < len(tokens):
+            # Valid starting tags: Noun, Proper Noun, or Foreign Word
+            if i < len(pos_tags) and pos_tags[i][1] in ['NN', 'NNP', 'FW']:
+                # Start with single word (with safety check)
+                phrase_words = [str(tokens[i])]
                 
-                phrase = ' '.join(current_phrase)
+                # Look ahead only one more word (with safety check)
+                if (i + 1) < len(tokens) and (i + 1) < len(pos_tags) and pos_tags[i + 1][1] in ['NN', 'NNP', 'JJ', 'FW']:
+                    phrase_words.append(str(tokens[i + 1]))
+                    i += 2
+                else:
+                    i += 1
+                    
+                phrase = ' '.join(phrase_words)
+                
                 # Log accepted phrase
-                pos_logger.info(f"\nAccepted noun phrase: {phrase}")
-                pos_logger.info(f"POS sequence: {' '.join(current_pos)}")
+                pos_logger.info(f"\nAccepted phrase: {phrase}")
+                pos_logger.info(f"POS sequence: {' '.join(tag[1] for tag in pos_tags[i-len(phrase_words):i])}")
+                
                 phrases.append(phrase)
             else:
-                # Log rejected phrase
-                pos_logger.info(f"\nRejected phrase: {' '.join(current_phrase)}")
-                pos_logger.info(f"POS sequence: {' '.join(current_pos)}")
-            
-            # Reset for next phrase
-            current_phrase = []
-            current_pos = []
-            
-            # Start new phrase with current token if it's valid
-            if tag[1] in valid_start_tags:
-                current_phrase = [token_str]
-                current_pos = [tag[1]]
-    
-    # Handle last phrase
-    if current_phrase:
-        if (current_pos[-1] in (noun_tags | {'FW'}) and
-            len(current_phrase) <= 4 and
-            any(pos in noun_tags for pos in current_pos)):
-            phrase = ' '.join(current_phrase)
-            phrases.append(phrase)
-            pos_logger.info(f"\nAccepted final phrase: {phrase}")
-            pos_logger.info(f"POS sequence: {' '.join(current_pos)}")
-    
-    # Remove duplicates while preserving order
-    unique_phrases = []
-    seen = set()
-    for phrase in phrases:
-        normalized = normalize_text(phrase)
-        if normalized not in seen:
-            unique_phrases.append(phrase)
-            seen.add(normalized)
-    
-    pos_logger.info(f"\nExtracted {len(unique_phrases)} unique noun phrases:")
-    for phrase in unique_phrases:
-        pos_logger.info(f"- {phrase}")
+                i += 1
+                
+        # Remove duplicates while preserving order
+        unique_phrases = []
+        seen = set()
+        for phrase in phrases:
+            if phrase not in seen:
+                unique_phrases.append(phrase)
+                seen.add(phrase)
         
-    return unique_phrases
+        pos_logger.info(f"\nExtracted {len(unique_phrases)} unique phrases:")
+        for phrase in unique_phrases:
+            pos_logger.info(f"- {phrase}")
+        
+        return [[phrase, 0] for phrase in unique_phrases]
+        
+    except Exception as e:
+        pos_logger.error(f"Error in extract_noun_phrases: {str(e)}")
+        pos_logger.error(f"For text: {text[:100]}...")
+        return []  # Return empty list on error
 
 class InputTextObjIndonesian:
     """Represent the input text for Indonesian keyphrase extraction"""
@@ -275,6 +269,13 @@ class InputTextObjIndonesian:
         tokens = self.tokenizer_id.tokenize(text)
         pos_tags = self.pos_tagger.get_pos_tag(' '.join(str(token) for token in tokens))
         
+        # Ensure pos_tags and tokens have the same length
+        if len(pos_tags) != len(tokens):
+            logger.warning(f"Mismatch between tokens ({len(tokens)}) and POS tags ({len(pos_tags)})")
+            min_length = min(len(tokens), len(pos_tags))
+            tokens = tokens[:min_length]
+            pos_tags = pos_tags[:min_length]
+        
         # Log POS tagging results
         pos_logger.info("\nPOS Tagging Results:")
         for token, tag in zip(tokens, pos_tags):
@@ -284,12 +285,12 @@ class InputTextObjIndonesian:
         i = 0
         while i < len(pos_tags):
             # Valid starting tags: Noun, Proper Noun, or Foreign Word
-            if pos_tags[i][1] in ['NN', 'NNP', 'FW']:
+            if i < len(tokens) and pos_tags[i][1] in ['NN', 'NNP', 'FW']:
                 # Start with single word
                 phrase_words = [str(tokens[i])]
                 
                 # Look ahead only one more word
-                if i + 1 < len(pos_tags) and pos_tags[i + 1][1] in ['NN', 'NNP', 'JJ', 'FW']:
+                if i + 1 < len(tokens) and i + 1 < len(pos_tags) and pos_tags[i + 1][1] in ['NN', 'NNP', 'JJ', 'FW']:
                     phrase_words.append(str(tokens[i + 1]))
                     i += 2
                 else:
@@ -638,6 +639,19 @@ class IndonesianMDERank:
                 except Exception as e:
                     logger.error(f"Error in processing batch: {str(e)}")
                     continue
+        
+        # Sort candidates by score (ascending) before logging
+        sorted_candidates = sorted(zip(candidates_list, cos_similarities), key=lambda x: x[1])
+        
+        # Log all candidates with their scores (sorted)
+        logger.info("\n=== All Candidate Keyphrases with Similarity Scores (Sorted) ===")
+        pos_logger.info("\n=== All Candidate Keyphrases with Similarity Scores (Sorted) ===")
+        logger.info("Note: Lower scores indicate more important keyphrases")
+        pos_logger.info("Note: Lower scores indicate more important keyphrases")
+        
+        for candidate, score in sorted_candidates:
+            logger.info(f"Candidate: {candidate:<40} Score: {score:.4f}")
+            pos_logger.info(f"Candidate: {candidate:<40} Score: {score:.4f}")
         
         # Rank candidates by similarity (lower is better)
         ranked_pairs = sorted(zip(candidates_list, cos_similarities), 
