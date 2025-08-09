@@ -98,15 +98,26 @@ class InputTextObj:
         :param en_model: the pipeline of tokenization and POS-tagger
         :param considered_tags: The POSs we want to keep
         """
-        candidates = []
+        candidates_map = {}
         doc = en_model(text)
-        for chunk in doc.noun_chunks:
-            # print(chunk.text, chunk.root.text, chunk.root.dep_, chunk.root.head.text)
-            chunk_processed = remove_starting_articles(chunk.text)
-            # chunk_processed = chunk_processed.lower()
-            if len(chunk_processed)<2:
-                continue
-            candidates.append([chunk_processed,0])
+        for idx, sent in enumerate(doc.sents):
+            for chunk in sent.noun_chunks:
+                chunk_processed = remove_starting_articles(chunk.text)
+                if len(chunk_processed) < 2:
+                    continue
+                phrase = chunk_processed
+                # track the sentence index, sentence text and every start position for the phrase
+                entry = candidates_map.setdefault(
+                    phrase,
+                    {
+                        "positions": [],
+                        "sent_id": idx,
+                        "sentence": sent.text,
+                    },
+                )
+                entry["positions"].append(chunk.start)
+        # convert to list of (phrase, info) pairs for downstream processing
+        candidates = [(phrase, info) for phrase, info in candidates_map.items()]
         '''
         self.considered_tags = {'NN', 'NNS', 'NNP', 'NNPS', 'JJ'}
 
@@ -570,7 +581,31 @@ def cls_emebddings(model_output):
     return doc_embeddings
 
 
-def keyphrases_selection(doc_list, labels_stemed, labels,  model, dataloader, log):
+def embed_text(text):
+    """Encode text using current tokenizer and model"""
+    encode = tokenizer.encode_plus(
+        text,
+        add_special_tokens=True,
+        max_length=MAX_LEN,
+        padding='max_length',
+        return_attention_mask=True,
+        return_tensors='pt',
+        truncation=True,
+    )
+    with torch.no_grad():
+        outputs = model(
+            input_ids=encode['input_ids'].to('cpu'),
+            attention_mask=encode['attention_mask'].to('cpu'),
+            output_hidden_states=True,
+        )
+    if args.doc_embed_mode == "mean":
+        return mean_pooling(outputs, encode['attention_mask'])
+    if args.doc_embed_mode == "cls":
+        return cls_emebddings(outputs)
+    return max_pooling(outputs, encode['attention_mask'])
+
+
+def keyphrases_selection(doc_list, labels_stemed, labels, meta_list, model, dataloader, log):
 
     model.eval()
 
@@ -641,9 +676,24 @@ def keyphrases_selection(doc_list, labels_stemed, labels,  model, dataloader, lo
     cosine_similarity_rank = pd.DataFrame(cos_similarity_list)
 
     for i in range(len(doc_list)):
-        doc_results = cosine_similarity_rank.loc[cosine_similarity_rank['doc_id']==i]
-        ranked_keyphrases = doc_results.sort_values(by='score')
-        top_k = ranked_keyphrases.reset_index(drop = True)
+        doc_results = cosine_similarity_rank.loc[cosine_similarity_rank['doc_id'] == i]
+        meta = meta_list[i]
+        local_scores = []
+        for cand in doc_results['candidate']:
+            info = meta.get(cand, {})
+            sent = info.get('sentence', '')
+            cand_embed = embed_text(cand)
+            sent_embed = embed_text(sent)
+            # cosine similarity between candidate and its containing sentence
+            local_scores.append(
+                torch.cosine_similarity(cand_embed, sent_embed, dim=1).item()
+            )
+
+        doc_results = doc_results.assign(local_score=local_scores)
+        # combine global and local signals
+        doc_results['total'] = doc_results['score'] + doc_results['local_score']
+        ranked_keyphrases = doc_results.sort_values(by='total')
+        top_k = ranked_keyphrases.reset_index(drop=True)
         top_k_can = top_k.loc[:, ['candidate']].values.tolist()
         #print(top_k)
 
@@ -767,9 +817,9 @@ if __name__ == '__main__':
                         help="Type of execution: eval or exec")
 
     parser.add_argument("--model_name_or_path",
-                        default='bert-uncased',
+                        default='allenai/scibert_scivocab_uncased',
                         type=str,
-                        help="model used")
+                        help="Pretrained model used for embeddings")
     parser.add_argument("--local_rank",
                         default=-1,
                         type=int,
@@ -856,6 +906,7 @@ if __name__ == '__main__':
     doc_list = []
     labels = []
     labels_stemed = []
+    candidate_meta_list = []
     t_n = 0
     candidate_num = 0
 
@@ -899,8 +950,13 @@ if __name__ == '__main__':
         # Generate candidates (lower)
         cans = text_obj.keyphrase_candidate
         candidates = []
-        for can, pos in cans:
-            candidates.append(can.lower())
+        meta = {}
+        for can, info in cans:
+            low = can.lower()
+            candidates.append(low)
+            info["positions"] = [p + 1 for p in info["positions"]]
+            meta[low] = info
+        candidate_meta_list.append(meta)
         candidate_num += len(candidates)
 
         if model_type=='roberta':
@@ -931,7 +987,7 @@ if __name__ == '__main__':
     #print("examples: ", dataset.total_examples)
     dataloader = DataLoader(dataset, batch_size=args.batch_size)
 
-    keyphrases_selection(doc_list, labels_stemed, labels, model, dataloader, log)
+    keyphrases_selection(doc_list, labels_stemed, labels, candidate_meta_list, model, dataloader, log)
     end = time.time()
 
 
