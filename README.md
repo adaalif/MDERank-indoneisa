@@ -7,6 +7,13 @@ This is an adaptation of the original MDERank model, specifically optimized for 
 Original Paper: MDERank: A Masked Document Embedding Rank Approach for Unsupervised Keyphrase Extraction
 Original Repo: https://github.com/LinhanZ/mderank
 
+## English Enhancements
+
+The English variant now defaults to **SciBERT**, augments the global masking
+score with a local candidate–sentence similarity signal, and adds a
+title-driven theme score that rewards phrases aligned with the document's main
+topic.
+
 ## Features
 
 - Optimized for Indonesian language processing

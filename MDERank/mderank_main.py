@@ -98,15 +98,26 @@ class InputTextObj:
         :param en_model: the pipeline of tokenization and POS-tagger
         :param considered_tags: The POSs we want to keep
         """
-        candidates = []
+        candidates_map = {}
         doc = en_model(text)
-        for chunk in doc.noun_chunks:
-            # print(chunk.text, chunk.root.text, chunk.root.dep_, chunk.root.head.text)
-            chunk_processed = remove_starting_articles(chunk.text)
-            # chunk_processed = chunk_processed.lower()
-            if len(chunk_processed)<2:
-                continue
-            candidates.append([chunk_processed,0])
+        for idx, sent in enumerate(doc.sents):
+            for chunk in sent.noun_chunks:
+                chunk_processed = remove_starting_articles(chunk.text)
+                if len(chunk_processed) < 2:
+                    continue
+                phrase = chunk_processed
+                # track the sentence index, sentence text and every start position for the phrase
+                entry = candidates_map.setdefault(
+                    phrase,
+                    {
+                        "positions": [],
+                        "sent_id": idx,
+                        "sentence": sent.text,
+                    },
+                )
+                entry["positions"].append(chunk.start)
+        # convert to list of (phrase, info) pairs for downstream processing
+        candidates = [(phrase, info) for phrase, info in candidates_map.items()]
         '''
         self.considered_tags = {'NN', 'NNS', 'NNP', 'NNPS', 'JJ'}
 
@@ -266,63 +277,69 @@ def clean_text(text="",database="Inspec"):
     return text_new
 
 def get_long_data(file_path="data/nus/nus_test.json"):
-    """ Load file.jsonl ."""
+    """Load NUS/Krapivin style JSONL with titles."""
     data = {}
     labels = {}
+    titles = {}
     with codecs.open(file_path, 'r', 'utf-8') as f:
         json_text = f.readlines()
         for i, line in tqdm(enumerate(json_text), desc="Loading Doc ..."):
             try:
                 jsonl = json.loads(line)
-                keywords = jsonl['keywords'].lower().split(";")
-                abstract = jsonl['abstract']
-                fulltxt = jsonl['fulltext']
-                doc = ' '.join([abstract, fulltxt])
-                doc = re.sub('\. ', ' . ', doc)
-                doc = re.sub(', ', ' , ', doc)
+                keywords = jsonl["keywords"].lower().split(";")
+                abstract = jsonl["abstract"]
+                fulltxt = jsonl["fulltext"]
+                title = jsonl.get("title", "")
+                doc = " ".join([abstract, fulltxt])
+                doc = re.sub("\. ", " . ", doc)
+                doc = re.sub(", ", " , ", doc)
 
                 doc = clean_text(doc, database="nus")
-                doc = doc.replace('\n', ' ')
-                data[jsonl['name']] = doc
-                labels[jsonl['name']] = keywords
+                doc = doc.replace("\n", " ")
+                data[jsonl["name"]] = doc
+                labels[jsonl["name"]] = keywords
+                titles[jsonl["name"]] = title
             except:
                 raise ValueError
-    return data,labels
+    return data, labels, titles
 
 def get_short_data(file_path="data/kp20k/kp20k_valid2k_test.json"):
-    """ Load file.jsonl ."""
+    """Load KP20k/SemEval style JSONL with titles."""
     data = {}
     labels = {}
+    titles = {}
     with codecs.open(file_path, 'r', 'utf-8') as f:
         json_text = f.readlines()
         for i, line in tqdm(enumerate(json_text), desc="Loading Doc ..."):
             try:
                 jsonl = json.loads(line)
-                keywords = jsonl['keywords'].lower().split(";")
-                abstract = jsonl['abstract']
-                doc =abstract
-                doc = re.sub('\. ', ' . ', doc)
-                doc = re.sub(', ', ' , ', doc)
+                keywords = jsonl["keywords"].lower().split(";")
+                abstract = jsonl["abstract"]
+                title = jsonl.get("title", "")
+                doc = abstract
+                doc = re.sub("\. ", " . ", doc)
+                doc = re.sub(", ", " , ", doc)
 
                 doc = clean_text(doc, database="kp20k")
-                doc = doc.replace('\n', ' ')
+                doc = doc.replace("\n", " ")
                 data[i] = doc
                 labels[i] = keywords
+                titles[i] = title
             except:
                 raise ValueError
-    return data,labels
+    return data, labels, titles
 
 
 def get_duc2001_data(file_path="data/DUC2001"):
     pattern = re.compile(r'<TEXT>(.*?)</TEXT>', re.S)
     data = {}
     labels = {}
+    titles = {}
     for dirname, dirnames, filenames in os.walk(file_path):
         for fname in filenames:
-            if (fname == "annotations.txt"):
-                # left, right = fname.split('.')
+            if fname == "annotations.txt":
                 infile = os.path.join(dirname, fname)
-                f = open(infile,'rb')
+                f = open(infile, 'rb')
                 text = f.read().decode('utf8')
                 lines = text.splitlines()
                 for line in lines:
@@ -333,57 +350,56 @@ def get_duc2001_data(file_path="data/DUC2001"):
                 f.close()
             else:
                 infile = os.path.join(dirname, fname)
-                f = open(infile,'rb')
+                f = open(infile, 'rb')
                 text = f.read().decode('utf8')
                 text = re.findall(pattern, text)[0]
 
                 text = text.lower()
-                text = clean_text(text,database="Duc2001")
-                data[fname]=text.strip("\n")
-                # data[fname] = text
-    return data,labels
+                text = clean_text(text, database="Duc2001")
+                data[fname] = text.strip("\n")
+                titles[fname] = ""
+    return data, labels, titles
 
 def get_inspec_data(file_path="data/Inspec"):
-
-    data={}
-    labels={}
+    data = {}
+    labels = {}
+    titles = {}
     for dirname, dirnames, filenames in os.walk(file_path):
         for fname in filenames:
             left, right = fname.split('.')
-            if (right == "abstr"):
+            if right == "abstr":
                 infile = os.path.join(dirname, fname)
-                f=open(infile)
-                text=f.read()
+                f = open(infile)
+                text = f.read()
                 text = text.replace("%", '')
-                text=clean_text(text)
-                data[left]=text
-            if (right == "uncontr"):
+                text = clean_text(text)
+                data[left] = text
+                titles[left] = ""
+            if right == "uncontr":
                 infile = os.path.join(dirname, fname)
-                f=open(infile)
-                text=f.read()
-                text=text.replace("\n",' ')
-                text=clean_text(text,database="Inspec")
-                text=text.lower()
-                label=text.split("; ")
-                labels[left]=label
-    return data,labels
+                f = open(infile)
+                text = f.read()
+                text = text.replace("\n", ' ')
+                text = clean_text(text, database="Inspec")
+                text = text.lower()
+                label = text.split("; ")
+                labels[left] = label
+    return data, labels, titles
 
-def get_semeval2017_data(data_path="data/SemEval2017/docsutf8",labels_path="data/SemEval2017/keys"):
-
-    data={}
-    labels={}
+def get_semeval2017_data(data_path="data/SemEval2017/docsutf8", labels_path="data/SemEval2017/keys"):
+    data = {}
+    labels = {}
+    titles = {}
     for dirname, dirnames, filenames in os.walk(data_path):
         for fname in filenames:
             left, right = fname.split('.')
             infile = os.path.join(dirname, fname)
-            # f = open(infile, 'rb')
-            # text = f.read().decode('utf8')
             with codecs.open(infile, "r", "utf-8") as fi:
                 text = fi.read()
                 text = text.replace("%", '')
-            text = clean_text(text,database="Semeval2017")
+            text = clean_text(text, database="Semeval2017")
             data[left] = text.lower()
-            # f.close()
+            titles[left] = ""
     for dirname, dirnames, filenames in os.walk(labels_path):
         for fname in filenames:
             left, right = fname.split('.')
@@ -391,10 +407,10 @@ def get_semeval2017_data(data_path="data/SemEval2017/docsutf8",labels_path="data
             f = open(infile, 'rb')
             text = f.read().decode('utf8')
             text = text.strip()
-            ls=text.splitlines()
+            ls = text.splitlines()
             labels[left] = ls
             f.close()
-    return data,labels
+    return data, labels, titles
 
 
 def remove (text):
@@ -570,7 +586,43 @@ def cls_emebddings(model_output):
     return doc_embeddings
 
 
-def keyphrases_selection(doc_list, labels_stemed, labels,  model, dataloader, log):
+def embed_text(text):
+    """Encode text using current tokenizer and model"""
+    encode = tokenizer.encode_plus(
+        text,
+        add_special_tokens=True,
+        max_length=MAX_LEN,
+        padding='max_length',
+        return_attention_mask=True,
+        return_tensors='pt',
+        truncation=True,
+    )
+    with torch.no_grad():
+        outputs = model(
+            input_ids=encode['input_ids'].to('cpu'),
+            attention_mask=encode['attention_mask'].to('cpu'),
+            output_hidden_states=True,
+        )
+    if args.doc_embed_mode == "mean":
+        return mean_pooling(outputs, encode['attention_mask'])
+    if args.doc_embed_mode == "cls":
+        return cls_emebddings(outputs)
+    return max_pooling(outputs, encode['attention_mask'])
+
+
+def compute_theme_vector(title):
+    """Generate a theme embedding from nouns and adjectives in the title."""
+    doc = en_model(title)
+    theme_terms = [token.text for token in doc if token.pos_ in {"NOUN", "ADJ"}]
+    if not theme_terms:
+        return None
+    embeds = [embed_text(term) for term in theme_terms]
+    return torch.mean(torch.cat(embeds, dim=0), dim=0, keepdim=True)
+
+
+def keyphrases_selection(
+    doc_list, labels_stemed, labels, meta_list, model, dataloader, log, title_list
+):
 
     model.eval()
 
@@ -641,9 +693,40 @@ def keyphrases_selection(doc_list, labels_stemed, labels,  model, dataloader, lo
     cosine_similarity_rank = pd.DataFrame(cos_similarity_list)
 
     for i in range(len(doc_list)):
-        doc_results = cosine_similarity_rank.loc[cosine_similarity_rank['doc_id']==i]
-        ranked_keyphrases = doc_results.sort_values(by='score')
-        top_k = ranked_keyphrases.reset_index(drop = True)
+        doc_results = cosine_similarity_rank.loc[
+            cosine_similarity_rank["doc_id"] == i
+        ]
+        meta = meta_list[i]
+        title = title_list[i]
+        theme_vec = compute_theme_vector(title) if title else None
+        local_scores = []
+        theme_scores = []
+        for cand in doc_results["candidate"]:
+            info = meta.get(cand, {})
+            sent = info.get("sentence", "")
+            cand_embed = embed_text(cand)
+            sent_embed = embed_text(sent)
+            # cosine similarity between candidate and its containing sentence
+            local_scores.append(
+                torch.cosine_similarity(cand_embed, sent_embed, dim=1).item()
+            )
+            # similarity of candidate to document theme vector
+            if theme_vec is not None:
+                theme_scores.append(
+                    torch.cosine_similarity(cand_embed, theme_vec, dim=1).item()
+                )
+            else:
+                theme_scores.append(0.0)
+
+        doc_results = doc_results.assign(
+            local_score=local_scores, theme_score=theme_scores
+        )
+        # combine global, local and theme signals
+        doc_results["total"] = (
+            doc_results["score"] + doc_results["local_score"] + doc_results["theme_score"]
+        )
+        ranked_keyphrases = doc_results.sort_values(by='total')
+        top_k = ranked_keyphrases.reset_index(drop=True)
         top_k_can = top_k.loc[:, ['candidate']].values.tolist()
         #print(top_k)
 
@@ -767,9 +850,9 @@ if __name__ == '__main__':
                         help="Type of execution: eval or exec")
 
     parser.add_argument("--model_name_or_path",
-                        default='bert-uncased',
+                        default='allenai/scibert_scivocab_uncased',
                         type=str,
-                        help="model used")
+                        help="Pretrained model used for embeddings")
     parser.add_argument("--local_rank",
                         default=-1,
                         type=int,
@@ -812,7 +895,9 @@ if __name__ == '__main__':
     else:
         data, referneces = get_inspec_data(args.dataset_dir)
     '''
-    data, references = get_semeval2017_data(args.dataset_dir + "/docsutf8", args.dataset_dir + "/keys")
+    data, references, titles = get_semeval2017_data(
+        args.dataset_dir + "/docsutf8", args.dataset_dir + "/keys"
+    )
     log.logger.info("Dataset")
     log.logger.info(data)
     log.logger.info("References")
@@ -856,6 +941,8 @@ if __name__ == '__main__':
     doc_list = []
     labels = []
     labels_stemed = []
+    title_list = []
+    candidate_meta_list = []
     t_n = 0
     candidate_num = 0
 
@@ -887,6 +974,7 @@ if __name__ == '__main__':
         labels_stemed.append(labels_s)
         print(doc)
         doc_list.append(doc)
+        title_list.append(titles.get(key, ""))
 
         # Statistic on empty docs
         empty_doc = 0
@@ -899,8 +987,13 @@ if __name__ == '__main__':
         # Generate candidates (lower)
         cans = text_obj.keyphrase_candidate
         candidates = []
-        for can, pos in cans:
-            candidates.append(can.lower())
+        meta = {}
+        for can, info in cans:
+            low = can.lower()
+            candidates.append(low)
+            info["positions"] = [p + 1 for p in info["positions"]]
+            meta[low] = info
+        candidate_meta_list.append(meta)
         candidate_num += len(candidates)
 
         if model_type=='roberta':
@@ -931,7 +1024,16 @@ if __name__ == '__main__':
     #print("examples: ", dataset.total_examples)
     dataloader = DataLoader(dataset, batch_size=args.batch_size)
 
-    keyphrases_selection(doc_list, labels_stemed, labels, model, dataloader, log)
+    keyphrases_selection(
+        doc_list,
+        labels_stemed,
+        labels,
+        candidate_meta_list,
+        model,
+        dataloader,
+        log,
+        title_list,
+    )
     end = time.time()
 
 
